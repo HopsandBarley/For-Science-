@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:graphite"
+	},
+	"result": {
+		"item": "rankine:graphite_electrode",
+		"count": 1
+	}
+}

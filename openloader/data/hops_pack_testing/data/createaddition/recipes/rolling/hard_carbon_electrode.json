@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/carbon"
+	},
+	"result": {
+		"item": "rankine:hard_carbon_electrode",
+		"count": 1
+	}
+}

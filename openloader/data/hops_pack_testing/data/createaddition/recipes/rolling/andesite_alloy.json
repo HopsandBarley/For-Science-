@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "create:andesite_alloy"
+	},
+	"result": {
+		"item": "create:shaft",
+		"count": 2
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type":"createaddition:rolling",
+	"inherit":"true",
+	"input": {
+      	"item": "rankine:alloy_ingot",
+		"alloyData":"30Y-20Al-20Cr-20Nd-10Ba"
+	},
+	"result": {
+		"item": "rankine:yag_rod",
+		"count": 1
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"tag": "forge:ingots/steel"
+	},
+	"result": {
+		"item": "rankine:steel_rod",
+		"count": 1
+	}
+}

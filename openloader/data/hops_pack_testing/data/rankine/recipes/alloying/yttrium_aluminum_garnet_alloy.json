@@ -1,0 +1,34 @@
+{
+	  "type": "rankine:alloying",
+	  "total": 5,
+	  "tier": 2,
+	  "required": 5,
+	  "input1": {
+		"element": "yttrium",
+		"min": 0.30,
+		"max": 0.30
+	  },
+	  "input2": {
+		"element": "aluminum",
+		"min": 0.20,
+		"max": 0.20
+	  },
+	  "input3": {
+		"element": "barium",
+		"auto": false,
+		"item": "rankine:garnet",
+		"min": 0.1,
+		"max": 0.1
+	  },
+	  "input4": {
+		"element": "neodymium",
+		"min": 0.2,
+		"max": 0.2
+	  },
+	  "input5": {
+		"element": "chromium",
+		"min": 0.2,
+		"max": 0.2
+	  },
+	  "result": "rankine:alloy_ingot"
+}

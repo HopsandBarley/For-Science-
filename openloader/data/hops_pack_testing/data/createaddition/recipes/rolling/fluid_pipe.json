@@ -1,0 +1,11 @@
+{
+	"type":"createaddition:rolling",
+	"inherit":"false",
+	"input": {
+      	"item": "create:copper_sheet"
+	},
+	"result": {
+		"item": "create:fluid_pipe",
+		"count": 1
+	}
+}

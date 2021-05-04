@@ -1,0 +1,10 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "rankine:vulcanized_rubber"
+	},
+	"result": {
+		"item": "rankine:tap_line",
+		"count": 1
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type":"createaddition:rolling",
+	"inherit":"true",
+	"input": {
+      	"item": "rankine:alloy_plate",
+		"alloyData":"80Cu-20Pb"
+	},
+	"result": {
+		"item": "rankine:alloy_wire",
+		"count": 2
+	}
+}

@@ -1,0 +1,19 @@
+{
+	  "type": "rankine:alloying",
+	  "total": 2,
+	  "tier": 3,
+	  "required": 2,
+	  "input1": {
+		"element": "copper",
+		"min": 0.80,
+		"max": 0.80
+	  },
+	  "input2": {
+		"element": "lead",
+		"auto": false,
+		"item": "rankine:solder_alloy",
+		"min": 0.20,
+		"max": 0.20
+	  },
+	  "result": "rankine:alloy_ingot"
+}
