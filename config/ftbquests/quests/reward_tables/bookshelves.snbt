@@ -1,0 +1,32 @@
+{
+	id: "76871B3882E6F721",
+	order_index: 7,
+	title: "Bookshelves",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "buildersaddition:bookshelf_oak"
+		},
+		{
+			item: "buildersaddition:bookshelf_birch"
+		},
+		{
+			item: "buildersaddition:bookshelf_spruce"
+		},
+		{
+			item: "buildersaddition:bookshelf_dark_oak"
+		},
+		{
+			item: "buildersaddition:bookshelf_jungle"
+		},
+		{
+			item: "buildersaddition:bookshelf_acacia"
+		},
+		{
+			item: "buildersaddition:bookshelf_warped"
+		},
+		{
+			item: "buildersaddition:bookshelf_crimson"
+		}
+	]
+}

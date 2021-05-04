@@ -1,0 +1,1416 @@
+{
+	id: "478756C50AAA216D",
+	group: "",
+	order_index: 1,
+	filename: "farmers_delight",
+	title: "Agriculture",
+	icon: "farmersdelight:stove",
+	subtitle: ["Now yer Cookin with Coal"],
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "You have created....fire!!!",
+			x: -26.0d,
+			y: -7.0d,
+			description: [
+				"Start primitive.  The campfire is your first cooking tool.",
+				"",
+				"Make your campfire, place it on the ground, and cook some food  to improve it's nutrition."
+			],
+			dependencies: ["152C78A8A742A167"],
+			hide: true,
+			id: "28141460C456163D",
+			tasks: [{
+				id: "1AE5A85A3A6E43F4",
+				type: "item",
+				item: "minecraft:campfire"
+			}],
+			rewards: [{
+				id: "42191970EA5080FF",
+				type: "item",
+				item: "minecraft:salmon",
+				count: 2
+			}]
+		},
+		{
+			x: -19.5d,
+			y: -8.5d,
+			dependencies: ["1F4D14157406C025"],
+			hide: true,
+			id: "56ABA685CD7C592E",
+			tasks: [
+				{
+					id: "633B61B1A696A6D3",
+					type: "item",
+					item: "minecraft:honeycomb"
+				},
+				{
+					id: "561215343C8D2691",
+					type: "item",
+					item: "minecraft:honey_bottle"
+				}
+			],
+			rewards: [
+				{
+					id: "65C7D051B68E259F",
+					type: "item",
+					item: "minecraft:honeycomb_block"
+				},
+				{
+					id: "4D9621A01226669E",
+					type: "item",
+					item: "minecraft:honey_block"
+				}
+			]
+		},
+		{
+			title: "Choppin Broccoli",
+			x: -24.0d,
+			y: -7.0d,
+			description: ["A cutting board has many uses.  The first of which is to double your meat supply.  Place a piece of meat on the cutting board, then right click with a knife."],
+			dependencies: ["28141460C456163D"],
+			hide: true,
+			id: "0599655318DBAB9E",
+			tasks: [{
+				id: "3DED87D258553698",
+				type: "item",
+				item: "farmersdelight:cutting_board"
+			}],
+			rewards: [
+				{
+					id: "44402E672826C579",
+					type: "item",
+					item: {
+						id: "farmersdelight:flint_knife",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4D1B7C4524BD1334",
+					type: "item",
+					item: "minecraft:chicken",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Now yer cookin!",
+			x: -22.5d,
+			y: -7.0d,
+			subtitle: "Nothin quite like cast iron!",
+			description: [
+				"Craft a stove to make more complex, and tasty meals. ",
+				"",
+				"Those Stove can cook just like a campfire.  Or, you can take it a step further...",
+				"And automate your cooking if you so choose!",
+				"",
+				"...and of course you do choose to...right?"
+			],
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "42AE4D8E5860235B",
+			tasks: [{
+				id: "46C78676AD1C67FC",
+				type: "item",
+				item: "farmersdelight:stove"
+			}]
+		},
+		{
+			title: "Moar Cast Iron!",
+			x: -21.0d,
+			y: -7.0d,
+			description: [
+				"Make a pot to fully take advanctage of your new stove.",
+				"",
+				"This will open up a world of tasty, and nutritious, recipes."
+			],
+			dependencies: ["42AE4D8E5860235B"],
+			hide: true,
+			id: "3E76667FBC25199C",
+			tasks: [{
+				id: "66B3D278AB0433A5",
+				type: "item",
+				item: "farmersdelight:cooking_pot"
+			}],
+			rewards: [{
+				id: "06FC2BEF4A878493",
+				type: "item",
+				item: "minecraft:bowl",
+				count: 4
+			}]
+		},
+		{
+			title: "Stinky Dirt",
+			x: -22.5d,
+			y: -8.5d,
+			description: ["Make some compost (or Find it), and wait for it to turn into rich soil."],
+			dependencies: ["1340901E23FF99C8"],
+			hide: true,
+			id: "16B9FA29440FFDB4",
+			tasks: [
+				{
+					id: "63609F9915E79B54",
+					type: "item",
+					item: "farmersdelight:organic_compost"
+				},
+				{
+					id: "6B716E4643CE384A",
+					type: "advancement",
+					icon: "farmersdelight:rich_soil",
+					advancement: "farmersdelight:main/get_rich_soil",
+					criterion: ""
+				}
+			],
+			rewards: [{
+				id: "1EC9DBFE1CBC0348",
+				type: "item",
+				item: "farmersdelight:organic_compost"
+			}]
+		},
+		{
+			title: "Get an upgrade job",
+			x: -19.5d,
+			y: -7.0d,
+			description: [
+				"Time to make a new Farmer's Delight knife with your newly found Steel.",
+				"",
+				"You DO have steel, right?"
+			],
+			dependencies: ["3E76667FBC25199C"],
+			hide: true,
+			id: "5DAFBB3A149A032E",
+			tasks: [{
+				id: "4FD231FBEF69CA3A",
+				type: "item",
+				item: {
+					id: "farmersdelight:iron_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2EBE5C8D20708161",
+				type: "item",
+				item: {
+					id: "rankine:stainless_steel_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "75Fe-18Cr-5Ni-2C"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -8.5d,
+			description: [
+				"The smoker is a faster method for your cooking needs.",
+				"",
+				"It requires a heat source, but will cook your food much faster, and maintain the cooked food in it's inventory, for you to pick up at your convenience."
+			],
+			dependencies: ["28141460C456163D"],
+			hide: true,
+			id: "7A79B7785301E624",
+			tasks: [{
+				id: "52A1B4DD969688ED",
+				type: "item",
+				item: "minecraft:smoker"
+			}],
+			rewards: [{
+				id: "2208D108E3E08485",
+				type: "item",
+				item: "minecraft:charcoal",
+				count: 2
+			}]
+		},
+		{
+			title: "Compost your excess",
+			x: -24.0d,
+			y: -8.5d,
+			subtitle: "Keep it organic",
+			description: [
+				"Create a composter, as a means to not 'waste your waste'. ",
+				"",
+				"put your excess crops, food, and seeds in a composter, and get bonemeal from it to help grow more crops or trees."
+			],
+			dependencies: ["28141460C456163D"],
+			hide: true,
+			id: "1340901E23FF99C8",
+			tasks: [{
+				id: "0E06A0238F46FAAB",
+				type: "item",
+				item: "minecraft:composter"
+			}],
+			rewards: [{
+				id: "7CB469868DEE83F2",
+				type: "item",
+				item: "decorative_blocks:oak_beam",
+				count: 4
+			}]
+		},
+		{
+			title: "It's not coffee, but it'll have to do",
+			x: -26.0d,
+			y: -10.0d,
+			dependencies: [
+				"152C78A8A742A167",
+				"7A79B7785301E624"
+			],
+			hide: true,
+			id: "16F53ED19212C898",
+			tasks: [
+				{
+					id: "232F15A29A4C74E8",
+					type: "item",
+					item: "simplytea:tea_leaf"
+				},
+				{
+					id: "0468872E12D8E9B5",
+					type: "item",
+					item: "simplytea:black_tea"
+				},
+				{
+					id: "115F984D59F45278",
+					type: "item",
+					item: "simplytea:teabag"
+				}
+			],
+			rewards: [{
+				id: "094C92141B6FFF71",
+				type: "item",
+				item: "simplytea:tea_sapling"
+			}]
+		},
+		{
+			x: -19.0d,
+			y: -11.5d,
+			dependencies: ["536A9266B3364246"],
+			hide: true,
+			id: "0FD8B469A03132F9",
+			tasks: [
+				{
+					id: "225177DEA09F98A2",
+					type: "item",
+					item: "simplytea:chorus_petal"
+				},
+				{
+					id: "0E3FA029D4E0D74D",
+					type: "item",
+					item: "simplytea:teabag_chorus"
+				},
+				{
+					id: "7C3A8CD975C4DBF4",
+					type: "item",
+					item: {
+						id: "simplytea:cup_tea_chorus",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "7E60E599ED01BE6C",
+				type: "item",
+				item: "minecraft:end_rod",
+				count: 2
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -11.5d,
+			dependencies: ["16F53ED19212C898"],
+			hide: true,
+			id: "23FC9B861F76F00D",
+			tasks: [
+				{
+					id: "43A1BE8E3976EB7F",
+					type: "item",
+					item: "simplytea:unfired_teapot"
+				},
+				{
+					id: "180F6FFB75B74066",
+					type: "item",
+					item: "simplytea:unfired_cup"
+				}
+			],
+			rewards: [{
+				id: "19C21FA8D9E5AF97",
+				type: "item",
+				item: "minecraft:clay_ball",
+				count: 4
+			}]
+		},
+		{
+			x: -23.5d,
+			y: -11.5d,
+			dependencies: ["23FC9B861F76F00D"],
+			hide: true,
+			id: "7D38FA770563B194",
+			tasks: [{
+				id: "564BAE01E6EBAB04",
+				type: "item",
+				item: {
+					id: "simplytea:cup_tea_black",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1700EA284993953F",
+				type: "item",
+				item: "simplytea:teabag_black"
+			}]
+		},
+		{
+			x: -27.5d,
+			y: -8.5d,
+			dependencies: [
+				"152C78A8A742A167",
+				"28141460C456163D"
+			],
+			hide: true,
+			id: "056568C0602CDEDD",
+			tasks: [
+				{
+					id: "6D588BD31E6F98AD",
+					type: "item",
+					item: "farmersdelight:cabbage"
+				},
+				{
+					id: "290B4E1EE6C9D66D",
+					type: "item",
+					item: "farmersdelight:onion"
+				},
+				{
+					id: "67548E1AAB215CB5",
+					type: "item",
+					item: "farmersdelight:rice"
+				},
+				{
+					id: "13D59E5AED397A94",
+					type: "item",
+					item: "farmersdelight:tomato"
+				}
+			],
+			rewards: [{
+				id: "1D5C640F7C28F05A",
+				type: "item",
+				item: "farmersdelight:basket"
+			}]
+		},
+		{
+			title: "CREATE some dough",
+			x: -26.0d,
+			y: -3.0d,
+			description: [
+				"Set up a little automated milling process.",
+				"",
+				"Mill some wheat into flour, then take that flour and make some dough."
+			],
+			dependencies: [
+				"230BF58DE48D74BF",
+				"3A67B2BDC84DC2B8"
+			],
+			hide: true,
+			id: "21C9244572C46568",
+			tasks: [{
+				id: "3F74F03D7E439579",
+				type: "item",
+				item: "create:dough",
+				count: 32L
+			}],
+			rewards: [{
+				id: "78B1888995D40974",
+				type: "choice",
+				table_id: 4893831230518112495L
+			}]
+		},
+		{
+			x: -24.5d,
+			y: -3.0d,
+			dependencies: ["21C9244572C46568"],
+			hide: true,
+			id: "7C2A7D9A622B6F0D",
+			tasks: [
+				{
+					id: "357053129250CECA",
+					type: "item",
+					item: "minecraft:bread",
+					count: 32L
+				},
+				{
+					id: "2EFBE794DAE03CF2",
+					type: "item",
+					item: "rankine:toast",
+					count: 32L
+				}
+			],
+			rewards: [
+				{
+					id: "53257BE68C8F86A5",
+					type: "item",
+					item: "minecraft:melon_seeds"
+				},
+				{
+					id: "6180BDDC93B03B5F",
+					type: "item",
+					item: "minecraft:cake"
+				},
+				{
+					id: "7F1B41F0B142EE0D",
+					type: "item",
+					item: "minecraft:pumpkin_seeds"
+				}
+			]
+		},
+		{
+			title: "What a fun guy....",
+			x: -22.5d,
+			y: -10.0d,
+			description: [
+				"Plant a mushroom in your rich soil, and wait for it to grow into a mushroom colony.",
+				"",
+				"This will only happen in areas with limited light."
+			],
+			dependencies: ["16B9FA29440FFDB4"],
+			hide: true,
+			id: "317C2F81D34826D7",
+			tasks: [{
+				id: "00BE7A394B50EC00",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:brown_mushroom_colony",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:red_mushroom_colony",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "31A0285C05913C6D",
+					type: "item",
+					item: "minecraft:red_mushroom_block"
+				},
+				{
+					id: "4E95D0112AB25C98",
+					type: "item",
+					item: "minecraft:mushroom_stem"
+				},
+				{
+					id: "40184ED600CF7D15",
+					type: "item",
+					item: "minecraft:brown_mushroom_block"
+				}
+			]
+		},
+		{
+			x: -24.0d,
+			y: -4.5d,
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "2BCDCF81E175E4F0",
+			tasks: [{
+				id: "65F1BC09DB038787",
+				type: "item",
+				item: "farmersdelight:beef_patty"
+			}],
+			rewards: [{
+				id: "016E6F0CB1EA382C",
+				type: "item",
+				item: "farmersdelight:beef_patty",
+				count: 2
+			}]
+		},
+		{
+			x: -26.0d,
+			y: -5.0d,
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "6BF382494DE7C534",
+			tasks: [{
+				id: "6AAB0A08CD497613",
+				type: "item",
+				item: "farmersdelight:cooked_chicken_cuts"
+			}],
+			rewards: [{
+				id: "7E758192A5845BD2",
+				type: "item",
+				item: "farmersdelight:cooked_chicken_cuts",
+				count: 2
+			}]
+		},
+		{
+			x: -25.0d,
+			y: -5.0d,
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "50DE7AA26453292C",
+			tasks: [{
+				id: "4A8993263F350CCB",
+				type: "item",
+				item: "farmersdelight:cooked_bacon"
+			}],
+			rewards: [{
+				id: "48E93C25E3920442",
+				type: "item",
+				item: "farmersdelight:cooked_bacon",
+				count: 2
+			}]
+		},
+		{
+			x: -22.0d,
+			y: -5.0d,
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "3E23709DCA6884D2",
+			tasks: [{
+				id: "6A78B73B9B426123",
+				type: "item",
+				item: "farmersdelight:cooked_cod_slice"
+			}],
+			rewards: [{
+				id: "10CE7698CB371A07",
+				type: "item",
+				item: "farmersdelight:cooked_cod_slice",
+				count: 2
+			}]
+		},
+		{
+			x: -23.0d,
+			y: -5.0d,
+			dependencies: ["0599655318DBAB9E"],
+			hide: true,
+			id: "7AE136264E434B7D",
+			tasks: [{
+				id: "42DE00033FB4981E",
+				type: "item",
+				item: "farmersdelight:cooked_salmon_slice"
+			}],
+			rewards: [{
+				id: "514DD74DC0B4F369",
+				type: "item",
+				item: "farmersdelight:cooked_salmon_slice",
+				count: 2
+			}]
+		},
+		{
+			title: "Dessert Time",
+			x: -17.0d,
+			y: -3.0d,
+			dependencies: [
+				"152C78A8A742A167",
+				"1FCAEEBF3353104B"
+			],
+			hide: true,
+			id: "712FE9769BE614F6",
+			tasks: [{
+				id: "50913BEAE50F8D3C",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:cake",
+								Count: 1b
+							},
+							{
+								id: "minecraft:pumpkin_pie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:apple_pie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:sweet_berry_cheesecake",
+								Count: 1b
+							},
+							{
+								id: "minecraft:cookie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:chocolate_pie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:sweet_berry_cookie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:honey_cookie",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:melon_popsicle",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "4F0CBE96947BA45C",
+				type: "choice",
+				table_id: 7838028658339000882L
+			}]
+		},
+		{
+			title: "Soup and Salad",
+			x: -23.0d,
+			y: -3.0d,
+			description: ["Craft up a Soup and Salad of your choice"],
+			dependencies: [
+				"152C78A8A742A167",
+				"7C2A7D9A622B6F0D"
+			],
+			hide: true,
+			id: "5CA9A5C2899FF4C9",
+			tasks: [
+				{
+					id: "316E931C14CF5271",
+					type: "item",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "farmersdelight:fruit_salad",
+									Count: 1b
+								},
+								{
+									id: "farmersdelight:mixed_salad",
+									Count: 1b
+								},
+								{
+									id: "farmersdelight:nether_salad",
+									Count: 1b
+								}
+							]
+						}
+					}
+				},
+				{
+					id: "56ECF05929E6FBC2",
+					type: "item",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "farmersdelight:noodle_soup",
+									Count: 1b
+								},
+								{
+									id: "minecraft:beetroot_soup",
+									Count: 1b
+								},
+								{
+									id: "farmersdelight:chicken_soup",
+									Count: 1b
+								},
+								{
+									id: "farmersdelight:vegetable_soup",
+									Count: 1b
+								},
+								{
+									id: "farmersdelight:pumpkin_soup",
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0B9FD83F5C463DAA",
+				type: "item",
+				item: "minecraft:bowl",
+				count: 4
+			}]
+		},
+		{
+			title: "Sammiches",
+			x: -20.0d,
+			y: -3.0d,
+			subtitle: "Yes, a wrap is a sammich....sorta",
+			dependencies: [
+				"152C78A8A742A167",
+				"59BB89A653688E9A"
+			],
+			hide: true,
+			id: "6D755B815E7858AF",
+			tasks: [{
+				id: "48A5CD1C9FC91321",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:hamburger",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:egg_sandwich",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:chicken_sandwich",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:bacon_sandwich",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:mutton_wrap",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:cabbage_rolls",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "1BF34245E915FB80",
+				type: "choice",
+				table_id: 7838028658339000882L
+			}]
+		},
+		{
+			title: "Stews",
+			x: -21.5d,
+			y: -3.0d,
+			description: ["Craft a Stew"],
+			dependencies: [
+				"152C78A8A742A167",
+				"5CA9A5C2899FF4C9"
+			],
+			hide: true,
+			id: "59BB89A653688E9A",
+			tasks: [{
+				id: "5ABDA15433F96F2E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:baked_cod_stew",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:fish_stew",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:beef_stew",
+								Count: 1b
+							},
+							{
+								id: "minecraft:rabbit_stew",
+								Count: 1b
+							},
+							{
+								id: "minecraft:mushroom_stew",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "5B5390BD98C67B83",
+				type: "item",
+				item: "decorative_blocks:lattice",
+				count: 3
+			}]
+		},
+		{
+			title: "Dinner Bell!",
+			x: -18.5d,
+			y: -3.0d,
+			dependencies: [
+				"152C78A8A742A167",
+				"6D755B815E7858AF"
+			],
+			hide: true,
+			id: "1FCAEEBF3353104B",
+			tasks: [{
+				id: "2B57A83A8659E9C8",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:pasta_with_meatballs",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:pasta_with_mutton_chop",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:vegetable_noodles",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:roasted_mutton_chops",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:steak_and_potatoes",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:ratatouille",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:squid_ink_pasta",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:grilled_salmon",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0C973D2118C59E6B",
+				type: "item",
+				item: "minecraft:bell"
+			}]
+		},
+		{
+			title: "Fruits!",
+			x: -29.0d,
+			y: -7.0d,
+			description: ["Gather all the different types of fruit in the pack"],
+			dependencies: [
+				"152C78A8A742A167",
+				"28141460C456163D"
+			],
+			hide: true,
+			id: "2D67FE8485B98A28",
+			tasks: [
+				{
+					id: "4DA22A6158133EAD",
+					type: "item",
+					icon: "minecraft:sweet_berries",
+					item: "minecraft:sweet_berries"
+				},
+				{
+					id: "0E06B02264AF6D18",
+					type: "item",
+					item: "rankine:elderberries"
+				},
+				{
+					id: "74A13F137ED0BA0D",
+					type: "item",
+					item: "rankine:blueberries"
+				},
+				{
+					id: "60EFC855BCAEE220",
+					type: "item",
+					item: "rankine:raspberries"
+				},
+				{
+					id: "350B20A0DDDD53D3",
+					type: "item",
+					item: "rankine:blackberries"
+				},
+				{
+					id: "7DA95418D573763C",
+					type: "item",
+					item: "rankine:cranberries"
+				},
+				{
+					id: "390AAF75A3BC18FB",
+					type: "item",
+					item: "rankine:strawberries"
+				},
+				{
+					id: "281BCF32E96AD953",
+					type: "item",
+					item: "rankine:snowberries"
+				}
+			],
+			rewards: [{
+				id: "185003903471270F",
+				type: "item",
+				item: "additional_lights:fire_pit_s_smooth_stone",
+				count: 2
+			}]
+		},
+		{
+			title: "Summer Home for your Bees",
+			x: -21.0d,
+			y: -8.5d,
+			description: ["Craft a new bee hive for your bees."],
+			dependencies: ["16B9FA29440FFDB4"],
+			hide: true,
+			id: "1F4D14157406C025",
+			tasks: [{
+				id: "3B37BA62FB62AC87",
+				type: "item",
+				item: "minecraft:beehive"
+			}],
+			rewards: [{
+				id: "68A793E7E7170A11",
+				type: "item",
+				item: "minecraft:glass_bottle"
+			}]
+		},
+		{
+			x: -21.5d,
+			y: -11.5d,
+			dependencies: ["7D38FA770563B194"],
+			hide: true,
+			id: "536A9266B3364246",
+			tasks: [
+				{
+					id: "1DCF81F18EFD1D7D",
+					type: "item",
+					item: {
+						id: "simplytea:cup_tea_green",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3C4430DF12F41804",
+					type: "item",
+					item: {
+						id: "simplytea:cup_tea_floral",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "06C6D60487C882B3",
+					type: "item",
+					item: {
+						id: "simplytea:cup_tea_chai",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "78D151DED4852A6C",
+				type: "item",
+				item: "buildersaddition:large_candle"
+			}]
+		},
+		{
+			title: "Major Feast!",
+			x: -15.5d,
+			y: -3.0d,
+			description: [
+				"Feasts are specialize, multi-meal blocks.",
+				"",
+				"Cook the feast, place it on the ground, and you will get several very filling meals from it."
+			],
+			dependencies: [
+				"152C78A8A742A167",
+				"712FE9769BE614F6"
+			],
+			hide: true,
+			id: "34B1F4209D0BE512",
+			tasks: [{
+				id: "1233DEAEE8222BC4",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "farmersdelight:roast_chicken_block",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:stuffed_pumpkin_block",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:honey_glazed_ham_block",
+								Count: 1b
+							},
+							{
+								id: "farmersdelight:shepherds_pie_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "258369E1CA88EDE0",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "rankine:foraging"
+							}]
+						}
+					}
+				},
+				{
+					id: "639381EC02360839",
+					type: "item",
+					item: {
+						id: "rankine:steel_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							StoredComposition: [{
+								comp: "99Fe-1C"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -27.5d,
+			y: -5.5d,
+			dependencies: [
+				"152C78A8A742A167",
+				"28141460C456163D"
+			],
+			hide: true,
+			id: "4ADDADFE239C1772",
+			tasks: [
+				{
+					id: "54A9DB0CEC55B146",
+					type: "item",
+					item: "minecraft:carrot"
+				},
+				{
+					id: "679F8896B966FA74",
+					type: "item",
+					item: "minecraft:potato"
+				},
+				{
+					id: "5BEE2562A67CE993",
+					type: "item",
+					item: "minecraft:beetroot"
+				},
+				{
+					id: "2833BD25BAC1733B",
+					type: "item",
+					item: "minecraft:wheat"
+				}
+			],
+			rewards: [
+				{
+					id: "7A66EB48A322C47D",
+					type: "item",
+					item: "minecraft:baked_potato"
+				},
+				{
+					id: "4151B8E0637A55B8",
+					type: "item",
+					item: "minecraft:golden_carrot"
+				}
+			]
+		},
+		{
+			x: -29.5d,
+			y: -4.5d,
+			dependencies: [
+				"2A5D081196B4B37D",
+				"4ADDADFE239C1772"
+			],
+			hide: true,
+			id: "2D81C830DFC0ED4D",
+			tasks: [{
+				id: "4D73AFB4D78F7252",
+				type: "item",
+				item: "farmersdelight:potato_crate"
+			}],
+			rewards: [{
+				id: "61A207DDDB15B2D9",
+				type: "item",
+				item: "farmersdelight:potato_crate"
+			}]
+		},
+		{
+			x: -30.0d,
+			y: -5.5d,
+			dependencies: [
+				"2A5D081196B4B37D",
+				"4ADDADFE239C1772"
+			],
+			hide: true,
+			id: "5281136981616092",
+			tasks: [{
+				id: "54C088CB674011F2",
+				type: "item",
+				item: "farmersdelight:beetroot_crate"
+			}],
+			rewards: [{
+				id: "790F1ABAAA7B89B3",
+				type: "item",
+				item: "minecraft:beetroot_seeds",
+				count: 9
+			}]
+		},
+		{
+			x: -28.5d,
+			y: -3.5d,
+			dependencies: [
+				"2A5D081196B4B37D",
+				"4ADDADFE239C1772"
+			],
+			hide: true,
+			id: "2F709A6FDF9096A0",
+			tasks: [{
+				id: "52DDE91166564690",
+				type: "item",
+				item: "farmersdelight:carrot_crate"
+			}],
+			rewards: [{
+				id: "519F3BB9EA7519C9",
+				type: "item",
+				item: "farmersdelight:carrot_crate"
+			}]
+		},
+		{
+			x: -27.5d,
+			y: -11.0d,
+			dependencies: [
+				"056568C0602CDEDD",
+				"2A5D081196B4B37D"
+			],
+			hide: true,
+			id: "574E295C448D9E50",
+			tasks: [{
+				id: "7A95E82BA7CB2F45",
+				type: "item",
+				item: "farmersdelight:tomato_crate"
+			}],
+			rewards: [{
+				id: "6AE373A8D82AC292",
+				type: "item",
+				item: "farmersdelight:tomato_seeds",
+				count: 9
+			}]
+		},
+		{
+			x: -28.5d,
+			y: -10.5d,
+			dependencies: [
+				"056568C0602CDEDD",
+				"2A5D081196B4B37D"
+			],
+			hide: true,
+			id: "384EB185C6E2EC0E",
+			tasks: [{
+				id: "5588180F7BD9A7C0",
+				type: "item",
+				item: "farmersdelight:onion_crate"
+			}],
+			rewards: [{
+				id: "0ABDA63C960587D2",
+				type: "item",
+				item: "farmersdelight:onion_crate"
+			}]
+		},
+		{
+			x: -29.5d,
+			y: -9.5d,
+			dependencies: [
+				"056568C0602CDEDD",
+				"2A5D081196B4B37D"
+			],
+			hide: true,
+			id: "5487E99A8B6BC00E",
+			tasks: [{
+				id: "155D628C42FFA62B",
+				type: "item",
+				item: "farmersdelight:cabbage_crate"
+			}],
+			rewards: [{
+				id: "0771245D12A16F1B",
+				type: "item",
+				item: "farmersdelight:cabbage_seeds",
+				count: 9
+			}]
+		},
+		{
+			x: -30.0d,
+			y: -8.5d,
+			dependencies: [
+				"056568C0602CDEDD",
+				"2A5D081196B4B37D"
+			],
+			hide: true,
+			id: "023B34923D4BFC61",
+			tasks: [
+				{
+					id: "3A95FD91B4A89647",
+					type: "item",
+					item: "farmersdelight:rice_bale"
+				},
+				{
+					id: "4AFEDED16E2263F7",
+					type: "item",
+					item: "farmersdelight:rice_bag"
+				}
+			],
+			rewards: [{
+				id: "78C50F47A229DD54",
+				type: "item",
+				item: "farmersdelight:rice_bag"
+			}]
+		},
+		{
+			x: -27.5d,
+			y: -3.0d,
+			dependencies: ["4ADDADFE239C1772"],
+			hide: true,
+			id: "3A67B2BDC84DC2B8",
+			tasks: [{
+				id: "1411928062EA79A8",
+				type: "item",
+				item: "minecraft:hay_block"
+			}],
+			rewards: [{
+				id: "5B449BC889C4F29B",
+				type: "item",
+				item: "minecraft:hay_block"
+			}]
+		},
+		{
+			title: "Maple Syrup",
+			x: -18.0d,
+			y: -7.0d,
+			description: ["Tap a maple tree, and obtain the sap within."],
+			dependencies: [
+				"161719D81A364A20",
+				"5DAFBB3A149A032E"
+			],
+			hide: true,
+			id: "1CCFB58685EF54CE",
+			tasks: [{
+				id: "49634E524CEB28E1",
+				type: "item",
+				item: "rankine:maple_sap_bucket"
+			}],
+			rewards: [{
+				id: "74B3B239B6186085",
+				type: "choice",
+				table_id: 5812250333867846791L
+			}]
+		},
+		{
+			title: "Use an evaporation tower, as explained in the Ranking Guide, to concetrate your maple sap into Syrup.",
+			x: -16.5d,
+			y: -7.0d,
+			dependencies: ["1CCFB58685EF54CE"],
+			id: "05DB765BD345F54E",
+			tasks: [{
+				id: "2A631729773B9B12",
+				type: "item",
+				item: "rankine:maple_syrup"
+			}],
+			rewards: [{
+				id: "6C9AF886E96D3096",
+				type: "item",
+				item: "rankine:maple_syrup",
+				count: 3
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -7.0d,
+			description: ["Who doesn't love pancakes."],
+			dependencies: ["05DB765BD345F54E"],
+			id: "2C8ABE587BD9D452",
+			tasks: [{
+				id: "2F6DC8166D1B1D9F",
+				type: "item",
+				item: "rankine:pancake_breakfast"
+			}],
+			rewards: [{
+				id: "258DF01FA6972019",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:luck_of_the_sea"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -24.5d,
+			y: -1.0d,
+			dependencies: ["7C2A7D9A622B6F0D"],
+			id: "4200B79A88394BAC",
+			tasks: [{
+				id: "5BC9A40DA8ED539F",
+				type: "item",
+				item: "rankine:cinnamon_toast"
+			}],
+			rewards: [{
+				id: "19FA18A480E68F63",
+				type: "item",
+				item: "rankine:flower_seeds",
+				count: 4
+			}]
+		}
+	]
+}

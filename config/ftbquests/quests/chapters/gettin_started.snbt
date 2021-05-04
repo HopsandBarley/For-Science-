@@ -1,0 +1,2909 @@
+{
+	id: "4D13567575488303",
+	group: "",
+	order_index: 0,
+	filename: "gettin_started",
+	title: "Evolution...",
+	icon: {
+		id: "rankine:flint_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	subtitle: ["Gettin Started"],
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -20.0d,
+			y: -11.0d,
+			description: [
+				"Welcome to the pack.  The quest book is a guide to get you into the different mods that the pack provides, but is by no means a requirement.",
+				"",
+				"feel free to throw the book away and play the pack however you want."
+			],
+			size: 1.25d,
+			id: "1EC86A197B700D33",
+			tasks: [{
+				id: "39CE95F792FC5B0A",
+				type: "checkmark",
+				title: "Welcome to Wherever you are!"
+			}],
+			rewards: [{
+				id: "24EE829D9FAAA9C0",
+				type: "item",
+				item: "minecraft:torch",
+				count: 4
+			}]
+		},
+		{
+			title: "JEI",
+			icon: "itemfilters:weak_nbt",
+			x: -18.5d,
+			y: -12.5d,
+			subtitle: "Minecraft Bible",
+			description: [
+				"Get used to JEI.  Use it to find items, recipes, and most any other information about Items and Blocks in the game.",
+				"",
+				"the list of items to the right of your character in your character screen (E), is JEI.  If you left click an item in JEI (Or alternatively, press 'r', it will show you how to craft that item, if a crafting recipe exists.)",
+				"",
+				"if you right click on an item (or, press 'u'), it will show you what recipes, if any, that items is used in.",
+				"",
+				"Very handy, no?"
+			],
+			dependencies: ["1EC86A197B700D33"],
+			hide: true,
+			id: "663C2339C3E5D28C",
+			tasks: [{
+				id: "2DC885541DD2B27B",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "1DB8983C7693AB2D",
+				type: "item",
+				item: "minecraft:torch",
+				count: 4
+			}]
+		},
+		{
+			x: -18.5d,
+			y: -11.0d,
+			subtitle: "Things are a little different",
+			description: [
+				"Does the world look a little different?  The quest book will walk you through the changes in the world, what to look for, and what to expect with the changed world.",
+				"",
+				"But just in case, here's a manual to fill in the gaps."
+			],
+			dependencies: ["1EC86A197B700D33"],
+			hide: true,
+			id: "61950F1378260E40",
+			tasks: [{
+				id: "07D263908C9E9660",
+				type: "checkmark",
+				title: "Project Rankine",
+				icon: "rankine:ore_detector"
+			}],
+			rewards: [{
+				id: "06700566C658288B",
+				type: "item",
+				item: {
+					id: "patchouli:guide_book",
+					Count: 1b,
+					tag: {
+						"patchouli:book": "rankine:rankine_journal"
+					}
+				}
+			}]
+		},
+		{
+			title: "Punch Some Gravel",
+			icon: "minecraft:flint",
+			x: -15.5d,
+			y: -11.0d,
+			subtitle: "Sharp Pointy Objects",
+			description: ["This pack requires you to have the proper tools to gather specific materials.  The one exception is finding flint from gravel blocks."],
+			dependencies: ["66DD2F9BFEEAA76F"],
+			hide: true,
+			id: "698EE3CD24D248DF",
+			tasks: [{
+				id: "5DD78EA3FA99682D",
+				type: "item",
+				item: "minecraft:flint"
+			}],
+			rewards: [{
+				id: "2D68D71F6927CAB1",
+				type: "item",
+				item: "minecraft:flint",
+				count: 2
+			}]
+		},
+		{
+			title: "Sticks and Stones",
+			x: -17.0d,
+			y: -11.0d,
+			subtitle: "Foragecraft",
+			description: [
+				"You can't punch wood in this pack.  Well you can, but it will only bloody your knuckles.",
+				"",
+				"Do some foraging.  Find some sticks and rocks laying on the ground to get your started."
+			],
+			dependencies: [
+				"1EC86A197B700D33",
+				"61950F1378260E40",
+				"663C2339C3E5D28C",
+				"59A76E3706A452F2"
+			],
+			hide: true,
+			id: "66DD2F9BFEEAA76F",
+			tasks: [
+				{
+					id: "18E9218017619614",
+					type: "item",
+					title: "Any #forge:rods/wooden",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:rods/wooden"
+						}
+					}
+				},
+				{
+					id: "4875FBB13A55CFF0",
+					type: "item",
+					item: "foragecraft:rock"
+				},
+				{
+					id: "49F7BF24621FE389",
+					type: "item",
+					item: "foragecraft:flat_rock"
+				}
+			],
+			rewards: [
+				{
+					id: "6B31377C99D1E4AB",
+					type: "item",
+					item: "minecraft:stick",
+					count: 3
+				},
+				{
+					id: "355235B9437AEF78",
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"patchouli:book": "foragecraft:book"
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Flint Knife",
+			x: -14.0d,
+			y: -11.0d,
+			subtitle: "First steps towards productivity",
+			description: [
+				"Create a flint knife with your newly gathered materials.",
+				"",
+				"Use your new knife to break grass until you have 3 pieces of straw.",
+				"",
+				"Use your straw to make some rope."
+			],
+			dependencies: ["698EE3CD24D248DF"],
+			hide: true,
+			id: "264F3A4EB81834B7",
+			tasks: [
+				{
+					id: "5876B46F6A6F76F5",
+					type: "item",
+					item: {
+						id: "farmersdelight:flint_knife",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "33B005CD97102387",
+					type: "item",
+					item: "farmersdelight:straw",
+					count: 3L
+				},
+				{
+					id: "00489398A88E0DD3",
+					type: "item",
+					item: "rankine:rope"
+				}
+			],
+			rewards: [
+				{
+					id: "0F395555BF9A0E37",
+					type: "item",
+					item: "comforts:sleeping_bag_white"
+				},
+				{
+					id: "26DB6F21B8B42494",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			title: "Changing of the seasons",
+			x: -18.5d,
+			y: -9.5d,
+			subtitle: "Serene Seasons",
+			description: [
+				"The seasons will change in this pack.  Crops will stop growing when the weather gets cold, trees will continue to grow, but make sure you have enough crops to last you through the winter.",
+				"",
+				"Each season lasts 24 days, so you have time to get ready."
+			],
+			dependencies: ["1EC86A197B700D33"],
+			hide: true,
+			id: "59A76E3706A452F2",
+			tasks: [{
+				id: "7324481425BC82DA",
+				type: "checkmark",
+				title: "Serene Season",
+				icon: "sereneseasons:calendar"
+			}],
+			rewards: [{
+				id: "7DB968EB40BB7FFA",
+				type: "item",
+				item: "minecraft:bread",
+				count: 3
+			}]
+		},
+		{
+			title: "Choppa da woods",
+			x: -13.0d,
+			y: -9.5d,
+			subtitle: "Fell your first tree",
+			description: [
+				"Time to start gathering wood.  ",
+				"",
+				"Tree physics are a bit more realistic in this pack.  If you chop the bottom block of wood on a tree, the entire tree will fall, giving you all of it's resources.",
+				"",
+				"Be careful though, it will use up the same amount of durability on your axe, as if you chopped all the blocks independently.",
+				"",
+				"if you don't want to chop the whole tree, simply sneak to only chop one log at a time, or chop any log but the bottom one."
+			],
+			dependencies: ["264F3A4EB81834B7"],
+			hide: true,
+			id: "79E66CF611667DE9",
+			tasks: [{
+				id: "0D0D2C529B4ADA36",
+				type: "item",
+				item: {
+					id: "rankine:flint_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "3114C892ABB96AA4",
+					type: "item",
+					item: "minecraft:flint"
+				},
+				{
+					id: "6D7D3B403CEE240A",
+					type: "item",
+					item: "farmersdelight:cooked_mutton_chops",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -15.5d,
+			y: -12.5d,
+			description: [
+				"It's time to make your first weapon.  Craft a flint spear to defend yourself.",
+				"",
+				"You can left click a mob to stab it, or hold down right-click to charge and throw your spear.  Be careful though.  Throwing a flint spear doesn't do a lot of damage, and once you throw it....well...you have to go get it."
+			],
+			dependencies: ["264F3A4EB81834B7"],
+			hide: true,
+			id: "52CCE394DADC92B6",
+			tasks: [{
+				id: "7978E6B7C58A0306",
+				type: "item",
+				item: {
+					id: "rankine:flint_spear",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "58646469611D4BAB",
+				type: "item",
+				item: "farmersdelight:cooked_bacon",
+				count: 3
+			}]
+		},
+		{
+			title: "Pointy Block Breakin",
+			x: -12.0d,
+			y: -11.0d,
+			description: [
+				"Craft a flint pickaxe to begin breaking more than just wood and dirt.",
+				"",
+				"Hint:  When mining Rankine varieties of stone with a flint pick, there is a chance that pieces of flint will drop."
+			],
+			dependencies: ["264F3A4EB81834B7"],
+			hide: true,
+			id: "6A392404FCFB290A",
+			tasks: [{
+				id: "1247C410E18AEF5A",
+				type: "item",
+				item: {
+					id: "rankine:flint_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6FAAA768BFD8F32E",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+			}]
+		},
+		{
+			icon: "minecraft:zombie_head",
+			x: -16.5d,
+			y: -14.0d,
+			dependencies: ["52CCE394DADC92B6"],
+			hide: true,
+			id: "3D8C805F0A173CDA",
+			tasks: [
+				{
+					id: "3DADEC86559AF56D",
+					type: "kill",
+					entity: "minecraft:zombie",
+					value: 1L
+				},
+				{
+					id: "41ADF2D10186A5C7",
+					type: "item",
+					item: "minecraft:rotten_flesh"
+				}
+			],
+			rewards: [
+				{
+					id: "7403D3E3EB1C93D3",
+					type: "item",
+					item: {
+						id: "minecraft:leather_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2B25B59B9654D9FF",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			icon: "minecraft:skeleton_skull",
+			x: -17.0d,
+			y: -13.0d,
+			dependencies: ["52CCE394DADC92B6"],
+			hide: true,
+			id: "426E7904FC2217A0",
+			tasks: [
+				{
+					id: "3796F7B477CD8B35",
+					type: "kill",
+					entity: "minecraft:skeleton",
+					value: 1L
+				},
+				{
+					id: "748ABA27C3C6B717",
+					type: "item",
+					item: "minecraft:bone"
+				}
+			],
+			rewards: [
+				{
+					id: "6056884947A22222",
+					type: "item",
+					item: {
+						id: "minecraft:leather_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "196B30AED7CB4F6F",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			icon: "minecraft:spider_eye",
+			x: -15.5d,
+			y: -14.5d,
+			dependencies: ["52CCE394DADC92B6"],
+			hide: true,
+			id: "328FABCEF0984DB9",
+			tasks: [
+				{
+					id: "18088DF4BD040BCB",
+					type: "kill",
+					entity: "minecraft:spider",
+					value: 1L
+				},
+				{
+					id: "0E7576B911251899",
+					type: "item",
+					item: "minecraft:string"
+				}
+			],
+			rewards: [
+				{
+					id: "1EB0A1B0EB69C2C8",
+					type: "item",
+					item: {
+						id: "minecraft:leather_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5C62A3E3642B5000",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			icon: "minecraft:creeper_head",
+			x: -14.5d,
+			y: -14.0d,
+			dependencies: ["52CCE394DADC92B6"],
+			hide: true,
+			id: "12132F6F433270D4",
+			tasks: [
+				{
+					id: "70650B9777C77CEA",
+					type: "kill",
+					entity: "minecraft:creeper",
+					value: 1L
+				},
+				{
+					id: "750BB4B0B2DBF5BD",
+					type: "item",
+					item: "minecraft:gunpowder"
+				}
+			],
+			rewards: [
+				{
+					id: "279F2235D8DABFAB",
+					type: "item",
+					item: {
+						id: "minecraft:leather_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "13EDD647E65D43C6",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			title: "Craft the table",
+			x: -13.0d,
+			y: -8.0d,
+			description: ["Use your axe to make some planks out of your newly felled tree.  Make your first crafting table."],
+			dependencies: ["79E66CF611667DE9"],
+			hide: true,
+			id: "2F04D415C7824C99",
+			tasks: [{
+				id: "41F68B041E464E4C",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "79C21A3465851CB3",
+				type: "item",
+				item: "minecraft:torch",
+				count: 4
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -8.0d,
+			description: [
+				"Charcoal Pits are the early way to make your own fuel source.",
+				"",
+				"Charcoal pits stacked vertically will convert logs placed around it into charred wood.",
+				"",
+				"to light your charcoal pits, right-click the top charcoal pit with a piece of flint in each hand.",
+				"(This consumes the flint)"
+			],
+			dependencies: ["2F04D415C7824C99"],
+			hide: true,
+			id: "2736677A28B7344C",
+			tasks: [
+				{
+					id: "56618C8DF3CC4B64",
+					type: "item",
+					item: "rankine:charcoal_pit"
+				},
+				{
+					id: "7A39531906F3B5A7",
+					type: "item",
+					item: "minecraft:charcoal"
+				}
+			],
+			rewards: [{
+				id: "007D27AB87A1554C",
+				type: "item",
+				item: "minecraft:flint",
+				count: 2
+			}]
+		},
+		{
+			title: "Blunt Block Smashin",
+			x: -9.5d,
+			y: -11.0d,
+			description: [
+				"Craft a hammer with the new stones that you mined with your pick.",
+				"",
+				"Breaking blocks with your hammer will yield different drops than a pick."
+			],
+			dependencies: ["6A392404FCFB290A"],
+			hide: true,
+			id: "2E2E215C3B76E63D",
+			tasks: [{
+				id: "148C3E3CF865F977",
+				type: "item",
+				item: {
+					id: "rankine:stone_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "69DD2864B8145BEF",
+				type: "item",
+				item: "buildersaddition:cut_smooth_stone_pillar"
+			}]
+		},
+		{
+			title: "Boss Fights",
+			x: -14.0d,
+			y: -13.0d,
+			subtitle: "By air, by sea, and by land...",
+			description: ["Now it's time for your first boss fights.  Be careful, they may look harmless, but they are sneaky."],
+			dependencies: ["52CCE394DADC92B6"],
+			hide: true,
+			id: "1FEF59788B2CE332",
+			tasks: [
+				{
+					id: "0D6CB0F470DE559D",
+					type: "kill",
+					entity: "minecraft:bat",
+					value: 1L
+				},
+				{
+					id: "098565D0142F846B",
+					type: "kill",
+					entity: "minecraft:squid",
+					value: 1L
+				},
+				{
+					id: "0FB97972BB256529",
+					type: "kill",
+					entity: "minecraft:slime",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: "4EB5C37B1C54448A",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 4
+				},
+				{
+					id: "4E08F313D322A0A8",
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Beginnings of Dis-orgainization",
+			x: -14.5d,
+			y: -8.0d,
+			shape: "hexagon",
+			subtitle: "Let the Storage Wars Begin",
+			description: [
+				"Build your first chest.",
+				"",
+				"The recipe has changed a bit.  It's not just a generic box-o-planks.  You need a 'lid' and 'latch' for your chest."
+			],
+			dependencies: ["2F04D415C7824C99"],
+			hide: true,
+			size: 1.25d,
+			id: "2A5D081196B4B37D",
+			tasks: [{
+				id: "32DC10324CE3868D",
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}],
+			rewards: [{
+				id: "5DA544F0169234E7",
+				type: "choice",
+				table_id: 7486794526337083011L
+			}]
+		},
+		{
+			title: "First Steps to Pottery",
+			x: -16.0d,
+			y: -8.0d,
+			description: ["There are multiple ways to get clay.  Either find it in nature, in shallow water, or break slate or shale with your stone hammer."],
+			dependencies: ["2A45DA947FF033F0"],
+			hide: true,
+			id: "02C34862485FD09F",
+			tasks: [{
+				id: "027FDCA5D64DFD79",
+				type: "item",
+				item: "minecraft:clay_ball"
+			}],
+			rewards: [{
+				id: "794F790E25BAB472",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
+		},
+		{
+			x: -15.0d,
+			y: -9.5d,
+			description: ["Make a shovel out of your flint, rope, and sticks."],
+			dependencies: [
+				"264F3A4EB81834B7",
+				"2F04D415C7824C99"
+			],
+			hide: true,
+			id: "2A45DA947FF033F0",
+			tasks: [{
+				id: "799F1B7A1802D9B3",
+				type: "item",
+				item: {
+					id: "rankine:flint_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "69FE50BD6347806E",
+				type: "item",
+				item: "additional_lights:al_torch_cobblestone",
+				count: 2
+			}]
+		},
+		{
+			title: "Find some Andesite",
+			x: -11.25d,
+			y: -14.375d,
+			shape: "hexagon",
+			subtitle: "Really?...Really Really",
+			description: [
+				"Time to go find some andesite amongst all the pretty rocks out there.",
+				"",
+				"You can find andesite while caving.  If you are having trouble, look in nearby mountain biomes.  Hornblende Andesite is a less-than idea alternative, but will work in a pinch, until you can find a regular andesite deposit."
+			],
+			dependencies: ["6A392404FCFB290A"],
+			hide: true,
+			size: 1.25d,
+			id: "2B4C35B952AF70C4",
+			tasks: [{
+				id: "69FD726374E1DB46",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:andesite",
+								Count: 1b
+							},
+							{
+								id: "rankine:hornblende_andesite",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "65EC43873B7037B4",
+					type: "item",
+					item: {
+						id: "rankine:flint_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "10054A6758EF9DEB",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -17.5d,
+			y: -8.0d,
+			description: [
+				"Gotta hold them bricks together somehow.  Make some refractory bricks and mortar.",
+				"",
+				"To make mortar, craft some 'dry mortar', then throw it in the lake."
+			],
+			dependencies: ["02C34862485FD09F"],
+			hide: true,
+			id: "27C38085B1E390C4",
+			tasks: [
+				{
+					id: "3F9BE4C49D7021CF",
+					type: "item",
+					item: "rankine:mortar",
+					count: 4L
+				},
+				{
+					id: "5ED2E5208BBA4A5B",
+					type: "item",
+					item: "rankine:refractory_brick",
+					count: 5L
+				}
+			],
+			rewards: [{
+				id: "69681FEDA52EB634",
+				type: "choice",
+				table_id: 7486794526337083011L
+			}]
+		},
+		{
+			title: "Get cookin....or...not",
+			x: -9.5d,
+			y: -8.0d,
+			description: [
+				"Make your first furnace.  It still has functionality, but not as much as your used to.",
+				"",
+				"You will have to create more advanced equipment for your cooking and ore smelting needs."
+			],
+			dependencies: [
+				"2D778F113BCECC63",
+				"2736677A28B7344C"
+			],
+			hide: true,
+			id: "1370A8F8CE39D68D",
+			tasks: [{
+				id: "5931927C138D3294",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [{
+				id: "688C91DBFCC82C4B",
+				type: "choice",
+				table_id: 7061113014534061059L
+			}]
+		},
+		{
+			x: -17.5d,
+			y: -6.5d,
+			shape: "hexagon",
+			description: [
+				"You aren't actually baking the bees.  ",
+				"",
+				"Beehive ovens are use to get you some very useful blocks for your early production needs.",
+				"",
+				"Consult the Project Rankine Manual on how to construct your Oven.  To light, right click the Oven Pit with a piece of flint in each hand, similar to a charcoal pit.",
+				"",
+				"The oven will stay lit as long as it detects a block to be upgraded."
+			],
+			dependencies: ["27C38085B1E390C4"],
+			hide: true,
+			size: 1.25d,
+			id: "1B4E905DCD7CE3B4",
+			tasks: [
+				{
+					id: "48C333EB56A6A181",
+					type: "item",
+					item: "rankine:beehive_oven_pit"
+				},
+				{
+					id: "13C5E881F06FEBC2",
+					type: "item",
+					item: "rankine:refractory_bricks",
+					count: 8L
+				}
+			],
+			rewards: [{
+				id: "3DF7BA5AA8147EED",
+				type: "choice",
+				table_id: 7061113014534061059L
+			}]
+		},
+		{
+			title: "Blocky Breakin Time!",
+			x: -9.5d,
+			y: -9.5d,
+			subtitle: "Two ways",
+			description: [
+				"Use your newly made Pickaxe to break any types of stone you see.  This will drop the stone blocks in their original form.",
+				"",
+				'Use your new hammer to break the same blocks.  This will "break" them into cobblestone.',
+				"",
+				"Other blocks, like shale, dolomite, etc, will drop other things.  Experiment with different stones, to see what they drop."
+			],
+			dependencies: [
+				"6A392404FCFB290A",
+				"2E2E215C3B76E63D"
+			],
+			hide: true,
+			id: "2D778F113BCECC63",
+			tasks: [
+				{
+					id: "4F118102A89FD68D",
+					type: "item",
+					item: "minecraft:cobblestone",
+					count: 8L
+				},
+				{
+					id: "7EE08D427112CA2E",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:stone"
+						}
+					},
+					count: 8L
+				}
+			],
+			rewards: [
+				{
+					id: "660BAB1FD16E1CA9",
+					type: "item",
+					item: "minecraft:baked_potato",
+					count: 3
+				},
+				{
+					id: "178B3671B07B761C",
+					type: "item",
+					item: {
+						id: "create:sand_paper",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Block of coal in yer stocking",
+			x: -17.5d,
+			y: -5.0d,
+			description: [
+				"Start with a block of coal, or subbituminous coal.  Place it in your Beehive Oven, and light the oven, using a piece of flint in each hand.",
+				"",
+				"Over time, your coal will get upgraded to Bituminous coal, and eventually coal coke, which is a much better fuel source."
+			],
+			dependencies: ["1B4E905DCD7CE3B4"],
+			hide: true,
+			id: "0B63DC72BBF1FC24",
+			tasks: [{
+				id: "7EB85E793E8F5B4E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:coal_block",
+								Count: 1b
+							},
+							{
+								id: "rankine:subbituminous_coal_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "044697A7BCE81FFC",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 3
+			}]
+		},
+		{
+			title: "Not that kind of Coke.",
+			x: -17.5d,
+			y: -3.5d,
+			description: ["Once your Beehive Oven has produced a block of coke, break it with yoru pick.  This will yield you an efficient fuel source for several different machine types."],
+			dependencies: ["0B63DC72BBF1FC24"],
+			hide: true,
+			id: "7728A3282DB4D296",
+			tasks: [{
+				id: "69B5009B9523314A",
+				type: "item",
+				item: "rankine:coke_block"
+			}],
+			rewards: [{
+				id: "1C2A57998EA7F2CD",
+				type: "item",
+				item: "minecraft:coal_block",
+				count: 2
+			}]
+		},
+		{
+			title: "Gotta sreep!",
+			x: -16.0d,
+			y: -6.5d,
+			description: ["Creepers be creepin.  Phantoms be swoopin.  Zombies be groanin.  Get some sleep to keep the baddies away."],
+			dependencies: ["2F90BB49599C5721"],
+			hide: true,
+			id: "1E13EC367DC94EF4",
+			tasks: [{
+				id: "0B143D4DECD3A86A",
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [{
+				id: "55A4E56CFBA12698",
+				type: "choice",
+				table_id: 8557701400500913244L
+			}]
+		},
+		{
+			title: "Soft Metals",
+			x: -12.5d,
+			y: -14.375d,
+			shape: "hexagon",
+			description: ["Take your new pickaxe and go break stuff.  There are a handful of soft metals that you can harvest with a flint pickaxe.  Copper, Tin, and Aluminum are the three most improtant for immediate needs.  Wonder what we can CREATE with them..."],
+			dependencies: ["6A392404FCFB290A"],
+			hide: true,
+			size: 1.25d,
+			id: "27A41B9720238CEB",
+			tasks: [
+				{
+					id: "0B1A82A3C4E76810",
+					type: "item",
+					item: "rankine:aluminum_nugget"
+				},
+				{
+					id: "3151DD7A5482C728",
+					type: "item",
+					item: "rankine:copper_nugget"
+				},
+				{
+					id: "6986B7127C01D0CD",
+					type: "item",
+					item: "rankine:tin_nugget"
+				}
+			],
+			rewards: [{
+				id: "400A8C8DCDAC28E9",
+				type: "item",
+				item: "rankine:aluminum_nugget",
+				count: 8
+			}]
+		},
+		{
+			title: "Blast!",
+			x: -5.5d,
+			y: -8.0d,
+			description: [
+				"Use your newly found Andesite alloy to make a blast furnace.  This will let you do higher temperature smelting, for ores and other items.",
+				"",
+				"Hint: If you don't have any andesite alloy, maybe you missed a new quest tab (or have yet to unlock it)."
+			],
+			dependencies: ["1370A8F8CE39D68D"],
+			hide: true,
+			id: "67E7C3E3FF8B7CBD",
+			tasks: [{
+				id: "243CFFA16F876A1D",
+				type: "item",
+				item: "minecraft:blast_furnace"
+			}],
+			rewards: [{
+				id: "288B009A5B307941",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 4
+			}]
+		},
+		{
+			title: "Glass Cutter",
+			x: -5.5d,
+			y: -11.5d,
+			description: ["The glass cutter will act as a silk-touch tool, to let you pick up your glass blocks and glass panes."],
+			dependencies: [
+				"2614E881213402B8",
+				"67E7C3E3FF8B7CBD"
+			],
+			hide: true,
+			id: "2CD143E4C70F893B",
+			tasks: [{
+				id: "02D88B825DFB7969",
+				type: "item",
+				item: {
+					id: "rankine:glass_cutter",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						Enchantments: [{
+							lvl: 1s,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0461B08D95BCB16D",
+					type: "item",
+					item: "additional_lights:al_torch_glass",
+					count: 2
+				},
+				{
+					id: "0CBEAA8A449F2E9E",
+					type: "item",
+					item: "additional_lights:al_lamp_glass",
+					count: 2
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -11.0d,
+			description: [
+				"The Evaporation Tower is a large multiblock machine, used for a lot of interesting game mechanics.",
+				"",
+				"Read through the section in the Rankine manual for all of it's uses."
+			],
+			dependencies: [
+				"37537B4A729FAAFF",
+				"0200E151DBDC1C08"
+			],
+			hide: true,
+			id: "087D87F4BCC74C5E",
+			tasks: [{
+				id: "4C056CE9662817A8",
+				type: "item",
+				item: "rankine:evaporation_tower"
+			}],
+			rewards: [
+				{
+					id: "475F5466DBC34D0F",
+					type: "choice",
+					table_id: 7486794526337083011L
+				},
+				{
+					id: "23705A6E7132BE15",
+					type: "item",
+					item: "minecraft:hopper"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -5.0d,
+			description: ["A smithing table is used to craft higher level tools and armor, as well as being a villager workstation."],
+			dependencies: ["67E7C3E3FF8B7CBD"],
+			hide: true,
+			id: "224ACD5FF9A763A0",
+			tasks: [{
+				id: "5A12A0A04310AEA9",
+				type: "item",
+				item: "minecraft:smithing_table"
+			}],
+			rewards: [{
+				id: "048E6A3AD75189FD",
+				type: "item",
+				item: "rankine:cast_iron_block"
+			}]
+		},
+		{
+			title: "Brigandine Armor",
+			x: -3.5d,
+			y: -5.0d,
+			description: [
+				"Use your new Smithing table, and craft up some Brigandine armor.  This is the highest level armor you can make, without getting fancy.",
+				"",
+				"We'll get fancy later... I think."
+			],
+			dependencies: ["224ACD5FF9A763A0"],
+			hide: true,
+			id: "51DC6EF2632DE8D4",
+			tasks: [
+				{
+					id: "2BB84E53FDFEF33A",
+					type: "item",
+					item: {
+						id: "rankine:brigandine_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "14FA1782159E7E85",
+					type: "item",
+					item: {
+						id: "rankine:brigandine_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "145A93DBC8429FAA",
+					type: "item",
+					item: {
+						id: "rankine:brigandine_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "7781D5D1236D636C",
+					type: "item",
+					item: {
+						id: "rankine:brigandine_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "4266B344848CF250",
+					type: "choice",
+					table_id: 7979914944443785454L
+				},
+				{
+					id: "4B31BF76E6FACAC0",
+					type: "choice",
+					table_id: 4636878992177516600L
+				},
+				{
+					id: "0B7A67E610E2B524",
+					type: "choice",
+					table_id: 6743005666645373467L
+				},
+				{
+					id: "5073B9037068FD1B",
+					type: "choice",
+					table_id: 205622642126812510L
+				}
+			]
+		},
+		{
+			title: "Conduit-Powered Diving Gear",
+			x: -7.5d,
+			y: -5.0d,
+			description: [
+				"Conduit powered diving gear is the strongest gear you can make for underwater tasks.",
+				"",
+				"A complete set will give you conduit power without the need for building a conduit in your vicinity."
+			],
+			dependencies: [
+				"224ACD5FF9A763A0",
+				"6F0A91CF5E5CF86D"
+			],
+			hide: true,
+			id: "6936DFB055F95482",
+			tasks: [
+				{
+					id: "5498160F044744A4",
+					type: "item",
+					item: {
+						id: "rankine:conduit_diving_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "321AC97B1DF247DA",
+					type: "item",
+					item: {
+						id: "rankine:conduit_diving_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1F7F5B5012672EBB",
+					type: "item",
+					item: {
+						id: "rankine:conduit_diving_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6A4D8CFF86434EB1",
+					type: "item",
+					item: {
+						id: "rankine:conduit_diving_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "175441243935E0EE",
+					type: "choice",
+					table_id: 7979914944443785454L
+				},
+				{
+					id: "578EA0A9931FA101",
+					type: "choice",
+					table_id: 4636878992177516600L
+				},
+				{
+					id: "4713C3D88F891D2E",
+					type: "choice",
+					table_id: 6743005666645373467L
+				},
+				{
+					id: "50DDF580CA0897B5",
+					type: "choice",
+					table_id: 205622642126812510L
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -8.5d,
+			description: [
+				"Can I just pretend he's not here?",
+				"",
+				"well, i mean...you could....but you can't go home until she's dead...or you are."
+			],
+			dependencies: ["67C2E5EDB2C1B1A2"],
+			hide: true,
+			id: "604F5DFBB547C9B6",
+			tasks: [{
+				id: "730920AE2AA5A18B",
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: "1822BC9819F92AEB",
+					type: "item",
+					item: {
+						id: "minecraft:elytra",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "038F614E0F29245B",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "minecraft:mending"
+							}]
+						}
+					}
+				},
+				{
+					id: "2BF4675B76E8E311",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Goooooold....and more!",
+			x: -3.5d,
+			y: -6.5d,
+			description: [
+				"Make a black gold pan, and go panning for goodies.",
+				"",
+				"Find some Alluvium or Black Sand.  Right click on it with the Pan in your hands, to see if it contains any goodies."
+			],
+			dependencies: ["67E7C3E3FF8B7CBD"],
+			hide: true,
+			id: "3B64CEE19DC78F41",
+			tasks: [{
+				id: "17BD85C965D8CFCE",
+				type: "item",
+				item: {
+					id: "rankine:steel_gold_pan",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "46554A155C8FAFC3",
+					type: "item",
+					item: "rankine:alluvium",
+					count: 4
+				},
+				{
+					id: "01F7980EE67BE39E",
+					type: "item",
+					item: "rankine:black_sand",
+					count: 4
+				}
+			]
+		},
+		{
+			title: "Shinies",
+			x: -1.5d,
+			y: -6.5d,
+			description: ["Gems have various uses.  Plus....they're purty."],
+			dependencies: ["3B64CEE19DC78F41"],
+			hide: true,
+			id: "5D71219833174D7B",
+			tasks: [
+				{
+					id: "322CDC25CDEFFFCA",
+					type: "item",
+					item: "rankine:ruby"
+				},
+				{
+					id: "3EC63AB2A3BE56EA",
+					type: "item",
+					item: "rankine:sapphire"
+				},
+				{
+					id: "757BED83886F58FE",
+					type: "item",
+					item: "rankine:peridot"
+				},
+				{
+					id: "702FD0B4E2A69716",
+					type: "item",
+					item: "rankine:topaz"
+				}
+			],
+			rewards: [{
+				id: "3CCEC3551C407C6E",
+				type: "item",
+				item: "minecraft:golden_apple",
+				count: 3
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -8.0d,
+			description: ["Monazite is a rare phosphate material that is a source of several rare-earth minerals."],
+			dependencies: ["3B64CEE19DC78F41"],
+			hide: true,
+			id: "00F6F060935BFF76",
+			tasks: [
+				{
+					id: "2AEC8D213C99615F",
+					type: "item",
+					item: "rankine:cerium_monazite"
+				},
+				{
+					id: "40175F3241915D9D",
+					type: "item",
+					item: "rankine:samarium_monazite"
+				},
+				{
+					id: "2E135EC4EDDEE4B7",
+					type: "item",
+					item: "rankine:lanthanum_monazite"
+				},
+				{
+					id: "708DEFA725B9D178",
+					type: "item",
+					item: "rankine:neodymium_monazite"
+				}
+			],
+			rewards: [{
+				id: "0340484392FA5472",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 3
+			}]
+		},
+		{
+			title: "Self-Sustenance",
+			x: -12.5d,
+			y: -5.0d,
+			shape: "hexagon",
+			subtitle: "Till the fields",
+			description: ["Make a flint hoe to open up a whole new world (and chapter)."],
+			dependencies: ["7A9DF137C15C7737"],
+			hide: true,
+			size: 1.25d,
+			id: "152C78A8A742A167",
+			tasks: [{
+				id: "32A6448BD57D161D",
+				type: "item",
+				item: {
+					id: "rankine:flint_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "42C68A57CB73F7F9",
+					type: "item",
+					item: "minecraft:apple"
+				},
+				{
+					id: "6FD977042DFAA1A3",
+					type: "item",
+					item: "farmersdelight:fried_egg"
+				}
+			]
+		},
+		{
+			title: "Now that's a rope!",
+			x: -13.0d,
+			y: -6.5d,
+			description: [
+				"A more efficient use of your straw.  Get 3 ropes instead of 1.",
+				"",
+				"Wonder if it has any other uses, besides making tools?  hmmmm"
+			],
+			dependencies: ["2F04D415C7824C99"],
+			hide: true,
+			id: "7A9DF137C15C7737",
+			tasks: [{
+				id: "5B517180C8587A91",
+				type: "item",
+				item: "farmersdelight:rope"
+			}],
+			rewards: [{
+				id: "28A0873204C9758B",
+				type: "item",
+				item: "minecraft:torch",
+				count: 4
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -3.5d,
+			description: ["Construct a High-Refractory Beehive Oven.  This will back your blocks twice as fast as a basic beehive oven."],
+			dependencies: ["6654DB4A39C0B122"],
+			hide: true,
+			id: "34D9178553377238",
+			tasks: [
+				{
+					id: "2AB84E5A20F588A7",
+					type: "item",
+					item: "rankine:high_beehive_oven_pit"
+				},
+				{
+					id: "6CF114F8EDE735B5",
+					type: "item",
+					item: "rankine:high_refractory_bricks",
+					count: 8L
+				}
+			],
+			rewards: [{
+				id: "4D44EF3D9566FA2A",
+				type: "item",
+				item: "minecraft:slime_ball",
+				count: 16
+			}]
+		},
+		{
+			title: "Ultra-High Refractory Beehive Oven",
+			x: -11.5d,
+			y: -3.5d,
+			description: ["It MUST be the best.  It has ULTRA in it's name...right?"],
+			dependencies: ["34D9178553377238"],
+			hide: true,
+			id: "2F993B90F6FD9143",
+			tasks: [
+				{
+					id: "1F71BBA207235DC9",
+					type: "item",
+					item: "rankine:ultra_high_beehive_oven_pit"
+				},
+				{
+					id: "4AA338D84F38FBCE",
+					type: "item",
+					item: "rankine:ultra_high_refractory_bricks",
+					count: 8L
+				}
+			],
+			rewards: [{
+				id: "7354612A0D611BBF",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -3.5d,
+			description: [
+				"Construct a complete bee-hive oven, to greatly increase your processing speed.",
+				"",
+				"Consult the Rankine Journal for assembly instructions."
+			],
+			dependencies: ["7728A3282DB4D296"],
+			hide: true,
+			id: "6654DB4A39C0B122",
+			tasks: [{
+				id: "69EADDCF1F88B5F8",
+				type: "item",
+				item: "rankine:refractory_bricks",
+				count: 40L
+			}],
+			rewards: [{
+				id: "3FCC2E344E92AAA2",
+				type: "item",
+				item: "rankine:dry_mortar",
+				count: 16
+			}]
+		},
+		{
+			title: "This is some weird coal...",
+			x: -10.5d,
+			y: -12.0d,
+			description: [
+				"Not quite dirt, not quite coal.  Somewhere in between.  Find some lignite, as this will be your first naturally generated fuel source.  ",
+				"",
+				"Lignite can be found in rock formations above ground, or in caves underground."
+			],
+			dependencies: ["6A392404FCFB290A"],
+			hide: true,
+			id: "69BC193F3A29E82C",
+			tasks: [{
+				id: "789D15EB4ED286F2",
+				type: "item",
+				item: "rankine:lignite"
+			}],
+			rewards: [{
+				id: "4490DEB168A49CD4",
+				type: "item",
+				item: "minecraft:beef",
+				count: 6
+			}]
+		},
+		{
+			title: "Take a little off the sides",
+			x: -16.5d,
+			y: -9.5d,
+			description: ["Craft your first pair of shears.  They are not as durable as iron shears, but they will get you by until you get more advanced materials"],
+			dependencies: ["02C34862485FD09F"],
+			id: "07DE8B900862D4AC",
+			tasks: [{
+				id: "7C8198E00B68D2F6",
+				type: "item",
+				item: {
+					id: "ceramicshears:ceramic_shears",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "1D7BA817FEF91862",
+				type: "item",
+				item: "minecraft:ladder",
+				count: 4
+			}]
+		},
+		{
+			title: "Buckets!",
+			x: -14.5d,
+			y: -5.0d,
+			description: ["Craft a bucket out of wood and string.  Be warned, wooden buckets don't do well with hot liquids, and will not last as long as metal buckets later in the game."],
+			dependencies: ["7A9DF137C15C7737"],
+			hide: true,
+			id: "6F20AD2255E435A9",
+			tasks: [{
+				id: "38F35F1017090F8F",
+				type: "item",
+				item: {
+					id: "woodenbuckets:wooden_bucket",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "64BF983D9D9872E8",
+				type: "item",
+				item: "minecraft:flower_pot"
+			}]
+		},
+		{
+			title: "What Season is it?",
+			x: -16.0d,
+			y: -5.0d,
+			description: ["Make a calendar so you can see what season it is.  Beware, crops will break if you let the grown in the wrong seasons."],
+			dependencies: ["6F20AD2255E435A9"],
+			hide: true,
+			id: "446C45F19F6DDB93",
+			tasks: [{
+				id: "11944303378F43BD",
+				type: "item",
+				item: "sereneseasons:calendar"
+			}],
+			rewards: [{
+				id: "4EC1687FB88C1553",
+				type: "item",
+				item: "minecraft:item_frame"
+			}]
+		},
+		{
+			title: "Botany",
+			x: -11.0d,
+			y: -6.5d,
+			description: ["Make a Botanist Station.  This will allow you to have a new type of villager to trade with."],
+			dependencies: ["2F04D415C7824C99"],
+			hide: true,
+			id: "4808FE1A73294997",
+			tasks: [{
+				id: "490BF4BD66BB01A5",
+				type: "item",
+				item: "rankine:botanist_station"
+			}],
+			rewards: [{
+				id: "41CED79252988E6C",
+				type: "item",
+				item: {
+					id: "minecraft:splash_potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+			}]
+		},
+		{
+			title: "Gemcutter",
+			x: -11.0d,
+			y: -5.0d,
+			description: ["He sounds important.  Wonder what he trades?"],
+			dependencies: ["4808FE1A73294997"],
+			hide: true,
+			id: "22C98C44C8702933",
+			tasks: [{
+				id: "00E794F0EFAF2893",
+				type: "item",
+				item: "rankine:diamond_anvil_cell"
+			}],
+			rewards: [
+				{
+					id: "4B99D317B7878AAC",
+					type: "item",
+					item: {
+						id: "createaddition:diamond_grit_sandpaper",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3E0A63152B21504E",
+					type: "item",
+					item: "additional_lights:standing_torch_l_diamond_block",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Shmash Da Stones into srabs",
+			x: -9.5d,
+			y: -13.5d,
+			description: [
+				"Similar to slabs, you need your hammer to make slabs and vertical walls.",
+				"",
+				"Similar to planks, this can be automated later."
+			],
+			dependencies: ["2E2E215C3B76E63D"],
+			hide: true,
+			id: "4E8EAC45629B7F71",
+			tasks: [
+				{
+					id: "6F857FF8C9A5E2A2",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:stone_slabs"
+						}
+					}
+				},
+				{
+					id: "6E9BDA1F8B3C9880",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:stone_vertical_slabs"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "3F67C19BDD18F9E8",
+				type: "choice",
+				table_id: 2442676779618173834L
+			}]
+		},
+		{
+			title: "Choppa da Planks",
+			x: -11.0d,
+			y: -9.5d,
+			shape: "circle",
+			description: [
+				"You think slabs and vertical walls are made from thin air?  Think again...",
+				"",
+				"Put your axe and a plank in a crafting grid.  Depending on where you put them, your output will change. ",
+				"",
+				"This can be automated in the future."
+			],
+			dependencies: ["79E66CF611667DE9"],
+			hide: true,
+			id: "6D377826CBD789C9",
+			tasks: [
+				{
+					id: "04ABD7525BA3EDC5",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "minecraft:wooden_slabs"
+						}
+					}
+				},
+				{
+					id: "6186F9FF93A9FA1A",
+					type: "item",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:wooden_vertical_slabs"
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "0A64235C5BA3791D",
+				type: "choice",
+				table_id: 2442676779618173834L
+			}]
+		},
+		{
+			title: "Gas Vacuum?",
+			x: 4.5d,
+			y: -7.0d,
+			description: ["Make a Shulker Gas Vacuum to collect the gaseous elements of the world, to complete your Periodic Table."],
+			dependencies: ["604F5DFBB547C9B6"],
+			id: "027B20763E72BE44",
+			tasks: [{
+				id: "5138B1C71873A723",
+				type: "item",
+				item: "rankine:shulker_gas_vacuum"
+			}],
+			rewards: [
+				{
+					id: "14EFE10247D927EB",
+					type: "item",
+					item: "minecraft:shulker_shell",
+					count: 2
+				},
+				{
+					id: "2BAF53B01DC146B7",
+					type: "choice",
+					table_id: 8557701400500913244L
+				}
+			]
+		},
+		{
+			title: "Diving Gear",
+			x: -7.5d,
+			y: -6.5d,
+			description: [
+				"Diving Gear will increase your lung capacity, allowing you to hold your breath longer while you are underwater.",
+				"",
+				"And, it's shiny"
+			],
+			dependencies: ["67E7C3E3FF8B7CBD"],
+			hide: true,
+			id: "6F0A91CF5E5CF86D",
+			tasks: [
+				{
+					id: "26FB75DCDDC609A5",
+					type: "item",
+					item: {
+						id: "rankine:diving_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "13C5AEF8CA7C1296",
+					type: "item",
+					item: {
+						id: "rankine:diving_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5B4B97E00E78CD53",
+					type: "item",
+					item: {
+						id: "rankine:diving_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6A622317041565CA",
+					type: "item",
+					item: {
+						id: "rankine:diving_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "6A8623BC69E054BC",
+					type: "item",
+					item: "minecraft:nautilus_shell"
+				},
+				{
+					id: "3BDF551949835E06",
+					type: "item",
+					item: "rankine:brass_block"
+				}
+			]
+		},
+		{
+			title: "Pane in the Glass",
+			x: -6.5d,
+			y: -9.5d,
+			description: [
+				'If you put your glass panes in a crafting grid, they will turn into panes from "Pane in the Glass\' mod.',
+				"",
+				"These panes can be placed on edges of blocks, in multiple sides.  You can adjust them, or pick them up, with the glazing tool.",
+				"",
+				"Be careful though, and wrong click with the glazing tool will still break the pane."
+			],
+			dependencies: [
+				"2614E881213402B8",
+				"67E7C3E3FF8B7CBD"
+			],
+			hide: true,
+			id: "554194A7F1E30896",
+			tasks: [{
+				id: "34FAB4DEF8AE5584",
+				type: "item",
+				item: "pitg:glazing_tool"
+			}],
+			rewards: [{
+				id: "2E0F1A8B2D5F8969",
+				type: "item",
+				item: "minecraft:glass_pane",
+				count: 16
+			}]
+		},
+		{
+			title: "What a Pane",
+			x: -8.0d,
+			y: -9.5d,
+			description: [
+				"Make some glass and glass panes.",
+				"",
+				"There are a couple of glass mods in the pack.",
+				"",
+				"Windowlogging lets your place glass panes in slabs and stairs.",
+				"",
+				"Pane in the Glass lets you place glass panes on the edges of blcoks, as opposed to always in the center. ",
+				"",
+				"As of the writing of this book, these mods don't play nicely together.  So, you can do one or the other, but not both.",
+				"",
+				"Horizontal Panes lets you create windows in the horizontal plane, however Serene Seasons does not consider this a greenhouse, unfortunately."
+			],
+			dependencies: ["1370A8F8CE39D68D"],
+			hide: true,
+			id: "2614E881213402B8",
+			tasks: [
+				{
+					id: "4E917FFA9D48114E",
+					type: "item",
+					item: "minecraft:glass"
+				},
+				{
+					id: "230A57DE013DF6B2",
+					type: "item",
+					item: "minecraft:glass_pane"
+				}
+			],
+			rewards: [{
+				id: "42098F3A402F4271",
+				type: "item",
+				item: "rankine:lignite",
+				count: 3
+			}]
+		},
+		{
+			title: "Polish Those Stones",
+			x: -8.0d,
+			y: -11.0d,
+			description: [
+				"Sand Paper?  Yep.  Stones don't polish themselves anymore.  Put a stone in one hand, and a piece of sand paper in the other, and right click.",
+				"",
+				"You will be able to automate this process later...  I think."
+			],
+			dependencies: ["2D778F113BCECC63"],
+			hide: true,
+			id: "108B3E7BC81897CB",
+			tasks: [{
+				id: "4F778B3FD0DAEFE2",
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:polished_stone"
+					}
+				}
+			}],
+			rewards: [{
+				id: "1AD2681195A5D5BB",
+				type: "item",
+				item: {
+					id: "create:red_sand_paper",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				count: 2
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -5.0d,
+			description: ["Panning is one basic way to gather small quantities of radioactive materials. "],
+			dependencies: ["3B64CEE19DC78F41"],
+			hide: true,
+			id: "45F6158543232807",
+			tasks: [
+				{
+					id: "71A9A04542D30DAA",
+					type: "item",
+					item: "rankine:thorium_nugget"
+				},
+				{
+					id: "46A4E0BCE1401321",
+					type: "item",
+					item: "rankine:ruthenium_nugget"
+				},
+				{
+					id: "07A8D7CF46798F93",
+					type: "item",
+					item: "rankine:iridium_nugget"
+				},
+				{
+					id: "29F1173C19895DC7",
+					type: "item",
+					item: "rankine:osmium_nugget"
+				},
+				{
+					id: "509107CFF5F176E7",
+					type: "item",
+					item: "rankine:rhodium_nugget"
+				},
+				{
+					id: "2EEF5E776CBB08E6",
+					type: "item",
+					item: "rankine:uranium_nugget"
+				}
+			],
+			rewards: [{
+				id: "002AD2203BCB1275",
+				type: "item",
+				item: "minecraft:glistering_melon_slice",
+				count: 3
+			}]
+		},
+		{
+			title: "Goooold!!",
+			x: -3.5d,
+			y: -9.5d,
+			description: ["Gather Some Gold Blocks.  You will need at least one, but potentially up to 3, for your future travels."],
+			dependencies: [
+				"67E7C3E3FF8B7CBD",
+				"3B64CEE19DC78F41"
+			],
+			hide: true,
+			id: "476BF95621162ACF",
+			tasks: [{
+				id: "5439CAE3ACA751B6",
+				type: "item",
+				item: "minecraft:gold_block",
+				count: 3L
+			}],
+			rewards: [{
+				id: "75314753944F8014",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -9.5d,
+			subtitle: "Yung's Portals",
+			description: [
+				"Deep underground you will find a pool of dark liquid, surrounded by strange blocks.  They just dont fit in with the surroundings.",
+				"",
+				"Be warned:  When you jump in, you will be teleported to a dark, scary nether world.",
+				"",
+				"Returning won't be that simple.  Look for a beam of light shooting to the sky, far off in the distance.",
+				"",
+				"When you find it, you will notice some missing items around the perimeter.  What could be missing?  Perhaps something that you just collected would fit nicely.",
+				"",
+				"One last warning:  If you manage to return, you will be teleported deep underground in another area.  Make sure you have sufficient food, materials, and tools to dig yourself out of the hole you are in."
+			],
+			dependencies: ["476BF95621162ACF"],
+			hide: true,
+			id: "37537B4A729FAAFF",
+			tasks: [{
+				id: "2FAE87AA3F7568FD",
+				type: "dimension",
+				dimension: "minecraft:nether"
+			}],
+			rewards: [{
+				id: "32BD514E5FBBD39F",
+				type: "item",
+				item: {
+					id: "minecraft:golden_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Sheet Metal",
+			x: -3.5d,
+			y: -11.0d,
+			shape: "circle",
+			description: ["Craft some basic sheet metal blocks using your automated machines.  You DO have automated machines, don't you?"],
+			dependencies: ["476BF95621162ACF"],
+			hide: true,
+			id: "0200E151DBDC1C08",
+			tasks: [{
+				id: "658FDBF3DAB1AF91",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:aluminum_sheetmetal",
+								Count: 1b
+							},
+							{
+								id: "rankine:copper_sheetmetal",
+								Count: 1b
+							},
+							{
+								id: "rankine:cupronickel_sheetmetal",
+								Count: 1b
+							},
+							{
+								id: "rankine:steel_sheetmetal",
+								Count: 1b
+							},
+							{
+								id: "rankine:stainless_steel_sheetmetal",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "4D4A1277642708CD",
+				type: "item",
+				item: "create:honeyed_apple",
+				count: 3
+			}]
+		},
+		{
+			title: "Battery Powah!",
+			x: -1.5d,
+			y: -14.5d,
+			description: [
+				"Power Cells are the first non-renewable power source in the pack.  They are used to power the more powerful machines in Rankine.",
+				"",
+				"There are 6 Tiers of Power Cells.  Each tier utilizes different metals, and expands the use of the machine you put them in to.",
+				"",
+				"Refer to the Rankine Guide for more information."
+			],
+			dependencies: ["2255E51F93E76122"],
+			id: "08DB2867475E1F94",
+			tasks: [{
+				id: "41E988DF6708A2C6",
+				type: "item",
+				item: "rankine:power_cell"
+			}],
+			rewards: [
+				{
+					id: "29714F5E81FF54A3",
+					type: "item",
+					item: "minecraft:redstone_block"
+				},
+				{
+					id: "1E6E6E7C2BD7D69F",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "rankine:antiquated"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Piston Crusher",
+			x: -3.5d,
+			y: -14.5d,
+			description: [
+				"The piston crusher is a way to gather materials from the various rocks in the world.  The crusher can crush any rock found in the world, but will only output the first 3 items listed in JEI.",
+				"",
+				"You will need more tech to get more benefits from the vast varieties of rocks you gather.",
+				"",
+				"For more information on crushing, see the Rankine Guide Book."
+			],
+			dependencies: ["0200E151DBDC1C08"],
+			hide: false,
+			id: "2255E51F93E76122",
+			tasks: [{
+				id: "32E1EB7B90D3F108",
+				type: "item",
+				item: "rankine:piston_crusher"
+			}],
+			rewards: [{
+				id: "101130CE6AA56E14",
+				type: "item",
+				item: "rankine:magnetite_ore",
+				count: 8
+			}]
+		},
+		{
+			title: "Heavy Duty Crushing",
+			x: 0.5d,
+			y: -14.5d,
+			description: [
+				"The Gyratory Crusher is the most power, most configurable rock crusher in the game.  It will acceppt power cells as it's power source. ",
+				"",
+				"The higher level power cell you put in the crusher, the more materials you will get out.",
+				"",
+				"If you are looking for a specific output, pay attention to the BONUS percentage of that material, and power your crusher with the appropriate cell.",
+				"",
+				"See the Rankine Guide for further explanation."
+			],
+			dependencies: ["08DB2867475E1F94"],
+			id: "286A0A61EE20DA93",
+			tasks: [{
+				id: "544EA2AB2C6381FA",
+				type: "item",
+				item: "rankine:gyratory_crusher"
+			}],
+			rewards: [{
+				id: "12CB55CF5EB9A185",
+				type: "item",
+				item: "rankine:kimberlite",
+				count: 8
+			}]
+		},
+		{
+			title: '"Lay...zers"....',
+			x: 0.5d,
+			y: -16.0d,
+			description: [
+				"A Laser Quarry is a machine that will drill down to bedrock, clearing out all non-valuable blocks, leaving behind only the goodies for you to gather.",
+				"",
+				"The Rankine Guide has building instructions for the Laser Quarry."
+			],
+			dependencies: ["63FF3AF9B08D75F2"],
+			id: "21A759968AB73C9C",
+			tasks: [
+				{
+					id: "35BA18FD2749216A",
+					type: "item",
+					item: "rankine:laser_quarry"
+				},
+				{
+					id: "74D9C54B6F4307B1",
+					type: "item",
+					item: "rankine:laser_pylon_base",
+					count: 4L
+				},
+				{
+					id: "1528166A79355188",
+					type: "item",
+					item: "rankine:laser_pylon_top",
+					count: 4L
+				},
+				{
+					id: "76AFB9D246AFE2E7",
+					type: "item",
+					item: "rankine:stainless_steel_sheetmetal",
+					count: 12L
+				}
+			],
+			rewards: [
+				{
+					id: "0AA8253187FCB517",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: "27664B014122C0A5",
+					type: "item",
+					item: "minecraft:totem_of_undying"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: -14.5d,
+			dependencies: ["2255E51F93E76122"],
+			id: "044924D8DBC7A061",
+			tasks: [{
+				id: "3F9D757752F61D5E",
+				type: "item",
+				item: "rankine:power_cell_3"
+			}],
+			rewards: [
+				{
+					id: "163443C931946D9B",
+					type: "item",
+					item: "rankine:lithium_block"
+				},
+				{
+					id: "6E45B58B1AAE1FE6",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "rankine:foraging"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -17.0d,
+			dependencies: ["2255E51F93E76122"],
+			id: "0E2FB6EE99C014BA",
+			tasks: [{
+				id: "6F400AEF0B9FC9E2",
+				type: "item",
+				item: "rankine:power_cell_5"
+			}],
+			rewards: [
+				{
+					id: "2C57659DC81A8C27",
+					type: "item",
+					item: "rankine:carbon_block"
+				},
+				{
+					id: "3AAA86AE10D9E30F",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s,
+								id: "rankine:excavate"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -16.0d,
+			dependencies: ["2255E51F93E76122"],
+			id: "63FF3AF9B08D75F2",
+			tasks: [{
+				id: "00BEC5A57C0DAB29",
+				type: "item",
+				item: "rankine:power_cell_6"
+			}],
+			rewards: [{
+				id: "5FA1BBFEEE4408DA",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:mending"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -13.0d,
+			dependencies: ["2255E51F93E76122"],
+			id: "5C851D0D3728EC17",
+			tasks: [{
+				id: "563016D0DD9B73EE",
+				type: "item",
+				item: "rankine:power_cell_2"
+			}],
+			rewards: [
+				{
+					id: "6C68A8281526567C",
+					type: "item",
+					item: "rankine:zinc_block"
+				},
+				{
+					id: "7CEAE2668AB79C40",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "rankine:atomize"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -16.0d,
+			dependencies: ["2255E51F93E76122"],
+			id: "2A378BCFCC09A07D",
+			tasks: [{
+				id: "2A154B13501577B1",
+				type: "item",
+				item: "rankine:power_cell_4"
+			}],
+			rewards: [
+				{
+					id: "7E3CE036DEF02DF6",
+					type: "item",
+					item: "rankine:nickel_block"
+				},
+				{
+					id: "10ABF31763321668",
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "rankine:swing"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Pendants",
+			x: 0.5d,
+			y: -6.5d,
+			description: ['Pendants are artifical, temporary "enchantments" of sorts, that have verious perks when held in the offhand.  Craft one for now, but experiment with the others as well.'],
+			dependencies: ["5D71219833174D7B"],
+			id: "5202A2CB3B44E56D",
+			tasks: [{
+				id: "7EECE45036B35261",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:haste_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							},
+							{
+								id: "rankine:luck_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							},
+							{
+								id: "rankine:health_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							},
+							{
+								id: "rankine:speed_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							},
+							{
+								id: "rankine:levitation_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							},
+							{
+								id: "rankine:repulsion_pendant",
+								Count: 1b,
+								tag: {
+									Enchantments: [{
+										lvl: 1s,
+										id: "minecraft:vanishing_curse"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "6DDA28F9D396DDE8",
+					type: "item",
+					item: "minecraft:gold_block"
+				},
+				{
+					id: "0B52692A0C1955DF",
+					type: "choice",
+					table_id: 3092015935998992318L
+				}
+			]
+		},
+		{
+			title: "Wither Skelly",
+			x: 0.5d,
+			y: -10.5d,
+			description: [
+				"Find yourself a nether fortress and kill skellies until you get 2 heads.",
+				"",
+				"Farming those guys is a real chore.  Manage to get 2 heads, and the third one is on the house."
+			],
+			dependencies: ["37537B4A729FAAFF"],
+			id: "1CB3E685F6FE86E0",
+			tasks: [{
+				id: "0678DE88B8B2887C",
+				type: "item",
+				item: "minecraft:wither_skeleton_skull",
+				count: 2L
+			}],
+			rewards: [{
+				id: "368C3B937BB270CD",
+				type: "item",
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -10.5d,
+			description: [
+				"Do Eet!",
+				"",
+				"Afterall, beacons are fun."
+			],
+			dependencies: ["1CB3E685F6FE86E0"],
+			id: "702F82A7A734AE8F",
+			tasks: [{
+				id: "3F456845667C766F",
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 1L
+			}],
+			rewards: [{
+				id: "514EB48EB97E8AF4",
+				type: "item",
+				item: "minecraft:ancient_debris"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -8.5d,
+			subtitle: "Yung's Better Stronghold",
+			description: [
+				"Follow an Eye of Ender until you find a Stronghold.",
+				"",
+				"Deep underground, you will find an ancient fortress that contains a broken portal to...somewhere.",
+				"",
+				"Be warned, this fortress is much more expansive than stories of old."
+			],
+			dependencies: ["37537B4A729FAAFF"],
+			id: "0BFC56393FDB8C92",
+			tasks: [{
+				id: "41A0E601F57578E1",
+				type: "advancement",
+				title: "Find the Stronghold",
+				icon: "minecraft:end_portal_frame",
+				advancement: "minecraft:story/follow_ender_eye",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "4C30AEE98D19989E",
+					type: "item",
+					item: "minecraft:ender_eye"
+				},
+				{
+					id: "3421585A7B1AC678",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Is this the end?",
+			x: 2.5d,
+			y: -8.5d,
+			description: [
+				"What is the horrible roar?!?!  ",
+				"",
+				"...mommy..."
+			],
+			dependencies: ["0BFC56393FDB8C92"],
+			id: "67C2E5EDB2C1B1A2",
+			tasks: [{
+				id: "67E15388E9AEC89C",
+				type: "dimension",
+				dimension: "minecraft:end"
+			}],
+			rewards: [
+				{
+					id: "0496DF22588566D7",
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+				},
+				{
+					id: "20D52EE871DEFC81",
+					type: "item",
+					item: "minecraft:ender_pearl",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Latex",
+			x: 0.5d,
+			y: -12.5d,
+			description: ["Tap a Sharinga tree to obtain latex."],
+			dependencies: ["161719D81A364A20"],
+			id: "510464ABF33E06F9",
+			tasks: [{
+				id: "0610458A577600E7",
+				type: "item",
+				item: "rankine:latex_bucket"
+			}],
+			rewards: [{
+				id: "5FE9BE24BDF1963F",
+				type: "item",
+				item: "rankine:resin_bucket"
+			}]
+		},
+		{
+			title: "Rubber",
+			x: 2.5d,
+			y: -12.5d,
+			description: [
+				"Take your latex, place it in a Evaporation tower, and wait for dry rubber to be produced.  ",
+				"",
+				"Then, place your dry rubber, and other necessary ingredients in a sufficiently heated mixer, to product Vulcanized rubber"
+			],
+			dependencies: ["510464ABF33E06F9"],
+			id: "6D6F74ADBB441D2E",
+			tasks: [
+				{
+					id: "3F2D27039500F55C",
+					type: "item",
+					item: "rankine:dry_rubber"
+				},
+				{
+					id: "3E7CC0D29C0BAD82",
+					type: "item",
+					item: "rankine:vulcanized_rubber"
+				}
+			],
+			rewards: [{
+				id: "6F0967AE54C18A6D",
+				type: "item",
+				item: "rankine:bandage",
+				count: 6
+			}]
+		},
+		{
+			title: "Tree Tappin'",
+			x: -1.5d,
+			y: -12.5d,
+			description: [
+				"Craft the equipment needed to discover the benefits from within the trees.",
+				"",
+				"See the Rankine guide for specifics on tree tapping."
+			],
+			dependencies: ["087D87F4BCC74C5E"],
+			id: "161719D81A364A20",
+			tasks: [
+				{
+					id: "5E9020400D237113",
+					type: "item",
+					item: "rankine:tree_tap"
+				},
+				{
+					id: "3B7FBC481388853D",
+					type: "item",
+					item: "rankine:tap_barrel"
+				},
+				{
+					id: "6D421C7F83BEDDE8",
+					type: "item",
+					item: "rankine:tap_line"
+				}
+			],
+			rewards: [{
+				id: "6595363875572FD6",
+				type: "item",
+				item: "rankine:tap_line",
+				count: 8
+			}]
+		},
+		{
+			title: "Wooly Animals!",
+			x: -14.5d,
+			y: -6.5d,
+			subtitle: "Genetics!",
+			description: [
+				"Genetic Animals Mod is in this pack.  In Genetic Animals, breeding is...different...than vanilla.",
+				"",
+				"To breed animals, you have to find a Male and Female of the species you want to breed.  When you breed them, a baby won't just pop out miraculously.  The female will become pregnant, and will give birth after a set time.",
+				"",
+				"Animals have different looks, different traits, and will produce different things.  Not all sheep are wooly.  If you want wool, you have to find certain sheep (or llamas or even rabbits) that produce wool.  ",
+				"",
+				"Additionally, other animals have traits that will increase their drops, be it leather, food, feathers, etc.  Shift+Right click on the animal to bring up a GUI of that animal, to see more information."
+			],
+			dependencies: ["2F04D415C7824C99"],
+			hide: true,
+			id: "2F90BB49599C5721",
+			tasks: [{
+				id: "73B4606554BBA5A7",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:white_wool",
+								Count: 1b
+							},
+							{
+								id: "minecraft:brown_wool",
+								Count: 1b
+							},
+							{
+								id: "minecraft:black_wool",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "2DE30A6C43E8F11D",
+				type: "item",
+				item: "minecraft:white_wool",
+				count: 3
+			}]
+		}
+	]
+}

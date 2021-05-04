@@ -1,0 +1,74 @@
+{
+	id: "61FE1CE01630BC03",
+	order_index: 1,
+	title: "Terracotta",
+	icon: "minecraft:terracotta",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "minecraft:white_terracotta",
+			icon: "minecraft:terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:orange_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:magenta_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:light_blue_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:yellow_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:lime_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:pink_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:gray_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:light_gray_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:cyan_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:purple_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:blue_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:brown_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:green_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:red_terracotta",
+			count: 4
+		},
+		{
+			item: "minecraft:black_terracotta",
+			count: 4
+		}
+	]
+}

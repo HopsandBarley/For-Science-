@@ -1,0 +1,1374 @@
+{
+	id: "4D7BE13D90EF5082",
+	group: "",
+	order_index: 4,
+	filename: "metallurgy_101",
+	title: "Metallurgy 101",
+	icon: {
+		id: "rankine:bronze_alloy",
+		Count: 1b,
+		tag: {
+			StoredComposition: [{
+				comp: "80Cu-20Sn"
+			}]
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Metallurgy 101",
+			x: -8.0d,
+			y: -4.0d,
+			shape: "square",
+			subtitle: "This is where the fun stops...",
+			description: ["Alloying is where your options really open up, and the pack takes off.  Make an alloy furnace using products from your past, and begin experimenting to see what your future holds."],
+			dependencies: ["1B4E905DCD7CE3B4"],
+			hide: true,
+			size: 1.25d,
+			id: "23564142A48D273C",
+			tasks: [{
+				id: "06CA028BE0493C90",
+				type: "item",
+				item: "rankine:alloy_furnace"
+			}]
+		},
+		{
+			title: "Mixin Metals",
+			x: -8.0d,
+			y: -2.5d,
+			description: [
+				"Make some simple pewter alloy in your brand new alloy furnace.",
+				"",
+				"You will need to make 90Sn-10Sb (90 Tin-10 Antimony) alloy to complete the quest.",
+				"",
+				"When you insert your metals into the alloy furnace, the alloy furnace GUI will tell you the alloy you are going to get out.",
+				"When the numbers are green, it's a valid alloy.  You can, and SHOULD, adjust using nuggets, to get the exact output."
+			],
+			dependencies: ["23564142A48D273C"],
+			hide: true,
+			id: "02B957B1E0B8196F",
+			tasks: [{
+				id: "2975458CF203D343",
+				type: "item",
+				title: "90Sn-10Sb",
+				item: {
+					id: "rankine:pewter_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "90Sn-8Bi-2Sb"
+						}]
+					}
+				},
+				count: 3L
+			}],
+			rewards: [{
+				id: "4EE3FBAA853D94D6",
+				type: "item",
+				item: "rankine:tin_ingot",
+				count: 2
+			}]
+		},
+		{
+			title: "Pewter Alloys",
+			x: -6.0d,
+			y: -2.5d,
+			description: [
+				"Different compositions of the same alloy will yield surprisingly different results.  It's amazing how 5-10% change in an ingot will change the effectiveness of the tool you make from it.",
+				"",
+				"Craft the three alloys listed in the quest book, then make a pickaxe out of each, and investigate the differences in each pickaxe. ",
+				"",
+				"You will be able to see the stats of specific alloys easier in the future, but the purpose of this quest was the expose you to the process, and the effects."
+			],
+			dependencies: ["02B957B1E0B8196F"],
+			hide: true,
+			id: "3C42A6CD8B3A02BF",
+			tasks: [
+				{
+					id: "7E9DBE312CE810B0",
+					type: "item",
+					title: "89Sn-7Ag-4Sb",
+					icon: {
+						id: "rankine:pewter_alloy",
+						Count: 1b,
+						tag: {
+							StoredComposition: [{
+								comp: "88Sn-10Ag-2Sb"
+							}]
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								StoredComposition: [{
+									comp: "89Sn-7Ag-4Sb"
+								}]
+							}
+						}
+					},
+					count: 3L
+				},
+				{
+					id: "40D942A5B27B76F8",
+					type: "item",
+					title: "89Sn-7Cu-4Sb",
+					icon: {
+						id: "rankine:pewter_alloy",
+						Count: 1b,
+						tag: {
+							StoredComposition: [{
+								comp: "88Sn-10Cu-2Sb"
+							}]
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								StoredComposition: [{
+									comp: "89Sn-7Cu-4Sb"
+								}]
+							}
+						}
+					},
+					count: 3L
+				},
+				{
+					id: "0E964081D2E39C8D",
+					type: "item",
+					title: "89Sn-7Bi-4Sb",
+					icon: {
+						id: "rankine:pewter_alloy",
+						Count: 1b,
+						tag: {
+							StoredComposition: [{
+								comp: "88Sn-10Bi-2Sb"
+							}]
+						}
+					},
+					item: {
+						id: "itemfilters:strong_nbt",
+						Count: 1b,
+						tag: {
+							value: {
+								StoredComposition: [{
+									comp: "89Sn-7Bi-4Sb"
+								}]
+							}
+						}
+					},
+					count: 3L
+				}
+			],
+			rewards: [{
+				id: "630BF4CF05770D2A",
+				type: "item",
+				item: "rankine:tin_block"
+			}]
+		},
+		{
+			title: "Bronze Pick",
+			x: -4.0d,
+			y: -5.0d,
+			description: ["Use your brass ingots to craft a bronze pick.  Now you can finally go get some Tier 1 ores."],
+			dependencies: ["27EEC335A5C1B11B"],
+			hide: true,
+			id: "2BDFF3708983947C",
+			tasks: [{
+				id: "4BD2F97F4F82DEE4",
+				type: "item",
+				item: {
+					id: "rankine:bronze_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "6904736189E58716",
+				type: "choice",
+				table_id: 8540825147859728161L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -6.0d,
+			dependencies: ["23564142A48D273C"],
+			hide: true,
+			id: "6654521C0BF82B86",
+			tasks: [
+				{
+					id: "31A7CDE2A1685A13",
+					type: "item",
+					item: "rankine:template_table"
+				},
+				{
+					id: "3D7DF690F22E44B7",
+					type: "item",
+					item: "rankine:alloy_template"
+				}
+			]
+		},
+		{
+			title: "Bronze Smash!",
+			x: -6.0d,
+			y: -6.0d,
+			subtitle: "Lemme at that Meteor!",
+			description: [
+				"Now that you have a bronze hammer, you can take a 'meteoric' step into metallurgy.",
+				"",
+				"If you've managed to find a meteor on the ground, go hit it with your new bronze hammer."
+			],
+			dependencies: ["27EEC335A5C1B11B"],
+			hide: true,
+			id: "694699E7404CA913",
+			tasks: [{
+				id: "6991C49BC5268405",
+				type: "item",
+				item: {
+					id: "rankine:bronze_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "05028113DE37CCFD",
+					type: "item",
+					item: "minecraft:golden_carrot",
+					count: 4
+				},
+				{
+					id: "614CBEAFFD8EEBCE",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			title: "Bronze Age",
+			x: -6.0d,
+			y: -4.0d,
+			description: [
+				"Now that have begun to understand the alloying process, let's make some good stuff.",
+				"",
+				"Alloy copper and tin together to make some bronze."
+			],
+			dependencies: [
+				"23564142A48D273C",
+				"3C42A6CD8B3A02BF"
+			],
+			hide: true,
+			id: "27EEC335A5C1B11B",
+			tasks: [{
+				id: "5A3D100ECD2B5F37",
+				type: "item",
+				item: {
+					id: "rankine:bronze_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0E08054D35CD894B",
+				type: "item",
+				item: "floormats:gilded/gilded_darkoak_floormat_item",
+				count: 2
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -8.0d,
+			description: ["Go thwack a meteor with your bronze hammer.  you'll get some meteoric iron, as well as a few other elements."],
+			dependencies: ["694699E7404CA913"],
+			hide: true,
+			id: "75BA7729D05D5D51",
+			tasks: [{
+				id: "5B2898BF86810777",
+				type: "item",
+				item: {
+					id: "rankine:meteoric_iron",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "90Fe-10Ni"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "2131A85F7294EBBE",
+				type: "item",
+				item: {
+					id: "rankine:bronze_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tier 1 Ores",
+			x: -2.0d,
+			y: -4.0d,
+			description: ["Go underground and look for some harder ores.  Zinc has a lot of different uses.  It's natural form is called Sphalerite."],
+			dependencies: ["2BDFF3708983947C"],
+			hide: true,
+			id: "427590A2E80FCBF5",
+			tasks: [{
+				id: "579148D50FFE3822",
+				type: "item",
+				item: "rankine:sphalerite_ore"
+			}],
+			rewards: [{
+				id: "025B26B60AD0FA86",
+				type: "item",
+				item: "minecraft:andesite",
+				count: 16
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.0d,
+			description: ["Brass.  Look like gold...but..actually useful!  Wonder what CREATive uses you can come up with."],
+			dependencies: ["427590A2E80FCBF5"],
+			hide: true,
+			id: "6C778F2C9ED66B21",
+			tasks: [{
+				id: "713F39053B276C46",
+				type: "item",
+				item: {
+					id: "rankine:brass_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "60Cu-40Zn"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "62C7F30E0678FC91",
+				type: "item",
+				item: "additional_lights:standing_torch_l_gold_block",
+				count: 2
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -8.0d,
+			description: [
+				"Cast Iron.  Now yer cookin with...cast...iron.",
+				"",
+				"There are so many uses for cast iron.  Luckily you don't need that much carbon to make it."
+			],
+			dependencies: ["02741EED42496A65"],
+			hide: true,
+			id: "326EC84602BBEA19",
+			tasks: [{
+				id: "7EDCD35C49CA6B8E",
+				type: "item",
+				item: {
+					id: "rankine:cast_iron_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "96Fe-4C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0CD270306CD33CE3",
+				type: "item",
+				item: "rankine:magnetite_ore",
+				count: 3
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			description: ["The crucible is a low tech method for making steel.  Read the Rankine guide book for an explanation on how to use the crucible."],
+			dependencies: ["326EC84602BBEA19"],
+			hide: true,
+			id: "0EB423CEC21FFFBB",
+			tasks: [{
+				id: "27E23EDB1DEFEC7E",
+				type: "item",
+				item: "rankine:crucible"
+			}],
+			rewards: [{
+				id: "5094A0EBC00E818F",
+				type: "item",
+				item: "minecraft:lava_bucket"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -10.0d,
+			description: [
+				"Oh baby.  Now we're gettin into the heavy duty stuff.",
+				"",
+				"Steel.  Automobiles, machine tools, heavy machinery, skyscrapers...",
+				"",
+				"Wait, this is minecraft.  Uh...stronger picks and axes....",
+				"",
+				"(See what other uses you can find as well)."
+			],
+			dependencies: ["0EB423CEC21FFFBB"],
+			hide: true,
+			id: "7074A9A3834E1E7E",
+			tasks: [{
+				id: "67AFF3A175241E7E",
+				type: "item",
+				item: {
+					id: "rankine:steel_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "99Fe-1C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "06CA71F9EA92D6B9",
+				type: "random",
+				table_id: 7763340360550650764L
+			}]
+		},
+		{
+			title: "Upgrade your Steel",
+			x: 3.0d,
+			y: -10.0d,
+			description: ["While still having a mining harvest level of 3, stainless Steel has a higher durability than Steel, and some more specialized uses.  "],
+			dependencies: [
+				"6E098C0113231094",
+				"22E61A5BA6C8DB1E"
+			],
+			hide: true,
+			id: "12590124AAF089DE",
+			tasks: [{
+				id: "02CEF9BC2F4E0C9B",
+				type: "item",
+				item: {
+					id: "rankine:stainless_steel_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "75Fe-18Cr-5Ni-2C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "48761B26C2BC6D19",
+				type: "item",
+				item: "rankine:chromite_ore"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -8.0d,
+			description: [
+				"What is this odd material?  It seems very vanilla, and very....not realistic.",
+				"",
+				"Pure iron isn't used all that much in the real world, outside of our bodies.  But, in Minecraft, it's used in so many recipes, that I honestly just didn't have the energy to replace them all.  So...enjoy."
+			],
+			dependencies: ["75BA7729D05D5D51"],
+			hide: true,
+			id: "02741EED42496A65",
+			tasks: [{
+				id: "40C4C8F8B9354F7E",
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [{
+				id: "6F4C1C6FD5110967",
+				type: "item",
+				item: "additional_lights:fire_pit_l_iron_block",
+				count: 2
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -10.0d,
+			description: [
+				"Take your rough meteoric iron chunks, and craft an invar pickaxe.  This will let you mine Hardness Level 2 ores. ",
+				"",
+				"Business is picking up!"
+			],
+			dependencies: ["75BA7729D05D5D51"],
+			hide: true,
+			id: "3715404778DD9C08",
+			tasks: [{
+				id: "4418E9BFD1A8C0F3",
+				type: "item",
+				item: {
+					id: "rankine:invar_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90Fe-10Ni"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -8.5d,
+			description: ["The steel pickaxe will allow you to mine stones with a harvest level of 3, including Diamonds!"],
+			dependencies: ["7074A9A3834E1E7E"],
+			hide: true,
+			id: "6E098C0113231094",
+			tasks: [{
+				id: "30FF69E68DD578A7",
+				type: "item",
+				item: {
+					id: "rankine:steel_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "99Fe-1C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "20AE75065D9D971F",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -12.0d,
+			description: [
+				"Cinnabar isn't the yummy smelling shop in the mall.  That comes later in the pack.",
+				"",
+				"Cinnabar is your primary source of redstone.  (only source, actually).",
+				"",
+				"So, while this pack DOES focus on reality, it's still Minecraft.  You HAVE to have redstone."
+			],
+			dependencies: ["3715404778DD9C08"],
+			hide: true,
+			id: "214F9FAC4C8C9BE1",
+			tasks: [{
+				id: "4DC9C466167EE42E",
+				type: "item",
+				item: "rankine:cinnabar_ore"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -8.5d,
+			description: ["Who doesn't want a stainless steel pickaxe in Minecraft?"],
+			dependencies: ["12590124AAF089DE"],
+			hide: true,
+			id: "2D23AA0CDA8F0DF6",
+			tasks: [{
+				id: "565E0602F106AECD",
+				type: "item",
+				item: {
+					id: "rankine:stainless_steel_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "75Fe-18Cr-5Ni-2C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "70D70E5FF39F937E",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -10.0d,
+			description: [
+				"You'll need to get to the nether to make your first Superalloy, Nickel Superalloy",
+				"",
+				"They don't call it super for nothin though."
+			],
+			dependencies: [
+				"2D23AA0CDA8F0DF6",
+				"2900BC8419EA5A3D"
+			],
+			id: "4D32C4C03FF2028B",
+			tasks: [{
+				id: "62743A7915ACB2FC",
+				type: "item",
+				item: {
+					id: "rankine:nickel_superalloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "70Ni-20Cr-10Co"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "2A38E908FC5CE7E0",
+				type: "item",
+				item: "rankine:monazite_ore"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -8.5d,
+			description: ["Craft a Nickel Superalloy Pickaxe.  This is your first harvest level 4 pick. "],
+			dependencies: ["4D32C4C03FF2028B"],
+			hide: true,
+			id: "543CBD42EA2457B5",
+			tasks: [{
+				id: "3B97F5010A4CD16B",
+				type: "item",
+				item: {
+					id: "rankine:nickel_superalloy_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Ni-20Cr-10Co"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "48D21C9A12D75314",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -3.0d,
+			description: [
+				"The induction furnace is an end game alloying machine, able to extract the most hard to find materials within the ore samples that you put into it.  ",
+				"",
+				"Because of that, it's also more expensive to craft, and requires power cells to operate.",
+				"",
+				"The more advanced power cell that you place into it, the more materials within that you will extract."
+			],
+			dependencies: ["3C4AA5ED8323D1D2"],
+			hide: true,
+			id: "0422A1DD7547CFB0",
+			tasks: [{
+				id: "321049D8F2B051EE",
+				type: "item",
+				item: "rankine:induction_furnace"
+			}],
+			rewards: [{
+				id: "18A60870868F09EA",
+				type: "xp_levels",
+				xp_levels: 30
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -10.0d,
+			description: ["The elemental indexer will give you vital information on your elements, so you can predict the usefulness of your tools before you make them."],
+			dependencies: ["02741EED42496A65"],
+			hide: true,
+			id: "56C20A2E23686F3D",
+			tasks: [{
+				id: "06820AB50967220B",
+				type: "item",
+				item: "rankine:element_indexer"
+			}],
+			rewards: [
+				{
+					id: "7AEEECC8850DC3E8",
+					type: "item",
+					item: "minecraft:iron_ingot"
+				},
+				{
+					id: "3BBA128B4AA1553E",
+					type: "item",
+					item: "minecraft:gold_ingot"
+				}
+			]
+		},
+		{
+			x: 9.0d,
+			y: -5.0d,
+			description: ["The Alnico electromagnet is primarily used in creating the induction furnace, which is the highest level of alloying device in the game currently.  Also has some other interesting using, which are described in the Rankine Guide Book"],
+			dependencies: ["4AEB8FBC74D5B23F"],
+			hide: true,
+			id: "3C4AA5ED8323D1D2",
+			tasks: [{
+				id: "3D2BE4B6669D3E60",
+				type: "item",
+				item: "rankine:alnico_electromagnet"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -5.0d,
+			description: ["Alnico is a ferritic compound, commonly used to make magnets.  Create some, and make...you guessed it...magnets with it."],
+			dependencies: ["5A99F985E707CED2"],
+			hide: true,
+			id: "4AEB8FBC74D5B23F",
+			tasks: [{
+				id: "666188FEABEE39B9",
+				type: "item",
+				item: {
+					id: "rankine:alnico_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "50Fe-25Co-15Ni-10Al"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "68A4F66517B4F197",
+				type: "item",
+				item: "rankine:magnetite_ore",
+				count: 6
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -5.0d,
+			description: ["The rare earth electromagnet is much more powerful, and much more expensive to craft.  But it has a very powerful use also. "],
+			dependencies: ["3C4AA5ED8323D1D2"],
+			hide: true,
+			id: "52A5AF07EAA180F3",
+			tasks: [{
+				id: "57B0E286A6F1F28E",
+				type: "item",
+				item: "rankine:rare_earth_electromagnet"
+			}],
+			rewards: [{
+				id: "4781D607114D7B05",
+				type: "item",
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -8.5d,
+			dependencies: ["4DF2C5E9DC6F0FD5"],
+			hide: true,
+			id: "6E97856748E57A08",
+			tasks: [{
+				id: "3ECE88D508CE3E00",
+				type: "item",
+				item: {
+					id: "rankine:cobalt_superalloy_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Co-20Cr-10Ni"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "154E6FD451E017AA",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -8.5d,
+			dependencies: ["510F3DF2B11BC209"],
+			hide: true,
+			id: "0E57D823CD70C354",
+			tasks: [{
+				id: "5066E3353319DCF1",
+				type: "item",
+				item: {
+					id: "rankine:tungsten_heavy_alloy_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90W-7Ni-3Fe"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "4F7608797D99E6DE",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:mending"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -10.0d,
+			description: [
+				"Cobalt Superalloy has the same harvest level as Nickel Superalloy, but has a different material composition.  ",
+				"",
+				"Which one is better?  I have no idea.  That's for you to decide."
+			],
+			dependencies: [
+				"543CBD42EA2457B5",
+				"38C9E93816AE7992"
+			],
+			id: "4DF2C5E9DC6F0FD5",
+			tasks: [{
+				id: "0B48ADB2B376BD31",
+				type: "item",
+				item: {
+					id: "rankine:cobalt_superalloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "70Co-20Cr-10Ni"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "00448099205C0B5F",
+				type: "item",
+				item: "rankine:uraninite_ore"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -10.0d,
+			description: ["The last Superalloy is Tungsten Heavy Alloy.  Found within Wolframite ore, this material is very hard and very heavy.  It has the highest melting point and boiling point of any metal, so it's very hard to work.  But once you make your tools, oh baby."],
+			dependencies: [
+				"6E97856748E57A08",
+				"6F46ADE8AF74CBF7"
+			],
+			id: "510F3DF2B11BC209",
+			tasks: [{
+				id: "0A905D8C6F5CD6A3",
+				type: "item",
+				item: {
+					id: "rankine:tungsten_heavy_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "90W-7Ni-3Fe"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "2C68F942C4F6416E",
+				type: "item",
+				item: "rankine:wolframite_ore"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: -11.5d,
+			description: ["Who doesn't want a nice, efficient axe with high durability."],
+			dependencies: ["4D32C4C03FF2028B"],
+			hide: true,
+			id: "38C9E93816AE7992",
+			tasks: [{
+				id: "1602505AC97F5155",
+				type: "item",
+				item: {
+					id: "rankine:nickel_superalloy_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Ni-20Cr-10Co"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "1DF29D95E814C71A",
+				type: "item",
+				item: {
+					id: "rankine:nickel_superalloy_spear",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Ni-20Cr-10Co"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: -11.5d,
+			dependencies: ["4DF2C5E9DC6F0FD5"],
+			hide: true,
+			id: "6F46ADE8AF74CBF7",
+			tasks: [{
+				id: "59B3D2D18DBBA73E",
+				type: "item",
+				item: {
+					id: "rankine:cobalt_superalloy_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Co-20Cr-10Ni"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "0FC152E7A987C85F",
+				type: "item",
+				item: {
+					id: "rankine:cobalt_superalloy_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "70Co-20Cr-10Ni"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -11.5d,
+			dependencies: ["510F3DF2B11BC209"],
+			hide: true,
+			id: "51E06DFC1AE9CD59",
+			tasks: [{
+				id: "19A558FA027F3D8D",
+				type: "item",
+				item: {
+					id: "rankine:tungsten_heavy_alloy_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90W-7Ni-3Fe"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "1958DBDE9D0FF8F7",
+				type: "item",
+				item: {
+					id: "rankine:tungsten_heavy_alloy_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90W-7Ni-3Fe"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Finally, a sword!",
+			x: -8.0d,
+			y: -0.5d,
+			description: ["Craft your first sword.  doesn't have a lot of durability, but at least it's pointy!"],
+			dependencies: ["02B957B1E0B8196F"],
+			id: "28EDECB75CFFA0B5",
+			tasks: [{
+				id: "586F223653588A6B",
+				type: "item",
+				item: {
+					id: "rankine:pewter_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90Sn-10Sb"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "2B8D4740135643E8",
+				type: "item",
+				item: {
+					id: "rankine:pewter_spear",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90Sn-10Sb"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "All the meteors",
+			x: 3.0d,
+			y: -7.0d,
+			description: [
+				"Find all the different types of meteoric iron.",
+				"",
+				"Why?  cus you are a completionist like me, and you know it."
+			],
+			dependencies: ["6E098C0113231094"],
+			hide: true,
+			id: "4E427733E89A86EE",
+			tasks: [
+				{
+					id: "1698C695C8E426F4",
+					type: "item",
+					item: "rankine:kamacite_ore"
+				},
+				{
+					id: "74764A659F9F094C",
+					type: "item",
+					item: "rankine:antitaenite_ore"
+				},
+				{
+					id: "665A24243066EEE3",
+					type: "item",
+					item: "rankine:taenite_ore"
+				},
+				{
+					id: "17B1E8E124B66E5C",
+					type: "item",
+					item: "rankine:tetrataenite_ore"
+				}
+			],
+			rewards: [{
+				id: "0B3C25735492EC93",
+				type: "item",
+				item: "rankine:tiger_iron"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -7.0d,
+			description: ["Cobaltite Ore is one of the more improtant finds in the nether."],
+			dependencies: ["2D23AA0CDA8F0DF6"],
+			hide: true,
+			id: "5A99F985E707CED2",
+			tasks: [{
+				id: "4B1E6A3F710142FF",
+				type: "item",
+				item: "rankine:cobaltite_ore"
+			}],
+			rewards: [{
+				id: "4D6EA6EDA8D37B33",
+				type: "item",
+				item: "rankine:cobaltite_ore"
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -7.0d,
+			description: ["Wolframite, also known as Tungsten, is a rare ore that provides you great benefits for your endgame tools and weapons."],
+			dependencies: ["6E97856748E57A08"],
+			hide: true,
+			id: "28384CF64E62D383",
+			tasks: [{
+				id: "63C67D9444AD74E7",
+				type: "item",
+				item: "rankine:wolframite_ore"
+			}],
+			rewards: [{
+				id: "34CD5F98772680D7",
+				type: "choice",
+				table_id: 3751887195484649904L
+			}]
+		},
+		{
+			x: 9.0d,
+			y: -7.0d,
+			description: ["Ilmenite Ore is the primary source of Titanium.  It doesn't have a lot of uses currently, but hopefully in the near future..."],
+			dependencies: ["543CBD42EA2457B5"],
+			hide: true,
+			id: "041035766BCE997E",
+			tasks: [{
+				id: "4EE871820BBA14FA",
+				type: "item",
+				item: "rankine:ilmenite_ore"
+			}],
+			rewards: [{
+				id: "2854994929443660",
+				type: "choice",
+				table_id: 7667017118627499460L
+			}]
+		},
+		{
+			title: "Bronze Armor",
+			x: -4.0d,
+			y: -3.0d,
+			description: [
+				"Craft a full set of bronze armor.",
+				"",
+				"Different Alloys have different effects on armor, as well as tools and weapons.  Experiment with the elements that you find, to see if you can discovery any interesting armor."
+			],
+			dependencies: ["27EEC335A5C1B11B"],
+			id: "74ABDFD16D22F5A4",
+			tasks: [
+				{
+					id: "1CC57BCBE0C3046C",
+					type: "item",
+					item: {
+						id: "rankine:alloy_helmet",
+						Count: 1b,
+						tag: {
+							nameAdd: "Bronze Alloy",
+							color: 14727578,
+							Damage: 0,
+							StoredComposition: [{
+								comp: "80Cu-20Sn"
+							}]
+						}
+					}
+				},
+				{
+					id: "38686F7F95E9029B",
+					type: "item",
+					item: {
+						id: "rankine:alloy_chestplate",
+						Count: 1b,
+						tag: {
+							nameAdd: "Bronze Alloy",
+							color: 14727578,
+							Damage: 0,
+							StoredComposition: [{
+								comp: "80Cu-20Sn"
+							}]
+						}
+					}
+				},
+				{
+					id: "4F08FAF4B6E3AA43",
+					type: "item",
+					item: {
+						id: "rankine:alloy_leggings",
+						Count: 1b,
+						tag: {
+							nameAdd: "Bronze Alloy",
+							color: 14727578,
+							Damage: 0,
+							StoredComposition: [{
+								comp: "80Cu-20Sn"
+							}]
+						}
+					}
+				},
+				{
+					id: "2506F6C30D57B4BF",
+					type: "item",
+					item: {
+						id: "rankine:alloy_boots",
+						Count: 1b,
+						tag: {
+							nameAdd: "Bronze Alloy",
+							color: 14727578,
+							Damage: 0,
+							StoredComposition: [{
+								comp: "80Cu-20Sn"
+							}]
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "2594C445EEDD0B4E",
+					type: "item",
+					item: {
+						id: "rankine:bronze_alloy",
+						Count: 1b,
+						tag: {
+							StoredComposition: [{
+								comp: "80Cu-20Sn"
+							}]
+						}
+					},
+					count: 10
+				},
+				{
+					id: "6CCA0B69892848A8",
+					type: "choice",
+					table_id: 205622642126812510L
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -11.5d,
+			dependencies: ["7074A9A3834E1E7E"],
+			hide: true,
+			id: "22E61A5BA6C8DB1E",
+			tasks: [{
+				id: "6B93B6ED4CEA8A12",
+				type: "item",
+				item: {
+					id: "rankine:steel_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "99Fe-1C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "11DBDBCBA451BF5E",
+				type: "item",
+				item: {
+					id: "rankine:steel_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "99Fe-1C"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Stainless Steel Stabby Stabby",
+			x: 4.5d,
+			y: -11.5d,
+			description: ["Craft yourself a stainless steel sword, for more finer cuts of your enemies."],
+			dependencies: ["12590124AAF089DE"],
+			hide: true,
+			id: "2900BC8419EA5A3D",
+			tasks: [{
+				id: "6B7162C87DCE383A",
+				type: "item",
+				item: {
+					id: "rankine:stainless_steel_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "75Fe-18Cr-5Ni-2C"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "29612902D9614F3A",
+				type: "item",
+				item: {
+					id: "farmersdelight:iron_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -10.0d,
+			description: ["Comprised of Mercury, which is a really...weird...element, Items made from Amalgem are also really...weird..."],
+			dependencies: [
+				"51E06DFC1AE9CD59",
+				"0E57D823CD70C354"
+			],
+			id: "1ED7871548BEB3CF",
+			tasks: [{
+				id: "16618336875B2660",
+				type: "item",
+				item: {
+					id: "rankine:amalgam_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "60Hg-40Au"
+						}]
+					}
+				}
+			}],
+			rewards: [{
+				id: "3730562C11FB60C4",
+				type: "item",
+				item: {
+					id: "rankine:totem_of_cobbling",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

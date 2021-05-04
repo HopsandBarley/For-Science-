@@ -1,0 +1,32 @@
+{
+	id: "6CC645897FA0B232",
+	order_index: 9,
+	title: "Pantries",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "farmersdelight:oak_pantry"
+		},
+		{
+			item: "farmersdelight:birch_pantry"
+		},
+		{
+			item: "farmersdelight:spruce_pantry"
+		},
+		{
+			item: "farmersdelight:jungle_pantry"
+		},
+		{
+			item: "farmersdelight:acacia_pantry"
+		},
+		{
+			item: "farmersdelight:dark_oak_pantry"
+		},
+		{
+			item: "farmersdelight:crimson_pantry"
+		},
+		{
+			item: "farmersdelight:warped_pantry"
+		}
+	]
+}

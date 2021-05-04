@@ -1,0 +1,32 @@
+{
+	id: "01B642173B29B098",
+	order_index: 18,
+	title: "Tier 1 Chests",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "storage_overhaul:oak_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:spruce_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:birch_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:acacia_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:jungle_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:dark_oak_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:crimson_chest_tier_1"
+		},
+		{
+			item: "storage_overhaul:warped_chest_tier_1"
+		}
+	]
+}

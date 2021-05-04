@@ -1,0 +1,940 @@
+{
+	id: "602BDC878719925A",
+	group: "",
+	order_index: 2,
+	filename: "storage",
+	title: "Storage",
+	icon: "minecraft:ender_chest",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Barrel Storage",
+			x: -16.5d,
+			y: -0.5d,
+			description: [
+				"Craft a barrel of your choice.",
+				"",
+				"If you use all of the same wood type, you will receive a barrel of that type.  If you mix and match wood types, you will get a vanilla barrel."
+			],
+			dependencies: ["2A5D081196B4B37D"],
+			hide: true,
+			id: "7C0508B720A2AA15",
+			tasks: [{
+				id: "077D310FEFCEA8AA",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_barrel",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "1F3F54BA8EC15764",
+				type: "item",
+				item: "buildersaddition:planter"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: 2.0d,
+			dependencies: ["7C0508B720A2AA15"],
+			hide: true,
+			id: "23B3EE64F55C0684",
+			tasks: [{
+				id: "6EADBACDC460BB62",
+				type: "item",
+				item: "minecraft:ender_chest"
+			}],
+			rewards: [{
+				id: "50BCDB344F415839",
+				type: "item",
+				item: "minecraft:ender_eye"
+			}]
+		},
+		{
+			x: -16.5d,
+			y: -3.0d,
+			dependencies: ["7C0508B720A2AA15"],
+			hide: true,
+			id: "77967A396E9ADE7B",
+			tasks: [{
+				id: "0A35A9F6196C1BEB",
+				type: "item",
+				item: "minecraft:shulker_box"
+			}],
+			rewards: [{
+				id: "3433F5CFF217EAA6",
+				type: "choice",
+				table_id: 8557701400500913244L
+			}]
+		},
+		{
+			title: "Pack on ya back",
+			x: -13.0d,
+			y: -0.5d,
+			description: ["Create a basic backpack.  This will open up a world of portable storage that will add a lot of convenience to your life."],
+			dependencies: [
+				"2A5D081196B4B37D",
+				"7C0508B720A2AA15"
+			],
+			hide: true,
+			id: "2289C939E022A315",
+			tasks: [{
+				id: "1894BABBA244E817",
+				type: "item",
+				item: "sophisticatedbackpacks:backpack"
+			}],
+			rewards: [{
+				id: "0779977F6DB73BEA",
+				type: "choice",
+				table_id: 8557701400500913244L
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -0.5d,
+			description: [
+				"The upgrade base is exactly what it says.  The base for all Packpack upgrades.",
+				"",
+				"There are several types of upgrades for you backpacks.  The quests will highlight them, and the descriptions will tell you about them.",
+				"",
+				"There are currently no quest rewards for them, however because the upgrade itself is a pretty hefty reward.",
+				"",
+				"(and, i'm running out of quest reward ideas)."
+			],
+			dependencies: [
+				"02741EED42496A65",
+				"2289C939E022A315"
+			],
+			hide: true,
+			id: "563C6E8190D88E13",
+			tasks: [{
+				id: "3FDA2DD4753DEDEC",
+				type: "item",
+				item: "sophisticatedbackpacks:upgrade_base"
+			}],
+			rewards: [{
+				id: "46959B8325B09A09",
+				type: "item",
+				item: "sophisticatedbackpacks:upgrade_base",
+				count: 2
+			}]
+		},
+		{
+			x: -17.5d,
+			y: 0.5d,
+			dependencies: ["7C0508B720A2AA15"],
+			hide: true,
+			id: "65D1CAAB163441EE",
+			tasks: [{
+				id: "6BBF60234789A673",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_chest_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_chest_tier_1",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "03494CBA565927A4",
+				type: "choice",
+				table_id: 123358707343536280L
+			}]
+		},
+		{
+			x: -18.5d,
+			y: 1.5d,
+			dependencies: ["65D1CAAB163441EE"],
+			hide: true,
+			id: "2351181366CAD52A",
+			tasks: [{
+				id: "0DE5AC51E91A1A4B",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_chest_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_chest_tier_2",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "286D7BCA391DE9E0",
+				type: "choice",
+				table_id: 4246605526132431391L
+			}]
+		},
+		{
+			x: -19.5d,
+			y: 2.5d,
+			dependencies: ["2351181366CAD52A"],
+			hide: true,
+			id: "543849764C4F2730",
+			tasks: [{
+				id: "4128059F89935563",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_chest_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_chest_tier_3",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "38DA7C5177CCDB47",
+				type: "choice",
+				table_id: 3751887195484649904L
+			}]
+		},
+		{
+			x: -15.5d,
+			y: -1.5d,
+			dependencies: ["7C0508B720A2AA15"],
+			hide: true,
+			id: "621812C063F6C3A2",
+			tasks: [{
+				id: "0B0C32136D42766C",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_barrel_tier_1",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_barrel_tier_1",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "68AFB5159F1B9492",
+				type: "choice",
+				table_id: 7763340360550650764L
+			}]
+		},
+		{
+			x: -14.5d,
+			y: -2.5d,
+			dependencies: ["621812C063F6C3A2"],
+			hide: true,
+			id: "4B0EEF81D3F49769",
+			tasks: [{
+				id: "152515D144F1378D",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_barrel_tier_2",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_barrel_tier_2",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "19CB2CB585D6399F",
+				type: "choice",
+				table_id: 5812250333867846791L
+			}]
+		},
+		{
+			x: -13.5d,
+			y: -3.5d,
+			dependencies: ["4B0EEF81D3F49769"],
+			hide: true,
+			id: "6C49E9108669D577",
+			tasks: [{
+				id: "7FA05A400F2920AA",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_barrel_tier_3",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_barrel_tier_3",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "5130133A0E511AC1",
+				type: "choice",
+				table_id: 7667017118627499460L
+			}]
+		},
+		{
+			x: -17.5d,
+			y: -2.0d,
+			dependencies: ["77967A396E9ADE7B"],
+			hide: true,
+			id: "021E974ED08EE88E",
+			tasks: [{
+				id: "7C6C6A9AF392FA8D",
+				type: "item",
+				item: "storage_overhaul:white_shulker_box"
+			}],
+			rewards: [{
+				id: "4D711C803F745F64",
+				type: "item",
+				item: "minecraft:shulker_shell",
+				count: 2
+			}]
+		},
+		{
+			x: -15.0d,
+			y: 1.0d,
+			dependencies: ["7C0508B720A2AA15"],
+			hide: true,
+			id: "117652F996CF2767",
+			tasks: [{
+				id: "6BAF6DC053D35099",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "storage_overhaul:oak_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:spruce_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:birch_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:acacia_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:jungle_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:dark_oak_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:crimson_storage_barrel",
+								Count: 1b
+							},
+							{
+								id: "storage_overhaul:warped_storage_barrel",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "77E3FE461938F98A",
+				type: "choice",
+				table_id: 4893831230518112495L
+			}]
+		},
+		{
+			x: -13.0d,
+			y: 1.0d,
+			dependencies: ["2289C939E022A315"],
+			hide: true,
+			id: "556F2BB077E03AB7",
+			tasks: [{
+				id: "2AAFD312D7DE1F6D",
+				type: "item",
+				item: "sophisticatedbackpacks:iron_backpack"
+			}],
+			rewards: [
+				{
+					id: "0331DECE4CF6E334",
+					type: "choice",
+					table_id: 8557701400500913244L
+				},
+				{
+					id: "697D2974E416BEF9",
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: 2.5d,
+			dependencies: ["556F2BB077E03AB7"],
+			hide: true,
+			id: "08D3392CD7F71BF7",
+			tasks: [{
+				id: "4EE0820F0E20EFB1",
+				type: "item",
+				item: "sophisticatedbackpacks:gold_backpack"
+			}],
+			rewards: [
+				{
+					id: "52AFD40F32B4F0F3",
+					type: "choice",
+					table_id: 8557701400500913244L
+				},
+				{
+					id: "05520FE01A614F98",
+					type: "xp_levels",
+					xp_levels: 10
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: 4.0d,
+			dependencies: ["08D3392CD7F71BF7"],
+			hide: true,
+			id: "26FFC511C785371D",
+			tasks: [{
+				id: "76C6DF6754070C5C",
+				type: "item",
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}],
+			rewards: [
+				{
+					id: "6E396252C392514D",
+					type: "choice",
+					table_id: 8557701400500913244L
+				},
+				{
+					id: "594CE730529D60CE",
+					type: "xp_levels",
+					xp_levels: 15
+				}
+			]
+		},
+		{
+			x: -13.0d,
+			y: 5.5d,
+			dependencies: ["26FFC511C785371D"],
+			hide: true,
+			id: "6F0036E1AE3FC2E9",
+			tasks: [{
+				id: "36524A4B74CCCB3B",
+				type: "item",
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}],
+			rewards: [
+				{
+					id: "099890B9A53A100C",
+					type: "choice",
+					table_id: 8557701400500913244L
+				},
+				{
+					id: "672A47A2356FF3B1",
+					type: "xp_levels",
+					xp_levels: 20
+				}
+			]
+		},
+		{
+			x: -9.0d,
+			y: 1.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "00DDC3803DADFE24",
+			tasks: [{
+				id: "4154427DBDF2A81F",
+				type: "item",
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 1.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "2B7C09272CE36587",
+			tasks: [{
+				id: "5F6442643F8C7FC5",
+				type: "item",
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -2.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "6DF63A281FF80C39",
+			tasks: [{
+				id: "615D12C06D91D0D6",
+				type: "item",
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -1.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "3A8C0E754A74FFC1",
+			tasks: [{
+				id: "7D901804E5289684",
+				type: "item",
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -1.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "5B7CCBA1C0AB19AA",
+			tasks: [{
+				id: "5658185472BC1437",
+				type: "item",
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 0.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "01A9B21946289C90",
+			tasks: [{
+				id: "1C2AC5DE54ACC103",
+				type: "item",
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -2.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "5220ACB78C2A044D",
+			tasks: [{
+				id: "3753B57CC43EC2EE",
+				type: "item",
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 0.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "2D9D11AEFEC0C9E8",
+			tasks: [{
+				id: "4D958A10C6CD62EF",
+				type: "item",
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 1.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "024AD4932471C8AB",
+			tasks: [{
+				id: "62F408E461D1AEA0",
+				type: "item",
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -4.0d,
+			dependencies: ["6DF63A281FF80C39"],
+			hide: true,
+			id: "2C817FCF04B5C77C",
+			tasks: [{
+				id: "0119FBA91A9C9C63",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -4.0d,
+			dependencies: ["5220ACB78C2A044D"],
+			hide: true,
+			id: "2717DB31B27B2929",
+			tasks: [{
+				id: "429AB23AA3303EC2",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: -3.0d,
+			dependencies: ["5B7CCBA1C0AB19AA"],
+			hide: true,
+			id: "6FCFF31BF22E6C2E",
+			tasks: [{
+				id: "795216F94A4BED05",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		},
+		{
+			x: -11.5d,
+			y: 2.0d,
+			dependencies: ["01A9B21946289C90"],
+			hide: true,
+			id: "14673074C14F8A5E",
+			tasks: [{
+				id: "09CBFD2D34204E9B",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: 3.0d,
+			dependencies: ["2B7C09272CE36587"],
+			hide: true,
+			id: "448FA1D52363DB8B",
+			tasks: [{
+				id: "15A8E5E35F57DC89",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 3.0d,
+			dependencies: ["00DDC3803DADFE24"],
+			hide: true,
+			id: "2D7DD80CD676FE6F",
+			tasks: [{
+				id: "6BD3E00DEB35C494",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -3.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "779A82AB28BDA82A",
+			tasks: [{
+				id: "63B5CDEF3BF6EC9C",
+				type: "item",
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 2.5d,
+			dependencies: ["563C6E8190D88E13"],
+			id: "02B60F94F27ABBFE",
+			tasks: [{
+				id: "2EE8C377B7F4BDFC",
+				type: "item",
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -0.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "1AE0A4754FEC03F8",
+			tasks: [{
+				id: "6A01D1E8D8826AB0",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -0.5d,
+			dependencies: ["1AE0A4754FEC03F8"],
+			hide: true,
+			id: "171D0ABD6AF48760",
+			tasks: [{
+				id: "61B14FC20722AA78",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -0.5d,
+			dependencies: ["171D0ABD6AF48760"],
+			hide: true,
+			id: "45A2715464EB294C",
+			tasks: [{
+				id: "3D3F4FFBDF09B334",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -0.5d,
+			dependencies: ["45A2715464EB294C"],
+			hide: true,
+			id: "743108001367375C",
+			tasks: [{
+				id: "195CAA629A8D08B4",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -2.5d,
+			dependencies: ["563C6E8190D88E13"],
+			hide: true,
+			id: "092931F05F1D2470",
+			tasks: [{
+				id: "1BF9759B106DA2C4",
+				type: "item",
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.5d,
+			dependencies: ["092931F05F1D2470"],
+			hide: true,
+			id: "5E4EE091E4EA157A",
+			tasks: [{
+				id: "3E509D18BBACC12F",
+				type: "item",
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+		}
+	]
+}

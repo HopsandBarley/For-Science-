@@ -1,0 +1,1652 @@
+{
+	id: "78F6D6C5B9D85AB6",
+	group: "",
+	order_index: 3,
+	filename: "create",
+	title: "Engineering!",
+	icon: "create:mechanical_arm",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Andesite what?",
+			x: -10.0d,
+			y: -2.5d,
+			shape: "hexagon",
+			subtitle: "Yup...Andesite Alloy",
+			description: [
+				"Use the aluminum nuggets and andesite that you found, and make some andesite alloy.  ",
+				"If you have Hornblende Andesite, the recipe will be more expensive.",
+				"",
+				"Once you get a better pickaxe, you will be able to make Andesite Alloy with nuggets other than Aluminum."
+			],
+			dependencies: [
+				"2B4C35B952AF70C4",
+				"27A41B9720238CEB"
+			],
+			hide: true,
+			size: 1.25d,
+			id: "4D08B86D2E728009",
+			tasks: [{
+				id: "69171BE33602BB09",
+				type: "item",
+				item: "create:andesite_alloy"
+			}],
+			rewards: [{
+				id: "53AEA19817B1C123",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 4
+			}]
+		},
+		{
+			title: "Andesite Shafts",
+			x: -8.0d,
+			y: -2.5d,
+			description: [
+				"Use your hammer and make a handful of andesite shafts.",
+				"",
+				"You will need lots and lots of them before you are done, but there are more efficient ways to make them in your future. Be efficient with your Andesite Alloy for now."
+			],
+			dependencies: ["4D08B86D2E728009"],
+			hide: true,
+			id: "0E1C3A0ADD3E5B29",
+			tasks: [
+				{
+					id: "61D040AE6382AE97",
+					type: "item",
+					item: "create:shaft"
+				},
+				{
+					id: "6EED674F46720A2E",
+					type: "item",
+					item: "create:belt_connector"
+				}
+			],
+			rewards: [{
+				id: "1BD7FBAA9028237A",
+				type: "item",
+				item: "minecraft:kelp",
+				count: 6
+			}]
+		},
+		{
+			title: "Gearheads",
+			x: -6.0d,
+			y: -2.5d,
+			description: ["Make a cogwheel and large cogwheel, and start your experimentation into gear ratios!"],
+			dependencies: ["0E1C3A0ADD3E5B29"],
+			hide: true,
+			id: "5370D8F602780F85",
+			tasks: [
+				{
+					id: "7262DA0B62EFB88C",
+					type: "item",
+					item: "create:cogwheel"
+				},
+				{
+					id: "63F3672EC3D3FA18",
+					type: "item",
+					item: "create:large_cogwheel"
+				}
+			],
+			rewards: [{
+				id: "1B2AB436A0A470A8",
+				type: "item",
+				item: "create:shaft",
+				count: 2
+			}]
+		},
+		{
+			title: "Powah!",
+			x: -4.0d,
+			y: -2.5d,
+			description: [
+				'Craft a water wheel, and place it into water.  The more "sides" of the water wheel that water flows over, the more \'power\', or stress units (SU) that the water wheel will generate.',
+				"",
+				"you can daisy chain water wheels to increase the output SUs"
+			],
+			dependencies: ["5370D8F602780F85"],
+			hide: true,
+			id: "4E80E84D1E2B0CB5",
+			tasks: [{
+				id: "355B0E6463CF193B",
+				type: "advancement",
+				icon: "create:water_wheel",
+				advancement: "create:water_wheel",
+				criterion: ""
+			}],
+			rewards: [
+				{
+					id: "773FCE88F7CCBE4E",
+					type: "item",
+					item: "create:shaft",
+					count: 2
+				},
+				{
+					id: "6E62262CAE5609D8",
+					type: "item",
+					item: {
+						id: "woodenbuckets:wooden_bucket",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Pressing Matter",
+			x: -2.0d,
+			y: -1.0d,
+			description: [
+				"Craft a mechanical press.  The press has uses both within Create mod, as well as outside of Create mod.  You will need it for lots of different items.",
+				"",
+				"Plus, it sounds really cool when it thonks."
+			],
+			dependencies: ["4E03FEA2F5361B76"],
+			hide: true,
+			id: "1E0E160874418DE5",
+			tasks: [{
+				id: "7B0F4BC9289E14F1",
+				type: "item",
+				item: "create:mechanical_press"
+			}],
+			rewards: [{
+				id: "2A0CBC3B4831FEB1",
+				type: "item",
+				item: "minecraft:sugar_cane",
+				count: 4
+			}]
+		},
+		{
+			title: "Put it in the basin",
+			x: -4.0d,
+			y: -1.0d,
+			description: ["Mixing, Brewing, Compacting, Pressing.  With the basin, your machine automation opens up tremendously. "],
+			dependencies: ["1E0E160874418DE5"],
+			hide: true,
+			id: "0C50B4591CBE6E91",
+			tasks: [{
+				id: "213B985EB7C131CF",
+				type: "item",
+				item: "create:basin"
+			}],
+			rewards: [{
+				id: "1501D6A43775C361",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 3
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			description: [
+				"Copper is primarily used in fuild transportation, decoration, and electronics (coming soonish). ",
+				"",
+				"place a copper ingot onto a depot, and let the press thonk it into a copper sheet"
+			],
+			dependencies: ["6F34B0B7A8BD1BBC"],
+			hide: true,
+			id: "0B7D283F4CDE0F04",
+			tasks: [{
+				id: "1D77F0D6BAD7031B",
+				type: "item",
+				item: "create:copper_sheet"
+			}],
+			rewards: [{
+				id: "65810B63F4DA6FE7",
+				type: "item",
+				item: "rankine:copper_ingot",
+				count: 3
+			}]
+		},
+		{
+			title: "Gold Sheets",
+			x: 0.0d,
+			y: 0.5d,
+			description: ["Gold sheets have limited, albeit it, very improtant uses.  Make a few gold sheets, and investigate their uses."],
+			dependencies: ["6F34B0B7A8BD1BBC"],
+			hide: true,
+			id: "0F0DBC653CEF98E9",
+			tasks: [{
+				id: "1397E7634A3A9605",
+				type: "item",
+				item: "create:golden_sheet"
+			}],
+			rewards: [{
+				id: "586196F4CA92D0F2",
+				type: "item",
+				item: "minecraft:golden_apple"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.0d,
+			description: ["The depot is a stationary target for presses, mechanical arms, etc.  You can manually place and pick up items onto a depot that you want to get thonked by the press."],
+			dependencies: ["1E0E160874418DE5"],
+			hide: true,
+			id: "6F34B0B7A8BD1BBC",
+			tasks: [{
+				id: "13F223923FA33E4D",
+				type: "item",
+				item: "create:depot"
+			}],
+			rewards: [{
+				id: "1047EADE361C3D3F",
+				type: "item",
+				item: "create:copper_ingot"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.5d,
+			description: [
+				"Let's take your cogs and really make them work for you.",
+				"",
+				"A gearbox is a compact way to change the direction of your output shafts, be it 90 degrees, or simply change the spin direction in a straight line."
+			],
+			dependencies: ["4E03FEA2F5361B76"],
+			hide: true,
+			id: "43C49321A6783060",
+			tasks: [{
+				id: "7E1F42966F420365",
+				type: "item",
+				item: "create:gearbox"
+			}],
+			rewards: [{
+				id: "2E8C2BE1EF43A91B",
+				type: "item",
+				item: "create:large_cogwheel",
+				count: 2
+			}]
+		},
+		{
+			title: "Grind my Gears",
+			x: 0.0d,
+			y: -4.5d,
+			description: [
+				"The millstone is the most primitive grinding device in the pack.  This is the first device that will take your items, and give you more than just the basic output.",
+				"",
+				"JEI will show you all of the possible outputs (if any) for an item you are wanting to mill, including the percentage drops of any bonus items.",
+				"",
+				"You can automate a millstone with belts, chests, hoppers, and funnels.  Create a simple automated machine, and create a stack of flour."
+			],
+			dependencies: ["43C49321A6783060"],
+			hide: true,
+			id: "230BF58DE48D74BF",
+			tasks: [
+				{
+					id: "79D22BE2A3397C9A",
+					type: "item",
+					item: "create:millstone"
+				},
+				{
+					id: "669BB707D9A771F3",
+					type: "item",
+					item: "create:wheat_flour",
+					count: 64L
+				}
+			],
+			rewards: [{
+				id: "7816AB3E5AC5B210",
+				type: "item",
+				item: "create:cogwheel",
+				count: 3
+			}]
+		},
+		{
+			title: "Brass Casing",
+			x: -4.0d,
+			y: 0.5d,
+			description: ["Brass Machine Frames are used for item crafting, as well as automation.  Get used to this recipe.  You'll be making it a lot."],
+			dependencies: ["3BD60FC55F5157FC"],
+			hide: true,
+			id: "60D2924D0A3C1CC3",
+			tasks: [{
+				id: "09274F36D2EB112C",
+				type: "item",
+				item: "create:brass_casing"
+			}],
+			rewards: [{
+				id: "7FB0C129FBFA226E",
+				type: "item",
+				item: "create:brass_ingot",
+				count: 3
+			}]
+		},
+		{
+			title: "She's Crafty...",
+			x: -4.0d,
+			y: 2.0d,
+			description: [
+				"The mechanical crafter is a key block, necessary to craft a few very handy items.",
+				"",
+				"Plus, they look really cool"
+			],
+			dependencies: ["60D2924D0A3C1CC3"],
+			hide: true,
+			id: "646D31E576728BC0",
+			tasks: [{
+				id: "22386AE907F22A2A",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}],
+			rewards: [{
+				id: "0247D48AF7409D00",
+				type: "item",
+				item: "create:electron_tube"
+			}]
+		},
+		{
+			title: "Crushing",
+			x: -6.0d,
+			y: 2.0d,
+			description: [
+				"Crushing wheels will crush your ores and stones finer than the millstone, finding more goodies inside.",
+				"",
+				""
+			],
+			dependencies: ["646D31E576728BC0"],
+			hide: true,
+			id: "55A66630424324CC",
+			tasks: [{
+				id: "64E1363F76A7BFFC",
+				type: "item",
+				item: "create:crushing_wheel",
+				count: 2L
+			}],
+			rewards: [{
+				id: "7BC83A7A6C254F25",
+				type: "item",
+				item: "rankine:pyrolusite_ore",
+				count: 8
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -2.5d,
+			description: ["These rods have a few, end game uses.  They are not cheap, so craft only as many as you need."],
+			dependencies: ["3A8424E9C6AEF4AB"],
+			hide: true,
+			id: "297BE803BF5F6082",
+			tasks: [{
+				id: "5FD8856A512B6DED",
+				type: "item",
+				item: "rankine:yag_rod"
+			}],
+			rewards: [{
+				id: "1D045FEAC6453CDB",
+				type: "item",
+				item: "rankine:chromite_ore",
+				count: 2
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -2.5d,
+			description: ["Steel Rods have lots of uses.  Input a steel ingot into the rolling mill to craft a steel rod."],
+			dependencies: ["3A8424E9C6AEF4AB"],
+			hide: true,
+			id: "2C625D9F403FF3C0",
+			tasks: [{
+				id: "523C23CC7731E1A9",
+				type: "item",
+				item: "rankine:steel_rod"
+			}],
+			rewards: [{
+				id: "6E01B31530A5DABE",
+				type: "item",
+				item: "rankine:steel_door"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: -1.0d,
+			description: [
+				"Fluid pipes are used to carry...fluids...naturally, from place to place.",
+				"",
+				"Input a copper sheet into the rolling mill, to create a copper pipe."
+			],
+			dependencies: ["3A8424E9C6AEF4AB"],
+			hide: true,
+			id: "12FD85C4BF87C79B",
+			tasks: [{
+				id: "3BFEBFA4B80434DB",
+				type: "item",
+				item: "create:fluid_pipe"
+			}],
+			rewards: [{
+				id: "02588A2EE22F336F",
+				type: "item",
+				item: "create:copper_ingot",
+				count: 4
+			}]
+		},
+		{
+			title: "Graphite Rod and Hard Carbon Rod",
+			x: 6.0d,
+			y: 0.5d,
+			description: ["Used in power generation items, these rods are vitally important to your end game automation."],
+			dependencies: ["3A8424E9C6AEF4AB"],
+			hide: true,
+			id: "3B896F35CC24EE1D",
+			tasks: [
+				{
+					id: "4E70E56F4A0E7704",
+					type: "item",
+					title: "Any #forge:rods/graphite",
+					item: {
+						id: "itemfilters:tag",
+						Count: 1b,
+						tag: {
+							value: "forge:rods/graphite"
+						}
+					}
+				},
+				{
+					id: "1F1360F7718CD6FE",
+					type: "item",
+					item: "rankine:hard_carbon_electrode"
+				}
+			],
+			rewards: [
+				{
+					id: "053D4C5AB4914614",
+					type: "item",
+					item: "buildersaddition:rough_fireplace_guard"
+				},
+				{
+					id: "322D700000434ED7",
+					type: "item",
+					item: "buildersaddition:iron_fence_rough"
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: -1.0d,
+			description: [
+				"The rolling mill is a block used to create rods, pipes, and wires",
+				"",
+				"To automate, you need a funnel for both the input and output of the rolling mill."
+			],
+			dependencies: ["032A914ECA2E8E98"],
+			hide: true,
+			id: "3A8424E9C6AEF4AB",
+			tasks: [{
+				id: "3307CEA6CC874740",
+				type: "item",
+				item: "createaddition:rolling_mill"
+			}],
+			rewards: [
+				{
+					id: "5D5AE159ED518C85",
+					type: "item",
+					item: "create:andesite_funnel",
+					count: 2
+				},
+				{
+					id: "397C234CFE4B7ABC",
+					type: "item",
+					item: "create:belt_connector"
+				}
+			]
+		},
+		{
+			title: "Finally!",
+			x: 4.0d,
+			y: -2.5d,
+			description: [
+				"You can now finally get more planks from logs.  Additionally, you can use the saw to craft stone variants from stone blocks, as well as automate all of those production lines.",
+				"",
+				"When placed horizontally, the saw can be used to chop down trees."
+			],
+			dependencies: ["032A914ECA2E8E98"],
+			hide: true,
+			id: "67C36321A90C0E6D",
+			tasks: [{
+				id: "33B63A29D2932FA7",
+				type: "item",
+				item: "create:mechanical_saw"
+			}],
+			rewards: [{
+				id: "529EBC34B832AFB4",
+				type: "item",
+				item: {
+					id: "minecraft:flint_and_steel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Mixy Mixy",
+			x: 4.0d,
+			y: 0.5d,
+			description: [
+				"The mechanical mixer has so many uses, you'll just have to figure it out for yourself.",
+				"",
+				"If I typed them all out, this page would be so long, you wouldnt read it anyway."
+			],
+			dependencies: ["032A914ECA2E8E98"],
+			hide: true,
+			id: "2F376DFD38824EA6",
+			tasks: [{
+				id: "4ADAB38D8ECF179C",
+				type: "item",
+				item: "create:mechanical_mixer"
+			}],
+			rewards: [{
+				id: "327A2D3DE8566D72",
+				type: "item",
+				item: "create:whisk"
+			}]
+		},
+		{
+			title: "It looks like a cage...?",
+			x: 4.0d,
+			y: 2.0d,
+			description: ["This thing looks like a cage.  Take your empty blaze burner to the nether..."],
+			dependencies: ["2F376DFD38824EA6"],
+			hide: true,
+			id: "4F6BAE0C1A97153D",
+			tasks: [{
+				id: "6BD384D4FF56738D",
+				type: "item",
+				item: "create:empty_blaze_burner"
+			}],
+			rewards: [{
+				id: "076625FCFADD2466",
+				type: "item",
+				item: "rankine:cast_iron_bars",
+				count: 6
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.5d,
+			description: [
+				"Take a blaze burner to the nether.",
+				"",
+				"Find a nether fortress, and right click on a blaze with the empty blaze burner.",
+				"",
+				"This will trap him in the burner, and expand your world of Create Crafting"
+			],
+			dependencies: ["4F6BAE0C1A97153D"],
+			hide: true,
+			id: "0743BC1B90FA2A7F",
+			tasks: [{
+				id: "245556A1F852BFBF",
+				type: "item",
+				item: "create:blaze_burner"
+			}],
+			rewards: [
+				{
+					id: "1E6DBA6D5F463CD3",
+					type: "item",
+					item: "minecraft:soul_lantern"
+				},
+				{
+					id: "7891376EF04F998D",
+					type: "item",
+					item: "buildersaddition:soul_candle"
+				}
+			]
+		},
+		{
+			title: "Vulcanized Rubber",
+			x: 6.0d,
+			y: 3.5d,
+			description: [
+				"Vulcanizing is a process where sulfur is heated with rubber at very high temperatures.",
+				"",
+				"This will create a very hard and durable rubber, with lots of uses."
+			],
+			dependencies: ["0743BC1B90FA2A7F"],
+			id: "27D9D407F1A267B3",
+			tasks: [{
+				id: "1BD8CF519C53CBE4",
+				type: "item",
+				item: "rankine:vulcanized_rubber"
+			}],
+			rewards: [{
+				id: "31F0790F629657C9",
+				type: "item",
+				item: "minecraft:blaze_rod",
+				count: 2
+			}]
+		},
+		{
+			title: "Thonked Iron",
+			x: 2.0d,
+			y: -1.0d,
+			description: ["Make some iron sheets, pure and simple."],
+			dependencies: ["6F34B0B7A8BD1BBC"],
+			hide: true,
+			id: "032A914ECA2E8E98",
+			tasks: [{
+				id: "69EF0178D2E00FA7",
+				type: "item",
+				item: "create:iron_sheet"
+			}],
+			rewards: [{
+				id: "06ACEFF27EE82111",
+				type: "item",
+				item: "create:ornate_iron_window",
+				count: 4
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -2.5d,
+			description: ["Andesite Casing is the most basic 'machine frame' in Create Mod.  You will use these casings to make several different useful machines."],
+			dependencies: ["4E80E84D1E2B0CB5"],
+			hide: true,
+			id: "4E03FEA2F5361B76",
+			tasks: [{
+				id: "49AC53A7F08363A7",
+				type: "item",
+				item: "create:andesite_casing"
+			}],
+			rewards: [{
+				id: "2327EE88A21EEE12",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 4
+			}]
+		},
+		{
+			title: "Fancy Glasses",
+			x: 0.0d,
+			y: 3.5d,
+			description: ["Engineer's Goggles will let you see more information on your machines, to help you troubleshoot your machines."],
+			dependencies: ["0F0DBC653CEF98E9"],
+			hide: true,
+			id: "43F733CAFD56299E",
+			tasks: [{
+				id: "35136DB090DAF2DC",
+				type: "item",
+				item: "create:goggles"
+			}],
+			rewards: [{
+				id: "3F43EA28F04055E8",
+				type: "item",
+				item: "minecraft:lantern"
+			}]
+		},
+		{
+			title: "A wrench in the system",
+			x: -1.5d,
+			y: 3.5d,
+			description: ["Craft a wrench to allow you to rotate/adjust the machines and blocks that you place."],
+			dependencies: ["0F0DBC653CEF98E9"],
+			hide: true,
+			id: "5CA847DAE71D285B",
+			tasks: [{
+				id: "694D630FD6F54E4E",
+				type: "item",
+				item: "create:wrench"
+			}],
+			rewards: [{
+				id: "5EF12C41733EA0E6",
+				type: "item",
+				item: {
+					id: "rankine:rose_gold_alloy",
+					Count: 1b,
+					tag: {
+						StoredComposition: [{
+							comp: "75Au-22Cu-3Ni"
+						}]
+					}
+				},
+				count: 3
+			}]
+		},
+		{
+			title: "Going Cuckoo",
+			x: 1.0d,
+			y: 2.0d,
+			description: ["A cuckoo clock will tell you when it's noon, and more importantly, when it's dusk.  "],
+			dependencies: ["0F0DBC653CEF98E9"],
+			hide: true,
+			id: "3D35E07D4FE3071A",
+			tasks: [{
+				id: "174964A61B80BAC4",
+				type: "item",
+				item: "create:cuckoo_clock"
+			}],
+			rewards: [{
+				id: "2BB29B8326569283",
+				type: "item",
+				item: "minecraft:clock"
+			}]
+		},
+		{
+			title: "Copper Casing",
+			x: 2.0d,
+			y: 2.0d,
+			description: ["The copper machine frame is used primarily for fluid transport."],
+			dependencies: ["0B7D283F4CDE0F04"],
+			hide: true,
+			id: "0ADFDFF3A5987EC1",
+			tasks: [{
+				id: "34086D79BCCF1AE9",
+				type: "item",
+				item: "create:copper_casing"
+			}],
+			rewards: [{
+				id: "53AD2424CB3F3BA0",
+				type: "item",
+				item: "create:copper_valve_handle"
+			}]
+		},
+		{
+			title: "Now we're talkin",
+			x: -2.0d,
+			y: 0.5d,
+			description: [
+				"Brass.  Now we're gettin into the good stuff.  Brass is the key for most of the automation you will be creating. ",
+				"",
+				"After you get your brass ingots, turn a few of them into sheets, and begin the fun."
+			],
+			dependencies: [
+				"6F34B0B7A8BD1BBC",
+				"6C778F2C9ED66B21"
+			],
+			id: "3BD60FC55F5157FC",
+			tasks: [{
+				id: "76D5DADD625C2A72",
+				type: "item",
+				item: "create:brass_sheet"
+			}],
+			rewards: [{
+				id: "4D9464317C2925F7",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 4
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 5.0d,
+			description: [
+				"A blaze cake is a tasty treat...for something.",
+				"",
+				"Feed it to the blaze that you have trapped in your burner, to open up crafting at the highest temperatures possible."
+			],
+			dependencies: [
+				"0743BC1B90FA2A7F",
+				"2E59A8EB2ED8357F"
+			],
+			hide: true,
+			id: "7F660EACF6FD1F30",
+			tasks: [{
+				id: "4090734668ACBDDA",
+				type: "item",
+				item: "create:blaze_cake"
+			}],
+			rewards: [{
+				id: "06D45A8CDDCAD16A",
+				type: "item",
+				item: "create:blaze_cake"
+			}]
+		},
+		{
+			title: "Fluid Pump",
+			x: 2.0d,
+			y: 3.5d,
+			description: ["Fluid Pump does just what it says.  Pumps fluids great distances, with mechanical help."],
+			dependencies: ["0ADFDFF3A5987EC1"],
+			hide: true,
+			id: "5308C662BF547E20",
+			tasks: [{
+				id: "6B7826D9189BAC2C",
+				type: "item",
+				item: "create:mechanical_pump"
+			}],
+			rewards: [{
+				id: "75F885C3128C4BA1",
+				type: "item",
+				item: "create:fluid_pipe",
+				count: 4
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 5.0d,
+			description: [
+				"Store your fluids.  Place multiple tanks together to create larger and larger tanks.",
+				"",
+				"Use a wrench to add a window to the tank."
+			],
+			dependencies: ["5308C662BF547E20"],
+			hide: true,
+			id: "2EDB81A256884BE8",
+			tasks: [{
+				id: "321C0BAEA7BEB5A9",
+				type: "item",
+				item: "create:fluid_tank"
+			}],
+			rewards: [{
+				id: "2C77990302943ABD",
+				type: "item",
+				item: "minecraft:glass",
+				count: 8
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 6.5d,
+			description: [
+				"Spouts are the opposite of drains.",
+				"",
+				"They will fill buckets, bottles, etc, that are placed under them."
+			],
+			dependencies: ["7D1F3DE853989194"],
+			hide: true,
+			id: "2E59A8EB2ED8357F",
+			tasks: [{
+				id: "15448E056E5E3043",
+				type: "item",
+				item: "create:spout"
+			}],
+			rewards: [{
+				id: "5955D7F4B9079D4D",
+				type: "item",
+				item: "create:fluid_pipe",
+				count: 8
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 6.5d,
+			description: ["Fluid drains will empty buckets, bottles, etc, that are placed into them"],
+			dependencies: ["2EDB81A256884BE8"],
+			hide: true,
+			id: "7D1F3DE853989194",
+			tasks: [{
+				id: "3B44B054C565DABE",
+				type: "item",
+				item: "create:item_drain"
+			}],
+			rewards: [
+				{
+					id: "31064FB12744B3EF",
+					type: "item",
+					item: "minecraft:glass_bottle"
+				},
+				{
+					id: "56CC0E79CF6E2D8B",
+					type: "item",
+					item: {
+						id: "woodenbuckets:wooden_bucket",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.0d,
+			y: 5.0d,
+			description: ["Chromatic Compound is a mysterious substance with mysterious properties that can make some mysterious things."],
+			dependencies: ["7F660EACF6FD1F30"],
+			hide: true,
+			id: "249279DFCFAD27CE",
+			tasks: [{
+				id: "1C41893682BC9D07",
+				type: "item",
+				item: {
+					id: "create:chromatic_compound",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [
+				{
+					id: "02FFF2DF182ACE02",
+					type: "item",
+					item: "minecraft:glowstone",
+					count: 3
+				},
+				{
+					id: "26BFA7B30A960594",
+					type: "item",
+					item: "minecraft:crying_obsidian",
+					count: 3
+				}
+			]
+		},
+		{
+			x: 8.0d,
+			y: 5.0d,
+			description: ["Into the light..."],
+			dependencies: ["249279DFCFAD27CE"],
+			hide: true,
+			id: "5380732FD4C49139",
+			tasks: [{
+				id: "3265C955D0D8E12F",
+				type: "item",
+				item: "create:refined_radiance"
+			}],
+			rewards: [{
+				id: "07F8FA6404FA71AC",
+				type: "item",
+				item: "additional_lights:al_lamp_diamond_block",
+				count: 4
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 6.5d,
+			description: ["Into the depths of the void..."],
+			dependencies: ["249279DFCFAD27CE"],
+			hide: true,
+			id: "79016414350EB650",
+			tasks: [{
+				id: "0B777D5EDD32F518",
+				type: "item",
+				item: "create:shadow_steel"
+			}],
+			rewards: [{
+				id: "02ABCFA0119ED848",
+				type: "item",
+				item: "additional_lights:al_lamp_blackstone",
+				count: 4
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 6.5d,
+			description: [
+				"Zap da blocks.",
+				"",
+				"Block exchanger at a distance."
+			],
+			dependencies: ["5380732FD4C49139"],
+			hide: true,
+			id: "090E36A54424C019",
+			tasks: [{
+				id: "3CD2AA72651630B2",
+				type: "item",
+				item: {
+					id: "create:handheld_blockzapper",
+					Count: 1b,
+					tag: {
+						Retriever: "None",
+						Scope: "None",
+						Amplifier: "None",
+						Body: "None",
+						Accelerator: "None"
+					}
+				}
+			}],
+			rewards: [{
+				id: "38636635FE717B63",
+				type: "item",
+				item: {
+					id: "rankine:purple_gold_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "80Au-20Al"
+						}],
+						Enchantments: [{
+							lvl: 1s,
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			description: [
+				"A powerful axe used to chop down trees very fast.",
+				"",
+				"Plus, it looks awesome."
+			],
+			dependencies: ["5380732FD4C49139"],
+			hide: true,
+			id: "314F928E2C4A42D4",
+			tasks: [{
+				id: "52814A40A4DF16CF",
+				type: "item",
+				item: {
+					id: "create:deforester",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "3507633B8768D373",
+				type: "item",
+				item: {
+					id: "rankine:white_gold_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90Au-10Zn"
+						}],
+						Enchantments: [{
+							lvl: 2s,
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 10.0d,
+			y: 5.0d,
+			dependencies: ["5380732FD4C49139"],
+			hide: true,
+			id: "162118E88CB6C0F6",
+			tasks: [{
+				id: "6A1416F420E3473C",
+				type: "item",
+				item: "create:wand_of_symmetry"
+			}],
+			rewards: [{
+				id: "6FA9EC4BDDCE9307",
+				type: "item",
+				item: {
+					id: "rankine:white_gold_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						StoredComposition: [{
+							comp: "90Au-10Zn"
+						}],
+						Enchantments: [{
+							lvl: 2s,
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Inspector Gadget",
+			x: -5.5d,
+			y: 4.5d,
+			description: ["The extendo grip will increase your reach greatly.  "],
+			dependencies: ["646D31E576728BC0"],
+			hide: true,
+			id: "2008494A02C8539C",
+			tasks: [{
+				id: "4D9BC7DAC477F696",
+				type: "item",
+				item: "create:extendo_grip"
+			}],
+			rewards: [{
+				id: "311D5AD1E650F95C",
+				type: "item",
+				item: "rankine:aluminum_ladder",
+				count: 4
+			}]
+		},
+		{
+			title: "Flywheel",
+			x: -6.5d,
+			y: 3.5d,
+			description: [
+				"The furnace engine and flywheel will generate a high level of stress units, as long as the furnace is running.",
+				"",
+				"A blast furnace will greatly increase the stress output."
+			],
+			dependencies: ["646D31E576728BC0"],
+			hide: true,
+			id: "6836EE4BD2A05074",
+			tasks: [
+				{
+					id: "13381959963306B8",
+					type: "item",
+					item: "create:flywheel"
+				},
+				{
+					id: "3C33D4E13F7F4D47",
+					type: "item",
+					item: "create:furnace_engine"
+				}
+			],
+			rewards: [
+				{
+					id: "1E02DEF44869E4FA",
+					type: "item",
+					item: "minecraft:blast_furnace"
+				},
+				{
+					id: "4B0FB581A938B065",
+					type: "item",
+					item: "rankine:coke",
+					count: 8
+				}
+			]
+		},
+		{
+			x: -4.0d,
+			y: -4.5d,
+			description: ["The bigger the better.  Craft a windmill bearing and some windmill sails.  The more sails you attach, the more power you will generate."],
+			dependencies: ["4E80E84D1E2B0CB5"],
+			hide: true,
+			id: "465356D43590F016",
+			tasks: [
+				{
+					id: "3F1C5A73759C0647",
+					type: "item",
+					item: "create:windmill_bearing"
+				},
+				{
+					id: "5ADCF3AB9BF4BE9C",
+					type: "item",
+					item: "create:white_sail"
+				}
+			],
+			rewards: [{
+				id: "06396F9035BAEABF",
+				type: "choice",
+				table_id: 8557701400500913244L
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -1.0d,
+			description: ["Andesite Funnels can be used to place things in, or remove things from chests. "],
+			dependencies: ["0E1C3A0ADD3E5B29"],
+			hide: true,
+			id: "1AB63EA3D1CCA59C",
+			tasks: [{
+				id: "5E76E1CAEB9CD5B1",
+				type: "item",
+				item: "create:andesite_funnel"
+			}],
+			rewards: [{
+				id: "317BAA32CE709FE8",
+				type: "item",
+				item: "create:cogwheel",
+				count: 3
+			}]
+		},
+		{
+			x: -8.0d,
+			y: 0.5d,
+			description: ["Andesite Tunnels are used to protect belts, keep mobs off of your belts, and distribute items to adjacent belts."],
+			dependencies: ["1AB63EA3D1CCA59C"],
+			hide: true,
+			id: "61BCBD7EF6C38026",
+			tasks: [{
+				id: "4D758FFABA5C1658",
+				type: "item",
+				item: "create:andesite_tunnel"
+			}],
+			rewards: [{
+				id: "7FE280CF7793D767",
+				type: "item",
+				item: "create:belt_connector",
+				count: 2
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 2.0d,
+			description: ["Craft some rose quartz, and then hit it with your finest sandpaper."],
+			dependencies: ["4F6BAE0C1A97153D"],
+			hide: true,
+			id: "5B37B0435DDDA45C",
+			tasks: [
+				{
+					id: "642E010EF1DA9E94",
+					type: "item",
+					item: "create:rose_quartz"
+				},
+				{
+					id: "3C00566E46D22F5B",
+					type: "item",
+					item: "create:polished_rose_quartz"
+				}
+			],
+			rewards: [{
+				id: "48448899049C23B2",
+				type: "item",
+				item: "minecraft:redstone_block"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			description: ["The electron tube is a component used in automation related contraptions. "],
+			dependencies: ["5B37B0435DDDA45C"],
+			hide: true,
+			id: "3695FA00C4E948D5",
+			tasks: [{
+				id: "67940978E2B4F780",
+				type: "item",
+				item: "create:electron_tube"
+			}],
+			rewards: [
+				{
+					id: "088EE231A5EB5921",
+					type: "item",
+					item: "minecraft:repeater"
+				},
+				{
+					id: "29FEC06353E7C656",
+					type: "item",
+					item: "minecraft:comparator"
+				}
+			]
+		},
+		{
+			title: "Ow quit it Ow quit it Ow quit it...",
+			x: 10.0d,
+			y: 0.5d,
+			description: [
+				"Bart Simpson's least favorite component.  The deployer is a way to automation a player's actions in Minecraft.",
+				"",
+				"It's uses are limitless.  Experiment with it and see what kind of fun contraptions you can Create."
+			],
+			dependencies: ["3695FA00C4E948D5"],
+			hide: true,
+			id: "5154FFA9C53F15CD",
+			tasks: [{
+				id: "15D6101C08F8883C",
+				type: "item",
+				item: "create:deployer"
+			}],
+			rewards: [{
+				id: "04E4973BB315CC1C",
+				type: "item",
+				item: "rankine:bandage",
+				count: 6
+			}]
+		},
+		{
+			title: "Robots!",
+			x: 10.0d,
+			y: 2.0d,
+			description: [
+				"Mechanical arms are a fancy way to move items from one place to another. ",
+				"",
+				"They may not be the fastest way to do, but c'mon now...just look at em."
+			],
+			dependencies: ["3695FA00C4E948D5"],
+			hide: true,
+			id: "21430672711DDCBD",
+			tasks: [{
+				id: "45D997D91541B2BE",
+				type: "item",
+				item: "create:mechanical_arm"
+			}],
+			rewards: [
+				{
+					id: "180D6983EC796BFD",
+					type: "item",
+					item: "create:depot"
+				},
+				{
+					id: "59E1064C57423F83",
+					type: "item",
+					item: "create:andesite_funnel"
+				}
+			]
+		},
+		{
+			title: "Aw chute",
+			x: 2.0d,
+			y: -2.5d,
+			description: [
+				"Chutes are used to move items between inventories vertically.",
+				"",
+				"When combined with a fan, they can be used to move items upward."
+			],
+			dependencies: ["032A914ECA2E8E98"],
+			hide: true,
+			id: "22735CD546086477",
+			tasks: [{
+				id: "0BAF254D154A9989",
+				type: "item",
+				item: "create:chute"
+			}],
+			rewards: [{
+				id: "1A7FD76A921E85C0",
+				type: "item",
+				item: "additional_lights:al_torch_iron_block",
+				count: 2
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.5d,
+			description: ["Fans have several uses.  They can move items, cook items, smelt items, and even generate power when placed next to a heat source."],
+			dependencies: ["22735CD546086477"],
+			hide: true,
+			id: "2D1E1C67E47CC563",
+			tasks: [{
+				id: "619AF9693976134D",
+				type: "item",
+				item: "create:encased_fan"
+			}],
+			rewards: [{
+				id: "369275ED94CDC54B",
+				type: "item",
+				item: "create:propeller"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -1.0d,
+			description: ["Brass funnels provide much more flexibility.  They allow you to extract multiple items at once, as well as filter specific items into or out of chests."],
+			dependencies: [
+				"1AB63EA3D1CCA59C",
+				"60D2924D0A3C1CC3"
+			],
+			id: "20E16794272BB16C",
+			tasks: [{
+				id: "5D66A997FD0F3E7B",
+				type: "item",
+				item: "create:brass_funnel"
+			}],
+			rewards: [{
+				id: "1B65449276055A2F",
+				type: "item",
+				item: "create:brass_casing"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.5d,
+			description: ["Brass Tunnels provide more customization than andesite tunnels.  You can filter specific items in between belts, as well as customize quantities of items in each direction."],
+			dependencies: [
+				"61BCBD7EF6C38026",
+				"60D2924D0A3C1CC3"
+			],
+			id: "7929153D45BC5F5C",
+			tasks: [{
+				id: "3AE865F53580279D",
+				type: "item",
+				item: "create:brass_tunnel"
+			}],
+			rewards: [{
+				id: "5C29ADDD21472E6F",
+				type: "choice",
+				table_id: 4246605526132431391L
+			}]
+		},
+		{
+			title: "Speed and Stress",
+			x: 0.0d,
+			y: 5.0d,
+			description: ["All of you contraptions have speed and stress requirements.  To better understand them, the stressometer and speedometer will give you precise information (combined with your goggles) as to if you have any issues, or how much of your stress units your contraptions are using."],
+			dependencies: ["43F733CAFD56299E"],
+			id: "5D7D2CE3B1B11A00",
+			tasks: [
+				{
+					id: "45F0A91BD49971C5",
+					type: "item",
+					item: "create:stressometer"
+				},
+				{
+					id: "182C215C5A16F331",
+					type: "item",
+					item: "create:speedometer"
+				}
+			],
+			rewards: [{
+				id: "123840B5283D9525",
+				type: "item",
+				item: {
+					id: "create:super_glue",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 2.0d,
+			description: [
+				"The weighted ejector is a block to fling items from one location to another.",
+				"",
+				"Cus why not."
+			],
+			dependencies: ["0F0DBC653CEF98E9"],
+			id: "45BCE5F22C727EC6",
+			tasks: [{
+				id: "5BF7A6B28BBE6F8F",
+				type: "item",
+				item: "create:weighted_ejector"
+			}],
+			rewards: [{
+				id: "57754FC8F9A0AA24",
+				type: "item",
+				item: "create:golden_sheet"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 4.0d,
+			dependencies: ["646D31E576728BC0"],
+			id: "750B48C6513731B0",
+			tasks: [{
+				id: "7080A3F7888B641A",
+				type: "item",
+				item: "create:integrated_circuit"
+			}],
+			rewards: [{
+				id: "2F8418DD98D8DD1E",
+				type: "item",
+				item: "rankine:lazurite_ore"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 6.0d,
+			description: ["Rotational Speed Controllers are fancy ways to adjust the output speed of your shafts without having to mess with messy cogs or gearboxes"],
+			dependencies: ["750B48C6513731B0"],
+			id: "329DAB358A0A5F39",
+			tasks: [{
+				id: "676F6CA4E4E3040E",
+				type: "item",
+				item: "create:rotation_speed_controller"
+			}],
+			rewards: [
+				{
+					id: "13584391ADF6E7C8",
+					type: "item",
+					item: "create:cogwheel"
+				},
+				{
+					id: "4621DD6F716B9AE4",
+					type: "item",
+					item: "create:shaft"
+				},
+				{
+					id: "5D14726138714F7C",
+					type: "item",
+					item: "create:large_cogwheel"
+				}
+			]
+		},
+		{
+			x: 4.0d,
+			y: -4.5d,
+			description: [
+				"The mechanical drill can be used to automatically break blocks in front of it.",
+				"",
+				"Combined with pistons and minecarts, you can create rudimentary mining machines...I think.",
+				"",
+				"Sounds good anyway."
+			],
+			dependencies: ["67C36321A90C0E6D"],
+			id: "24249B070F55E3B3",
+			tasks: [{
+				id: "2C780E7C02133865",
+				type: "item",
+				item: "create:mechanical_drill"
+			}],
+			rewards: [{
+				id: "5AF7B8BB108EF530",
+				type: "item",
+				item: "rankine:aluminum_nugget",
+				count: 16
+			}]
+		},
+		{
+			title: "Clutch and Gearshift",
+			x: -2.0d,
+			y: -4.5d,
+			description: [
+				"The clutch and gearshift are two blocks that give you more customizability of your contraptions.",
+				"",
+				"Experiment with them.  There are even more advanced options available, if you know where to look."
+			],
+			dependencies: ["4E03FEA2F5361B76"],
+			id: "20443A4A20F288BA",
+			tasks: [
+				{
+					id: "6E15B59F647F1F09",
+					type: "item",
+					item: "create:clutch"
+				},
+				{
+					id: "38CB3CE9FDA84A8C",
+					type: "item",
+					item: "create:gearshift"
+				}
+			],
+			rewards: [
+				{
+					id: "3E33333DC076E39F",
+					type: "item",
+					item: "create:andesite_casing"
+				},
+				{
+					id: "3DA6142C5C08572A",
+					type: "item",
+					item: "create:shaft",
+					count: 2
+				}
+			]
+		},
+		{
+			title: "Schematicannon",
+			x: 6.0d,
+			y: -4.5d,
+			description: ["The schematicannon is a device to help you recreate some complex builds, that you may just not want to build block by block, over and over, by yourself. "],
+			dependencies: ["24249B070F55E3B3"],
+			id: "004DB264A039DBBA",
+			tasks: [
+				{
+					id: "7DA486C03067BA3F",
+					type: "item",
+					item: "create:empty_schematic"
+				},
+				{
+					id: "5429904489C9704D",
+					type: "item",
+					item: "create:schematic_table"
+				},
+				{
+					id: "736223B943D6B3BB",
+					type: "item",
+					item: "create:schematicannon"
+				}
+			],
+			rewards: [{
+				id: "456E97283B4A2EE9",
+				type: "choice",
+				table_id: 4246605526132431391L
+			}]
+		},
+		{
+			title: "Piston Extension and Gantry Shafts",
+			x: -2.0d,
+			y: -6.5d,
+			description: ["These shafts are components that serve as part of a larger purpose, seen very soon"],
+			dependencies: ["20443A4A20F288BA"],
+			id: "31477C78A9055A18",
+			tasks: [
+				{
+					id: "1ABAD6006F5DD5E7",
+					type: "item",
+					item: "create:piston_extension_pole"
+				},
+				{
+					id: "19920EA4DEF2C4F4",
+					type: "item",
+					item: "create:gantry_shaft"
+				}
+			],
+			rewards: [{
+				id: "657498492B302248",
+				type: "item",
+				item: "create:andesite_alloy",
+				count: 4
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -6.5d,
+			description: ["Mechanical Piston (and their sticky cousin) act similarly to vanilla Minecraft Pistons, but, with the addition of extension poles, can extend much farther than one block."],
+			dependencies: ["31477C78A9055A18"],
+			id: "4A526D1B7B104543",
+			tasks: [{
+				id: "33D9070409AC2B00",
+				type: "item",
+				item: "create:mechanical_piston"
+			}],
+			rewards: [
+				{
+					id: "7167148C2BA7AE5D",
+					type: "item",
+					item: "create:piston_extension_pole",
+					count: 3
+				},
+				{
+					id: "29A1469127E9CD27",
+					type: "item",
+					item: "minecraft:slime_ball"
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: -7.5d,
+			description: ["Gantry Carriages are a fancy way to convert rotational motion into linear motion, with the addition of gantry shafts."],
+			dependencies: ["31477C78A9055A18"],
+			id: "12926CBD4C24FB3F",
+			tasks: [{
+				id: "3760D57B7D139155",
+				type: "item",
+				item: "create:gantry_carriage"
+			}],
+			rewards: [
+				{
+					id: "1FDF0CC36283FB02",
+					type: "item",
+					item: "minecraft:slime_ball"
+				},
+				{
+					id: "50DE45BC3E6EC1A5",
+					type: "item",
+					item: "create:gantry_shaft",
+					count: 3
+				}
+			]
+		}
+	]
+}

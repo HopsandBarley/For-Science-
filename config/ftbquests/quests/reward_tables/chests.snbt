@@ -1,0 +1,32 @@
+{
+	id: "67E66FF478A92683",
+	order_index: 6,
+	title: "Chests",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "storage_overhaul:oak_chest"
+		},
+		{
+			item: "storage_overhaul:spruce_chest"
+		},
+		{
+			item: "storage_overhaul:birch_chest"
+		},
+		{
+			item: "storage_overhaul:acacia_chest"
+		},
+		{
+			item: "storage_overhaul:jungle_chest"
+		},
+		{
+			item: "storage_overhaul:dark_oak_chest"
+		},
+		{
+			item: "storage_overhaul:crimson_chest"
+		},
+		{
+			item: "storage_overhaul:warped_chest"
+		}
+	]
+}

@@ -1,0 +1,3329 @@
+{
+	id: "1686227F4317BBFD",
+	group: "",
+	order_index: 5,
+	filename: "periodic_tablein_minecraft",
+	title: "Chemistry!",
+	icon: "minecraft:gold_block",
+	default_quest_shape: "square",
+	quests: [
+		{
+			title: "Hydrogen",
+			x: -25.0d,
+			y: -12.5d,
+			shape: "square",
+			id: "6FD0E7B2B5E587E6",
+			tasks: [{
+				id: "7E3240938573B4FA",
+				type: "item",
+				item: "rankine:hydrogen_gas_block"
+			}]
+		},
+		{
+			title: "Helium",
+			x: -8.0d,
+			y: -12.5d,
+			shape: "square",
+			id: "1C547275D7760C3C",
+			tasks: [{
+				id: "4B11A20176DCD032",
+				type: "item",
+				item: "rankine:helium_gas_block"
+			}]
+		},
+		{
+			x: -25.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "0A247BCE2B85158F",
+			tasks: [{
+				id: "7734036C88EFD042",
+				type: "item",
+				title: "Lithium",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:lithium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:lithium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:lithium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -24.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "558C2AE84C5D1E55",
+			tasks: [{
+				id: "7A0DE00818524810",
+				type: "item",
+				title: "Beryllium",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:beryllium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:beryllium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:beryllium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "36F79AC8789B7090",
+			tasks: [{
+				id: "757C6CC385A2814C",
+				type: "item",
+				item: "rankine:neon_gas_block"
+			}]
+		},
+		{
+			x: -9.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "1169F56129E087FC",
+			tasks: [{
+				id: "4E76242FFA7E74DD",
+				type: "item",
+				item: "rankine:fluorine_gas_block"
+			}]
+		},
+		{
+			x: -10.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "672FC3F7CF02E283",
+			tasks: [{
+				id: "4F15AB73AA7B4971",
+				type: "item",
+				item: "rankine:oxygen_gas_block"
+			}]
+		},
+		{
+			x: -11.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "053859678A5B8DD6",
+			tasks: [{
+				id: "54C434A562A0DBFF",
+				type: "item",
+				item: "rankine:nitrogen_gas_block"
+			}]
+		},
+		{
+			x: -12.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "2A7E382D18CFCF7D",
+			tasks: [{
+				id: "0AB14750DC4A2E3E",
+				type: "item",
+				title: "Carbon",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:carbon_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:carbon_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:carbon_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -13.0d,
+			y: -11.5d,
+			shape: "square",
+			id: "60A23F880C45751C",
+			tasks: [{
+				id: "6E343BA87CA19827",
+				type: "item",
+				title: "Boron",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:boron_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:boron_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:boron_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Sodium",
+			x: -25.0d,
+			y: -10.5d,
+			shape: "square",
+			id: "533D2051F1C47FED",
+			tasks: [{
+				id: "5CAB3DEE45C47D38",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:sodium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:sodium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:sodium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Magnesium",
+			x: -24.0d,
+			y: -10.5d,
+			shape: "square",
+			id: "459CEC3AB12B7584",
+			tasks: [{
+				id: "0CAAB979CAA05BE0",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:magnesium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:magnesium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:magnesium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Aluminum",
+			x: -13.0d,
+			y: -10.5d,
+			shape: "square",
+			id: "29F4D1A72E07FD0C",
+			tasks: [{
+				id: "1AC0D841776FC6BF",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:aluminum_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:aluminum_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:aluminum_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Silicon",
+			x: -12.0d,
+			y: -10.5d,
+			id: "4ADB45351C041E38",
+			tasks: [{
+				id: "28C3657660C62E92",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:silicon_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:silicon",
+								Count: 1b
+							},
+							{
+								id: "rankine:silicon_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Phosphorus",
+			x: -11.0d,
+			y: -10.5d,
+			id: "6A289344B99D9406",
+			tasks: [{
+				id: "705A7CDE4A95565A",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:phosphorus_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:phosphorus",
+								Count: 1b
+							},
+							{
+								id: "rankine:phosphorus_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Sulfur",
+			x: -10.0d,
+			y: -10.5d,
+			id: "43FB1CFBEF1CBC74",
+			tasks: [{
+				id: "7ED248C3C19E36B6",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:sulfur_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:sulfur",
+								Count: 1b
+							},
+							{
+								id: "rankine:sulfur_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Chlorine",
+			x: -9.0d,
+			y: -10.5d,
+			id: "2AE67B4B8373703C",
+			tasks: [{
+				id: "2A2E446A46760A38",
+				type: "item",
+				item: "rankine:chlorine_gas_block"
+			}]
+		},
+		{
+			title: "Argon",
+			x: -8.0d,
+			y: -10.5d,
+			id: "06404076DA9DBFFB",
+			tasks: [{
+				id: "798224E5CF8937B8",
+				type: "item",
+				item: "rankine:argon_gas_block"
+			}]
+		},
+		{
+			title: "Potassium",
+			x: -25.0d,
+			y: -9.5d,
+			id: "3160F8CB0185C3DE",
+			tasks: [{
+				id: "6A401143E7872755",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:potassium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:potassium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:potassium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Calcium",
+			x: -24.0d,
+			y: -9.5d,
+			id: "443A7DCDE43A2A75",
+			tasks: [{
+				id: "68148E4F9CBA9224",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:calcium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:calcium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:calcium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Scandium",
+			x: -23.0d,
+			y: -9.5d,
+			id: "780AD74CAC10BD66",
+			tasks: [{
+				id: "00FD3150B00BB4E8",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:scandium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:scandium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:scandium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Titanium",
+			x: -22.0d,
+			y: -9.5d,
+			id: "07F90FE10F55B5B9",
+			tasks: [{
+				id: "37B497C97E129E7B",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:titanium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:titanium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:titanium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Vanadium",
+			x: -21.0d,
+			y: -9.5d,
+			id: "18B206AA3465BFAC",
+			tasks: [{
+				id: "661CA68C1A205D61",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:vanadium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:vanadium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:vanadium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Chromium",
+			x: -20.0d,
+			y: -9.5d,
+			id: "6FF73E269C1D7B88",
+			tasks: [{
+				id: "15098C3DFDE77B65",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:vanadium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:vanadium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:vanadium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Manganese",
+			x: -19.0d,
+			y: -9.5d,
+			id: "1388E624FEE28819",
+			tasks: [{
+				id: "088C71CA156C5635",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:manganese_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:manganese_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:manganese_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Iron",
+			x: -18.0d,
+			y: -9.5d,
+			id: "20DA90A059726657",
+			tasks: [{
+				id: "21917D4130ADFF16",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:iron_nugget",
+								Count: 1b
+							},
+							{
+								id: "minecraft:iron_ingot",
+								Count: 1b
+							},
+							{
+								id: "minecraft:iron_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Cobalt",
+			x: -17.0d,
+			y: -9.5d,
+			id: "5903E71E897263E8",
+			tasks: [{
+				id: "3BBEAFB95E0B40A4",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:cobalt_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:cobalt_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:cobalt_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Nickel",
+			x: -16.0d,
+			y: -9.5d,
+			id: "31343EDC3B9EF2E1",
+			tasks: [{
+				id: "32F0160C14BA191C",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:nickel_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:nickel_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:nickel_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Copper",
+			x: -15.0d,
+			y: -9.5d,
+			id: "2A8A4D52FA89DCE6",
+			tasks: [{
+				id: "1F2AD41CDCCF986C",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:copper_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:copper_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:copper_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Zinc",
+			x: -14.0d,
+			y: -9.5d,
+			id: "5219355A2EB5B4FB",
+			tasks: [{
+				id: "2648ECBD2E11A689",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:zinc_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:zinc_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:zinc_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Gallium",
+			x: -13.0d,
+			y: -9.5d,
+			id: "5729DCED8625B910",
+			tasks: [{
+				id: "5F89689A9FE75007",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:gallium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:gallium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:gallium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Germanium",
+			x: -12.0d,
+			y: -9.5d,
+			id: "1055A53E0B6321C1",
+			tasks: [{
+				id: "3BD5848AD17B0C90",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:germanium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:germanium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:germanium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Arsenic",
+			x: -11.0d,
+			y: -9.5d,
+			id: "4B1374D524064215",
+			tasks: [{
+				id: "3935EE5DF5ACA9D7",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:arsenic_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:arsenic_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:arsenic_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Selenium",
+			x: -10.0d,
+			y: -9.5d,
+			id: "3FEA3C8E051002F2",
+			tasks: [{
+				id: "6035F91BB26A0472",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:selenium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:selenium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:selenium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Bromine",
+			x: -9.0d,
+			y: -9.5d,
+			id: "51E665878FC7947D",
+			tasks: [{
+				id: "060728BC5A850AFD",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:bromine_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:bromine_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:bromine_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Krypton",
+			x: -8.0d,
+			y: -9.5d,
+			id: "785C64C56D6A1D69",
+			tasks: [{
+				id: "4C431A2EEB540DF5",
+				type: "item",
+				item: "rankine:krypton_gas_block"
+			}]
+		},
+		{
+			title: "Rubidium",
+			x: -25.0d,
+			y: -8.5d,
+			id: "21B3D47052645E67",
+			tasks: [{
+				id: "2C6CBEDE5358A2EB",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:rubidium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:rubidium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:rubidium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Strontium",
+			x: -24.0d,
+			y: -8.5d,
+			id: "3CBBB2C0BE105EC5",
+			tasks: [{
+				id: "4CB85E320EF1A6C3",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:strontium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:strontium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:strontium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Yttrium",
+			x: -23.0d,
+			y: -8.5d,
+			id: "4BCB173E3ECA2026",
+			tasks: [{
+				id: "1E5D626C993C043E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:yttrium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:yttrium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:yttrium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Zirconium",
+			x: -22.0d,
+			y: -8.5d,
+			id: "543BBF631A121E73",
+			tasks: [{
+				id: "4DD5EAB6ED7503D0",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:zirconium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:zirconium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:zirconium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Niobium",
+			x: -21.0d,
+			y: -8.5d,
+			id: "5301A3D5552EC8E1",
+			tasks: [{
+				id: "16EDC26EAD5B0884",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:niobium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:niobium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:niobium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Molybdenum",
+			x: -20.0d,
+			y: -8.5d,
+			id: "65FF1B4811D07CC1",
+			tasks: [{
+				id: "7B279BB1DEAAF6D2",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:molybdenum_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:molybdenum_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:molybdenum_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Technetium",
+			x: -19.0d,
+			y: -8.5d,
+			id: "696407069D959787",
+			tasks: [{
+				id: "67CAD1A757BF7A7E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:technetium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:technetium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:technetium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Ruthenium",
+			x: -18.0d,
+			y: -8.5d,
+			id: "5337F1870921E1E1",
+			tasks: [{
+				id: "0B61787C4B9B3ABE",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:ruthenium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:ruthenium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:ruthenium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Rhodium",
+			x: -17.0d,
+			y: -8.5d,
+			id: "2080A113DCAB2E84",
+			tasks: [{
+				id: "68341248635F51C3",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:rhodium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:rhodium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:rhodium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Palladium",
+			x: -16.0d,
+			y: -8.5d,
+			id: "01096F03771171E7",
+			tasks: [{
+				id: "5860D165976EAB74",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:palladium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:palladium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:palladium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Silver",
+			x: -15.0d,
+			y: -8.5d,
+			id: "4D659BCD2365BC58",
+			tasks: [{
+				id: "3D2D84F9A9666FED",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:silver_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:silver_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:silver_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Cadmium",
+			x: -14.0d,
+			y: -8.5d,
+			id: "00F965A6589B13C2",
+			tasks: [{
+				id: "19DCA4ECBF6AD54E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:cadmium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:cadmium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:cadmium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Indium",
+			x: -13.0d,
+			y: -8.5d,
+			id: "102C325E892FDA72",
+			tasks: [{
+				id: "412B6D0FEA746BFB",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:indium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:indium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:indium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tin",
+			x: -12.0d,
+			y: -8.5d,
+			id: "77B0695CAD6913E1",
+			tasks: [{
+				id: "0EB8F02DA0E8EED9",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:tin_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:tin_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:tin_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Antimony",
+			x: -11.0d,
+			y: -8.5d,
+			id: "5B1002CF64173C34",
+			tasks: [{
+				id: "3162600FB7F43579",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:antimony_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:antimony_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:antimony_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tellurium",
+			x: -10.0d,
+			y: -8.5d,
+			id: "4A5683582511E7A6",
+			tasks: [{
+				id: "0F255CFF5FF18F54",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:tellurium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:tellurium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:tellurium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Iodine",
+			x: -9.0d,
+			y: -8.5d,
+			id: "0FFE9D5B471D5F8C",
+			tasks: [{
+				id: "1117CAEE03B5231D",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:iodine_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:iodine_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:iodine_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -8.5d,
+			id: "41F8A856DD830614",
+			tasks: [{
+				id: "4534BB7C5E16CAEA",
+				type: "item",
+				item: "rankine:xenon_gas_block"
+			}]
+		},
+		{
+			title: "Cesium",
+			x: -25.0d,
+			y: -7.5d,
+			id: "5E17F20B94126FEB",
+			tasks: [{
+				id: "491079428DA82F43",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:cesium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:cesium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:cesium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Barium",
+			x: -24.0d,
+			y: -7.5d,
+			id: "34F2AE9043F1B53E",
+			tasks: [{
+				id: "563F611792E05135",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:barium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:barium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:barium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Francium",
+			x: -25.0d,
+			y: -6.5d,
+			id: "61189295AAB9AF59",
+			tasks: [{
+				id: "3B8AA3222FEA3933",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:francium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:francium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:francium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Radium",
+			x: -24.0d,
+			y: -6.5d,
+			id: "20776E180B0BD010",
+			tasks: [{
+				id: "421F92E1F14B6119",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:radium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:radium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:radium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Hafnium",
+			x: -22.0d,
+			y: -7.5d,
+			id: "36047DFEE740F69D",
+			tasks: [{
+				id: "2B080E4CD1628B03",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:hafnium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:hafnium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:hafnium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Rutherfordium",
+			x: -22.0d,
+			y: -6.5d,
+			id: "7E47AAAEC2F9F23C",
+			tasks: [{
+				id: "6CDFDE63C60CE191",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:rutherfordium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:rutherfordium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:rutherfordium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tantalum",
+			x: -21.0d,
+			y: -7.5d,
+			id: "43AC4549FB1D0AFC",
+			tasks: [{
+				id: "2382B7BC8AA9CBD7",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:tantalum_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:tantalum_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:tantalum_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Dubnium",
+			x: -21.0d,
+			y: -6.5d,
+			id: "6C565A36FBAA4909",
+			tasks: [{
+				id: "3BF101AA9957AA25",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:dubnium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:dubnium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:dubnium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tungsten",
+			x: -20.0d,
+			y: -7.5d,
+			id: "60084F48DE38BF64",
+			tasks: [{
+				id: "606C8426785B22EA",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:tungsten_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:tungsten_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:tungsten_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Seaborgium",
+			x: -20.0d,
+			y: -6.5d,
+			id: "18FC34F62CDDF683",
+			tasks: [{
+				id: "4548B831607BEE7F",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:seaborgium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:seaborgium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:seaborgium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Rhenium",
+			x: -19.0d,
+			y: -7.5d,
+			id: "1743A536FAAB8D39",
+			tasks: [{
+				id: "4B2F2B3BD57DAAE3",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:rhenium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:rhenium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:rhenium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Bohrium",
+			x: -19.0d,
+			y: -6.5d,
+			id: "115592CBFD9BAE36",
+			tasks: [{
+				id: "2FBBD2B8FC65B60F",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:bohrium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:bohrium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:bohrium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Osmium",
+			x: -18.0d,
+			y: -7.5d,
+			id: "150CDEB3A5817912",
+			tasks: [{
+				id: "09B0FD6F4F205B83",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:osmium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:osmium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:osmium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Hassium",
+			x: -18.0d,
+			y: -6.5d,
+			id: "63C88DC4557A683C",
+			tasks: [{
+				id: "6C656E5920BB1F56",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:hassium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:hassium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:hassium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Iridium",
+			x: -17.0d,
+			y: -7.5d,
+			id: "08CF286A7D5AF0C9",
+			tasks: [{
+				id: "393EC1CE3A90268E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:iridium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:iridium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:iridium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Meitnerium",
+			x: -17.0d,
+			y: -6.5d,
+			id: "09931202F164FAF4",
+			tasks: [{
+				id: "128A80E1624F50B1",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:meitnerium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:meitnerium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:meitnerium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Platinum",
+			x: -16.0d,
+			y: -7.5d,
+			id: "03BF63C0EFA01500",
+			tasks: [{
+				id: "5B4A8709D286D69B",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:platinum_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:platinum_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:platinum_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Darmstadtium",
+			x: -16.0d,
+			y: -6.5d,
+			id: "16E9AFC716778917",
+			tasks: [{
+				id: "3E5061FB38E97D6E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:darmstadtium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:darmstadtium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:darmstadtium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Gold",
+			x: -15.0d,
+			y: -7.5d,
+			id: "7F0A8E8E44367593",
+			tasks: [{
+				id: "47B88C067DEA2A69",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "minecraft:gold_nugget",
+								Count: 1b
+							},
+							{
+								id: "minecraft:gold_ingot",
+								Count: 1b
+							},
+							{
+								id: "minecraft:gold_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Roentgenium",
+			x: -15.0d,
+			y: -6.5d,
+			id: "1ACA1E356A339A40",
+			tasks: [{
+				id: "656EB02282995202",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:roentgenium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:roentgenium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:roentgenium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Mercury",
+			x: -14.0d,
+			y: -7.5d,
+			id: "0AB6E6A09570ACA0",
+			tasks: [{
+				id: "3900D7E9714CBCBF",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:mercury_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:mercury_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:mercury_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Copernicium",
+			x: -14.0d,
+			y: -6.5d,
+			id: "4747679DC8DBBA62",
+			tasks: [{
+				id: "1F61009A9FD074F0",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:copernicium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:copernicium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:copernicium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Thallium",
+			x: -13.0d,
+			y: -7.5d,
+			id: "48DBABF7B434FE5A",
+			tasks: [{
+				id: "07FD54001A9CA455",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:thallium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:thallium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:thallium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Lead",
+			x: -12.0d,
+			y: -7.5d,
+			id: "23FFBDE3189EAE38",
+			tasks: [{
+				id: "3BBA6CFE11C3DF74",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:lead_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:lead_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:lead_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Bismuth",
+			x: -11.0d,
+			y: -7.5d,
+			id: "5CF495DBE2A1A3EE",
+			tasks: [{
+				id: "5718F1F694382DBF",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:bismuth_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:bismuth_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:bismuth_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Polonium",
+			x: -10.0d,
+			y: -7.5d,
+			id: "35AF5FEF4CE2764D",
+			tasks: [{
+				id: "083DB8EB500E1CEC",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:polonium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:polonium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:polonium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Astatine",
+			x: -9.0d,
+			y: -7.5d,
+			id: "7F8C0656ABA2FE73",
+			tasks: [{
+				id: "0ECCE662A6A1A1B8",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:astatine_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:astatine",
+								Count: 1b
+							},
+							{
+								id: "rankine:astatine_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -7.5d,
+			id: "673B749D3EE4F6D8",
+			tasks: [{
+				id: "2189FBD4E64A4FCF",
+				type: "item",
+				item: "rankine:radon_gas_block"
+			}]
+		},
+		{
+			title: "Flerovium",
+			x: -12.0d,
+			y: -6.5d,
+			id: "19B32EC4E7BB4CDC",
+			tasks: [{
+				id: "7C7D104BB047CFA5",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:flerovium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:flerovium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:flerovium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Livermorium",
+			x: -10.0d,
+			y: -6.5d,
+			id: "72188828ADF613DF",
+			tasks: [{
+				id: "19A06F48499F5D85",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:livermorium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:livermorium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:livermorium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Lanthanum",
+			x: -23.0d,
+			y: -5.0d,
+			id: "7B4CF726AFAD7FDE",
+			tasks: [{
+				id: "2D8EC1E24F69A5E9",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:lanthanum_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:lanthanum_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:lanthanum_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Actinium",
+			x: -23.0d,
+			y: -4.0d,
+			id: "1E785CDECF4C8BE5",
+			tasks: [{
+				id: "2177D9CB80CE6CF4",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:actinium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:actinium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:actinium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Cerium",
+			x: -22.0d,
+			y: -5.0d,
+			id: "7C89853ABDFB13C2",
+			tasks: [{
+				id: "2F592708AB062043",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:cerium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:cerium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:cerium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Thorium",
+			x: -22.0d,
+			y: -4.0d,
+			id: "6BF0232F232354FB",
+			tasks: [{
+				id: "6482556C63888376",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:thorium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:thorium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:thorium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Praseodymium",
+			x: -21.0d,
+			y: -5.0d,
+			id: "31BC32BEA2E5F4FF",
+			tasks: [{
+				id: "1FF5F07FF20BB453",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:praseodymium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:praseodymium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:praseodymium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Protactinium",
+			x: -21.0d,
+			y: -4.0d,
+			id: "054041B54C50655C",
+			tasks: [{
+				id: "0A4F2C29CC623669",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:protactinium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:protactinium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:protactinium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Neodymium",
+			x: -20.0d,
+			y: -5.0d,
+			id: "054CA181091BFF37",
+			tasks: [{
+				id: "737923E8A15A9DE9",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:neodymium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:neodymium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:neodymium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Uranium",
+			x: -20.0d,
+			y: -4.0d,
+			id: "477C27547EA187A5",
+			tasks: [{
+				id: "13053C89474DA69D",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:uranium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:uranium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:uranium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Promethium",
+			x: -19.0d,
+			y: -5.0d,
+			id: "0724C041451AF481",
+			tasks: [{
+				id: "3A8AE27BFDDE2BAF",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:promethium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:promethium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:promethium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Neptunium",
+			x: -19.0d,
+			y: -4.0d,
+			id: "3466088B421F840B",
+			tasks: [{
+				id: "40C28BF597596F9E",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:neptunium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:neptunium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:neptunium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Samarium",
+			x: -18.0d,
+			y: -5.0d,
+			id: "6747DBCC49B46F38",
+			tasks: [{
+				id: "4ABA0BEFDCB18802",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:samarium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:samarium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:samarium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Plutonium",
+			x: -18.0d,
+			y: -4.0d,
+			id: "267D0468DA862895",
+			tasks: [{
+				id: "4595A40FB7CC9017",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:plutonium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:plutonium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:plutonium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Europium",
+			x: -17.0d,
+			y: -5.0d,
+			id: "3D120206D13EDFC2",
+			tasks: [{
+				id: "15FCA058697F63DE",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:europium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:europium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:europium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Americium",
+			x: -17.0d,
+			y: -4.0d,
+			id: "45B11878B9342FB2",
+			tasks: [{
+				id: "28CB9A6446AF90B4",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:americium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:americium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:americium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Gadolinium",
+			x: -16.0d,
+			y: -5.0d,
+			id: "08C321670AC3EA6F",
+			tasks: [{
+				id: "3FEC558079283000",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:gadolinium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:gadolinium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:gadolinium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Curium",
+			x: -16.0d,
+			y: -4.0d,
+			id: "78A7866EA0FCDF7E",
+			tasks: [{
+				id: "2FF2C9B0EC0B8A41",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:curium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:curium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:curium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Terbium",
+			x: -15.0d,
+			y: -5.0d,
+			id: "74B53F87D00A6B63",
+			tasks: [{
+				id: "449CEF2AAF28989A",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:terbium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:terbium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:terbium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Berkelium",
+			x: -15.0d,
+			y: -4.0d,
+			id: "4134D36890DA7EE1",
+			tasks: [{
+				id: "6C797DF717126FA3",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:berkelium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:berkelium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:berkelium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Dysprosium",
+			x: -14.0d,
+			y: -5.0d,
+			id: "6C68675FE016AA65",
+			tasks: [{
+				id: "531360B65ED5AA17",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:dysprosium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:dysprosium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:dysprosium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Californium",
+			x: -14.0d,
+			y: -4.0d,
+			id: "5F64ACF946C4C9D6",
+			tasks: [{
+				id: "37A546A184A3CF48",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:californium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:californium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:californium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Holmium",
+			x: -13.0d,
+			y: -5.0d,
+			id: "687B54449E2DE253",
+			tasks: [{
+				id: "6048920C3CF3314C",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:holmium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:holmium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:holmium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Einsteinium",
+			x: -13.0d,
+			y: -4.0d,
+			id: "0C0B5F665A0BA984",
+			tasks: [{
+				id: "50529BF67EC2DE68",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:einsteinium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:einsteinium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:einsteinium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Erbium",
+			x: -12.0d,
+			y: -5.0d,
+			id: "58E11BD995CA8C5A",
+			tasks: [{
+				id: "236D1571BD44BD39",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:erbium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:erbium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:erbium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Fermium",
+			x: -12.0d,
+			y: -4.0d,
+			id: "36EA02B9549634EF",
+			tasks: [{
+				id: "2625A2B8282DBFA8",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:fermium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:fermium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:fermium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Thulium",
+			x: -11.0d,
+			y: -5.0d,
+			id: "51EDCBB5A07B624D",
+			tasks: [{
+				id: "112973F5D7812775",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:thulium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:thulium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:thulium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Mendelevium",
+			x: -11.0d,
+			y: -4.0d,
+			id: "0DDD0FC0B1853511",
+			tasks: [{
+				id: "088C20486A98201B",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:mendelevium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:mendelevium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:mendelevium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Ytterbium",
+			x: -10.0d,
+			y: -5.0d,
+			id: "1CDEEA8049836214",
+			tasks: [{
+				id: "1D57DAADE56DACE6",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:ytterbium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:ytterbium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:ytterbium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Nobelium",
+			x: -10.0d,
+			y: -4.0d,
+			id: "662F9DAFB5C65C9E",
+			tasks: [{
+				id: "753E72216BF198C0",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:nobelium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:nobelium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:nobelium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Lutetium",
+			x: -9.0d,
+			y: -5.0d,
+			id: "46F1F011D25CD698",
+			tasks: [{
+				id: "093B8EA3AC873B6A",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:lutetium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:lutetium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:lutetium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Lawrencium",
+			x: -9.0d,
+			y: -4.0d,
+			id: "17FDA235FB4FA02A",
+			tasks: [{
+				id: "69E80AA405793FFE",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:lawrencium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:lawrencium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:lawrencium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -6.5d,
+			id: "138F870A3D361A4E",
+			tasks: [{
+				id: "4AE852B66A2D882C",
+				type: "item",
+				item: "rankine:oganesson_gas_block"
+			}]
+		},
+		{
+			title: "Tennessine",
+			x: -9.0d,
+			y: -6.5d,
+			id: "5B6C02D3E3565857",
+			tasks: [{
+				id: "57C4DE2B0EA2EB35",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:tennessine_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:tennessine_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:tennessine_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Moscovium",
+			x: -11.0d,
+			y: -6.5d,
+			id: "52C3DFCCF41CD497",
+			tasks: [{
+				id: "037856E649568E44",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:moscovium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:moscovium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:moscovium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Nihonium",
+			x: -13.0d,
+			y: -6.5d,
+			id: "4295D3DBBBF8D341",
+			tasks: [{
+				id: "0B7C809F90E75FE2",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "rankine:nihonium_nugget",
+								Count: 1b
+							},
+							{
+								id: "rankine:nihonium_ingot",
+								Count: 1b
+							},
+							{
+								id: "rankine:nihonium_block",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

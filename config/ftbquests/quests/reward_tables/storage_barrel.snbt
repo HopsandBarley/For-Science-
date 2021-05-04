@@ -1,0 +1,32 @@
+{
+	id: "43EA619355BEB0EF",
+	order_index: 19,
+	title: "Storage Barrel",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "storage_overhaul:oak_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:spruce_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:birch_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:acacia_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:jungle_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:dark_oak_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:crimson_storage_barrel"
+		},
+		{
+			item: "storage_overhaul:warped_storage_barrel"
+		}
+	]
+}
