@@ -143,6 +143,13 @@ craftingTable.addShaped("shaft_with_hammer", <item:create:shaft>*2, [
 <recipetype:create:crushing>.removeRecipe(<item:create:crushed_lead_ore>);
 <recipetype:create:crushing>.removeRecipe(<item:minecraft:coal>);
 
+//Remove Create Crushed Ore Recipes From Blast Furnace
+<recipetype:minecraft:blasting>.removeByName("create:blasting/copper_ingot_from_crushed");
+<recipetype:minecraft:blasting>.removeByName("create:blasting/iron_ingot_from_crushed");
+<recipetype:minecraft:blasting>.removeByName("create:blasting/zinc_ingot_from_crushed");
+<recipetype:minecraft:blasting>.removeByName("create:blasting/brass_ingot_from_crushed");
+<recipetype:minecraft:blasting>.removeByName("create:blasting/gold_ingot_from_crushed");
+
 //Remove Create Crushed Brass Recipe from Mixer
 <recipetype:create:mixing>.removeRecipe(<item:create:crushed_brass>);
 
