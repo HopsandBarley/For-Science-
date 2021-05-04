@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:cobaltite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:arsenic_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:zinc_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:cobalt_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:cobaltite",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

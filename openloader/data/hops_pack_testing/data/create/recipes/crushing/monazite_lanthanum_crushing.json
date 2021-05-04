@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:lanthanum_monazite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lanthanum_nugget",
+	  "count": 6,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:cesium_nugget",
+      "count": 3,
+      "chance": 0.6
+    },
+    {
+      "item": "rankine:barium_nugget",
+	  "count": 3,
+      "chance": 0.6
+    },
+	{
+      "item": "rankine:yttrium_nugget",
+	  "count": 3,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

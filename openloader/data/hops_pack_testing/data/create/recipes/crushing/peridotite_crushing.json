@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:peridotite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:olivine",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "rankine:pyroxene",
+	  "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:magnesia",
+	  "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 400
+}

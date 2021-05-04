@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:lepidolite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lithium_nugget",
+	  "count": 5,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:aluminum_nugget",
+      "count": 5,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:manganese_nugget",
+	  "count": 2,
+      "chance": 0.0
+    },
+    {
+      "item": "rankine:rubidium_nugget",
+	  "count": 5,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 400
+}

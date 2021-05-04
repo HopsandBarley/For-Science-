@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:molybdenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhenium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "rankine:chalcopyrite",
+	  "count": 1,
+      "chance": 0.4
+    },
+	{
+      "item": "rankine:molybdenum_nugget",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

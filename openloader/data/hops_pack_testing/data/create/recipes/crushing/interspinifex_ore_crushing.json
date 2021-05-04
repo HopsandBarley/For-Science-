@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:interspinifex_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:ruthenium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:palladium_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:nickel_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:pentlandite",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

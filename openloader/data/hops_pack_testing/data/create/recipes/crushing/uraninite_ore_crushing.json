@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:uraninite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:technetium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:francium_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:promethium_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:uranium_nugget",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:pyrolusite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:manganese_nugget",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:pyrolusite",
+	  "count": 1,
+      "chance": 1
+    },
+	{
+      "item": "minecraft:quartz",
+	  "count": 1,
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 400
+}

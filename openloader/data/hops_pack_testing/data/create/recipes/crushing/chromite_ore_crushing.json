@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:chromite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:magnesium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:aluminum_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:chromium_nugget",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:chromite",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

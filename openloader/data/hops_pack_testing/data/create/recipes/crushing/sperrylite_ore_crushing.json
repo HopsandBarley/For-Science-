@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:sperrylite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhodium_nugget",
+	  "count": 2,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:ruthenium_nugget",
+      "count": 2,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:platinum_nugget",
+	  "count": 2,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:platinum_arsenide",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

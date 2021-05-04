@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:cinnabar_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:dolomite",
+	  "count": 1,
+	  "chance": 0.5
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 4,
+      "chance": 0.30
+    },
+    {
+      "item": "rankine:cinnabar",
+	  "count": 1,
+      "chance": 1
+    },
+	{
+      "item": "rankine:sulfur",
+	  "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:quartzite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:quartz",
+	  "count": 1,
+      "chance": 0.15
+    },
+    {
+      "item": "rankine:aluminum_nugget",
+	  "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 400
+}

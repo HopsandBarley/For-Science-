@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:gray_granite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:mica",
+	  "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:quartz",
+	  "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 400
+}

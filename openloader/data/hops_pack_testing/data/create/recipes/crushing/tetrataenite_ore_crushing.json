@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:tetrataenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:meteoric_iron",
+	  "alloyData": "50Fe-50Ni",
+	  "count": 1,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:nickel_nugget",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:cobalt_nugget",
+	  "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 400
+}

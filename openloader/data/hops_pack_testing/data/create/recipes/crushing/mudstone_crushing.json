@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:mudstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:mud",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:fire_clay_ball",
+	  "count": 1,
+      "chance": 0.15
+    },
+    {
+      "item": "minecraft:bone",
+	  "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 400
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:enstatite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:silicon",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:sulfur",
+      "count": 1,
+      "chance": 0.6
+    },
+    {
+      "item":"rankine:magnesium_nugget",
+	  "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "rankine:calcium_nugget",
+	  "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 400
+}

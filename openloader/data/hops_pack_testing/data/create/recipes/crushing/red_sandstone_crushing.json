@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:red_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:red_sand",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:feldspar",
+      "count": 1,
+      "chance": 0.6
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+	  "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:quartz",
+	  "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 400
+}

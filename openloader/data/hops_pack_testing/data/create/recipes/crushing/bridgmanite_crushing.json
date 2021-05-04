@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:bridgmanite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:olivine",
+      "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "rankine:calcium_silicate",
+	  "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "rankine:feldspar",
+	  "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 400
+}

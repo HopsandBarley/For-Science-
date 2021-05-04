@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:pyroxene",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:black_sand",
+      "count": 1,
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:gold_nugget",
+	  "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 400
+}

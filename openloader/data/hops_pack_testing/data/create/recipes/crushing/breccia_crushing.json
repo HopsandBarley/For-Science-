@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:breccia"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:quartz_sandstone",
+	  "count": 1,
+	  "chance": 0.4
+    },
+    {
+      "item": "rankine:chalk",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:calcite",
+	  "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:dolomite",
+	  "count": 1,
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 400
+}

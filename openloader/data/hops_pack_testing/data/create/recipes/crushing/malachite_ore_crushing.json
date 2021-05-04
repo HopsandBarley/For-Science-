@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:malachite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:copper_nugget",
+	  "count": 1,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:malachite",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "rankine:calcite",
+	  "count": 1,
+      "chance": 0.5
+    },
+	{
+      "item": "rankine:zinc_nugget",
+	  "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 400
+}

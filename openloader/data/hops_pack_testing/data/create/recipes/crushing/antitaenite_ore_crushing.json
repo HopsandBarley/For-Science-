@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:antitaenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:meteoric_iron",
+	  "alloyData": "80Fe-20Ni",
+	  "count": 1,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:germanium_nugget",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:copper_nugget",
+	  "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 400
+}

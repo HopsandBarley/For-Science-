@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:evaporite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:calcite",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:salt",
+      "count": 1,
+      "chance": 0.40
+    },
+    {
+      "item": "rankine:saltpeter",
+	  "count": 1,
+      "chance": 0.30
+    },
+    {
+      "item": "rankine:borax",
+	  "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 400
+}

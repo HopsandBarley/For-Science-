@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:pumice"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhyolitic_tuff",
+	  "count": 1,
+	  "chance": 0.4
+    },
+    {
+      "item": "rankine:andesitic_tuff",
+      "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:pozzolan",
+	  "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "rankine:perlite",
+	  "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 400
+}

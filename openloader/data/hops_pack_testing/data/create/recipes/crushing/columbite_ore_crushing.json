@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:columbite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:yttrium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:tantalum_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:niobium_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:columbite",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

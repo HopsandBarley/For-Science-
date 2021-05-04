@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:celestine_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:calcium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:strontium_nugget",
+      "count": 1,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:celestine",
+	  "count": 1,
+      "chance": 1
+    },
+	{
+      "item": "rankine:salt",
+	  "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 400
+}

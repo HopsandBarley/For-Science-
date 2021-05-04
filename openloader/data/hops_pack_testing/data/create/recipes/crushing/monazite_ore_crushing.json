@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:monazite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:cerium_monazite",
+	  "count": 1,
+	  "chance": 0.3
+    },
+    {
+      "item": "rankine:neodymium_monazite",
+      "count": 1,
+      "chance": 0.3
+    },
+    {
+      "item": "rankine:lanthanum_monazite",
+	  "count": 1,
+      "chance": 0.3
+    },
+	{
+      "item": "rankine:samarium_monazite",
+	  "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 400
+}

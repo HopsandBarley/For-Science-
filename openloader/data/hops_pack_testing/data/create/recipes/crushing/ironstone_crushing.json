@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:hornblende_andesite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:magnetite",
+      "count": 1,
+      "chance": 0.05
+    },
+    {
+      "item": "rankine:tiger_iron",
+	  "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 400
+}

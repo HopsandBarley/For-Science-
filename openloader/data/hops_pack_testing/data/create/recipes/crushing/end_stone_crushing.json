@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:end_stones"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:plagioclase_feldspar",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:chrome_enstatite",
+      "count": 1,
+      "chance": 0.05
+    },
+    {
+      "item":"minecraft:ender_pearl",
+	  "count": 1,
+      "chance": 0.03
+    }
+  ],
+  "processingTime": 400
+}

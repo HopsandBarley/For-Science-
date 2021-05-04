@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.5
+    },
+    {
+      "item": "rankine:amphibole",
+	  "count": 1,
+      "chance": 0.2
+    },
+	{
+      "item": "rankine:zircon",
+      "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 400
+}

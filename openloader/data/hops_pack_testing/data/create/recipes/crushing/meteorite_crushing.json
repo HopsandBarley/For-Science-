@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:meteorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:silicon",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:sulfur",
+      "count": 1,
+      "chance": 0.6
+    },
+    {
+      "item": "rankine:germanium_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:gallium_nugget",
+	  "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 400
+}

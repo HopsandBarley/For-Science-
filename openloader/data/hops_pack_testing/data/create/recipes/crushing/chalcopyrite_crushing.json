@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:chalcopyrite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:copper_nugget",
+	  "count": 5,
+	  "chance": 0.25
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 5,
+      "chance": 0.25
+    },
+    {
+      "item": "rankine:bismuth_nugget",
+	  "count": 5,
+      "chance": 0.0
+    },
+    {
+      "item": "rankine:arsenic_nugget",
+	  "count": 5,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 400
+}

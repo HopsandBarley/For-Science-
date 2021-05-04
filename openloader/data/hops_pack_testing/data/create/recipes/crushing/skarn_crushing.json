@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:skarn"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:end_stone",
+	  "count": 1,
+	  "chance": 0.2
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 1,
+      "chance": 0.01
+    },
+    {
+      "item": "rankine:fluorite",
+	  "count": 1,
+      "chance": 0.4
+    },
+    {
+      "item": "rankine:molybdenum_nugget",
+	  "count": 1,
+      "chance": 0.15
+    }
+  ],
+  "processingTime": 400
+}

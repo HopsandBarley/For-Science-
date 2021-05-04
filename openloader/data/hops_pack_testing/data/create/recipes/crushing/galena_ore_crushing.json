@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:galena_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lead_nugget",
+	  "count": 1,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:galena",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "rankine:silver_nugget",
+	  "count": 1,
+      "chance": 0.2
+    },
+	{
+      "item": "rankine:calcite",
+	  "count": 1,
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 400
+}

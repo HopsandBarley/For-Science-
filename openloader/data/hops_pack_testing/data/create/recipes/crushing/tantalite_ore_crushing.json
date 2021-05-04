@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:tantalite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:tin_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:niobium_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:tantalum_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:tantalite",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}

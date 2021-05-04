@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:black_marble"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:dolomite",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:mica",
+      "count": 1,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:quartz",
+	  "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:gold_nugget",
+	  "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 400
+}

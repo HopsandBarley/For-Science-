@@ -1,0 +1,31 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "rankine:wolframite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:manganese_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.1
+    },
+    {
+      "item": "rankine:tungsten_nugget",
+	  "count": 1,
+      "chance": 0.25
+    },
+	{
+      "item": "rankine:wolframite",
+	  "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 400
+}
