@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:meteorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:silicon",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:sulfur",
+      "count": 1,
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 200
+}

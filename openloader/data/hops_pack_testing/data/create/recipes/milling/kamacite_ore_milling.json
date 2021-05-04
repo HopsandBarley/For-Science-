@@ -1,0 +1,17 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:kamacite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:meteoric_iron",
+	  "alloyData": "90Fe-10Ni",
+	  "count": 1,
+	  "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

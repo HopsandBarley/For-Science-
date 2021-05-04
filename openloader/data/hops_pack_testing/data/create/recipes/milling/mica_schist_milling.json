@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:mica_schist"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:mica",
+      "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 200
+}

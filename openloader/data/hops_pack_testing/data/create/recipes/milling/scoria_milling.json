@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:scoria"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:dacitic_tuff",
+	  "count": 1,
+	  "chance": 0.4
+    },
+    {
+      "item": "rankine:basaltic_tuff",
+      "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 200
+}

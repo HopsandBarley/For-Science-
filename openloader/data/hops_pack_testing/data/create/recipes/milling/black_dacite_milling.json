@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:black_dacite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.55
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:neodymium_monazite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:neodymium_nugget",
+	  "count": 6,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:dysprosium_nugget",
+      "count": 3,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

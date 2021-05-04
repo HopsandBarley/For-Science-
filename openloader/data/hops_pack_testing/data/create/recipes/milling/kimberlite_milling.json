@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:kimberlite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:olivine",
+      "count": 1,
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 200
+}

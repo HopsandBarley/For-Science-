@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:lanthanum_monazite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lanthanum_nugget",
+	  "count": 6,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:cesium_nugget",
+      "count": 3,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

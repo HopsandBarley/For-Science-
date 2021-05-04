@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:lepidolite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lithium_nugget",
+	  "count": 5,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:aluminum_nugget",
+      "count": 5,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

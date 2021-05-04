@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:cinnabar_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:dolomite",
+	  "count": 1,
+	  "chance": 0.5
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 4,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

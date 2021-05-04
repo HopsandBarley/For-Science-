@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:interspinifex_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:ruthenium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:palladium_nugget",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

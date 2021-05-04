@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:celestine_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:calcium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:strontium_nugget",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

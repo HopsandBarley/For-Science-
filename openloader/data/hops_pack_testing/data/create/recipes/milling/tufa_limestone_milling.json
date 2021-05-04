@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:tufa_limestone"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:calcite",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:dolomite",
+      "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 200
+}

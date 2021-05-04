@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:molybdenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhenium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 1,
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 200
+}

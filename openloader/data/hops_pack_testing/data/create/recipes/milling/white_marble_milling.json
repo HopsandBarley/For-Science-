@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:white_marble"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:dolomite",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:calcite",
+      "count": 1,
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 200
+}

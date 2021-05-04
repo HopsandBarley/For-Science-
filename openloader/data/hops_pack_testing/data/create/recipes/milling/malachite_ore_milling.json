@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:malachite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:copper_nugget",
+	  "count": 1,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:malachite",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

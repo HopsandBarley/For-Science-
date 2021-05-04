@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+  {
+    "item": "rankine:acanthite_ore"
+	}
+  ],
+  "results": [
+	{
+    "item": "rankine:antimony_nugget",
+	"count": 1,
+    "chance": 0.1
+	},
+ {
+    "item": "rankine:silver_nugget",
+	"count": 1,
+    "chance": 1.0
+  }
+  ],
+"processingTime": 200
+}

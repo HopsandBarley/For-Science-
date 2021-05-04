@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:tantalite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:tin_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:niobium_nugget",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

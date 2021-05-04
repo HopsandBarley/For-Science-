@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:uraninite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:technetium_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:francium_nugget",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

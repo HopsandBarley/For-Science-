@@ -1,0 +1,17 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:taenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:meteoric_iron",
+	  "alloyData": "60Fe-40Ni",
+	  "count": 1,
+	  "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

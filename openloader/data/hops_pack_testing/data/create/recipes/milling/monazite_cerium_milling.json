@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:cerium_monazite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:cerium_nugget",
+	  "count": 6,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:europium_nugget",
+      "count": 3,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

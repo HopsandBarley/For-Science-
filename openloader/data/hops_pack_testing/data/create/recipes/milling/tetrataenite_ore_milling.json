@@ -1,0 +1,17 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:tetrataenite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:meteoric_iron",
+	  "alloyData": "50Fe-50Ni",
+	  "count": 1,
+	  "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:pumice"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhyolitic_tuff",
+	  "count": 1,
+	  "chance": 0.4
+    },
+    {
+      "item": "rankine:andesitic_tuff",
+      "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 200
+}

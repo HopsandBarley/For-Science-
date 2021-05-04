@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:samarium_monazite"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:samarium_nugget",
+	  "count": 6,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:thulium_nugget",
+      "count": 3,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

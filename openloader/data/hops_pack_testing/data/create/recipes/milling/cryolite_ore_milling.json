@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:cryolite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:copper_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

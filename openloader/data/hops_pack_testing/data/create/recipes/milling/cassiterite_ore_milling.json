@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:cassiterite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:tin_nugget",
+	  "count": 1,
+	  "chance": 0.25
+    },
+    {
+      "item": "rankine:cassiterite",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  	"processingTime": 200
+}

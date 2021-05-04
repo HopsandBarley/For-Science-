@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:mudstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:mud",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1,
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 200
+}

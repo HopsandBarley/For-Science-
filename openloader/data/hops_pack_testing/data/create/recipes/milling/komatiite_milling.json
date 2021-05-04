@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:komatiite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:pyroxene",
+      "count": 1,
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 200
+}

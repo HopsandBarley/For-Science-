@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:petalite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:potassium_nugget",
+	  "count": 1,
+	  "chance": 0.5
+    },
+    {
+      "item": "rankine:aluminum_nugget",
+      "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 200
+}

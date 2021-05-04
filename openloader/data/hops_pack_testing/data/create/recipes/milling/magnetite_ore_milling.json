@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:magnetite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:aluminum_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

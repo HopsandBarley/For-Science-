@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:wadsleyite"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cobblestone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:olivine",
+      "count": 1,
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 200
+}

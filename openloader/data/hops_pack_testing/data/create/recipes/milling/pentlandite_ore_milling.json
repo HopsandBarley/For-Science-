@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:pentlandite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:cobalt_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:nickel_nugget",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

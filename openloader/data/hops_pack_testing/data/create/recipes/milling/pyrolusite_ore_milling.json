@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:pyrolusite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:iron_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:manganese_nugget",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

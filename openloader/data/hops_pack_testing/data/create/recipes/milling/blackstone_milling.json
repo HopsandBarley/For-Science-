@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:blackstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:pyroxene",
+	  "count": 2,
+	  "chance": 1
+    },
+    {
+      "item": "rankine:black_sand",
+      "count": 1,
+      "chance": 0.4
+    }
+  ],
+  "processingTime": 200
+}

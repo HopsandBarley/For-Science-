@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:sperrylite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:rhodium_nugget",
+	  "count": 2,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:ruthenium_nugget",
+      "count": 2,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

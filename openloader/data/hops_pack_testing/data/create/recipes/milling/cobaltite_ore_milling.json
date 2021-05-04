@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:cobaltite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:arsenic_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:zinc_nugget",
+      "count": 1,
+      "chance": 0.9
+    }
+  ],
+  "processingTime": 200
+}

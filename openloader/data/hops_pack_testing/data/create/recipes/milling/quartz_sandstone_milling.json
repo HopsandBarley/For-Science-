@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:quartz_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sand",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 200
+}

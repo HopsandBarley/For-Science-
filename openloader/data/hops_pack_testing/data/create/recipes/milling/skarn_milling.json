@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:skarn"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:end_stone",
+	  "count": 1,
+	  "chance": 0.2
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 1,
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 200
+}

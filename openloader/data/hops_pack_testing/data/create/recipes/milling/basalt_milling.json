@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:basalt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blackstone",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:plagioclase_feldspar",
+      "count": 1,
+      "chance": 0.4
+    }
+  ],
+  "processingTime": 200
+}

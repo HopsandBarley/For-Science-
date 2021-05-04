@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:red_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:red_sand",
+	  "count": 1,
+	  "chance": 0.8
+    },
+    {
+      "item": "rankine:feldspar",
+      "count": 1,
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 200
+}

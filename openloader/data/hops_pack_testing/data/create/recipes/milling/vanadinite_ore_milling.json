@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:vanadinite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "rankine:lead_nugget",
+	  "count": 1,
+	  "chance": 0.1
+    },
+    {
+      "item": "rankine:vanadium_nugget",
+      "count": 1,
+      "chance": 1
+    }
+  ],
+  "processingTime": 200
+}

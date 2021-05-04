@@ -1,0 +1,21 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "rankine:siltstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sand",
+	  "count": 1,
+	  "chance": 0.4
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "count": 1,
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 200
+}
