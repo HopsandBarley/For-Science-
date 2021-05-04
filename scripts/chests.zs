@@ -310,229 +310,229 @@ craftingTable.addShaped("warped_chest_tier_3", <item:storage_overhaul:warped_che
 craftingTable.removeByName("storage_overhaul:oak_barrel");
 
 craftingTable.addShaped("oak_barrel", <item:storage_overhaul:oak_barrel>*1, [
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, air, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>]]);
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, stone_buttons, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:spruce_barrel");
 
 craftingTable.addShaped("spruce_barrel", <item:storage_overhaul:spruce_barrel>*1, [
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, air, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>]]);
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, stone_buttons, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:birch_barrel");
 
 craftingTable.addShaped("birch_barrel", <item:storage_overhaul:birch_barrel>*1, [
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, air, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>]]);
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, stone_buttons, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:acacia_barrel");
 
 craftingTable.addShaped("acacia_barrel", <item:storage_overhaul:acacia_barrel>*1, [
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, air, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>]]);
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, stone_buttons, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:jungle_barrel");
 
 craftingTable.addShaped("jungle_barrel", <item:storage_overhaul:jungle_barrel>*1, [
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, air, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>]]);
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, stone_buttons, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:dark_oak_barrel");
 
 craftingTable.addShaped("dark_oak_barrel", <item:storage_overhaul:dark_oak_barrel>*1, [
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, air, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>]]);
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, stone_buttons, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:crimson_barrel");
 
 craftingTable.addShaped("crimson_barrel", <item:storage_overhaul:crimson_barrel>*1, [
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, air, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>]]);
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, stone_buttons, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:warped_barrel");
 
 craftingTable.addShaped("warped_barrel", <item:storage_overhaul:warped_barrel>*1, [
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, air, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>]]);
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, stone_buttons, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>]]);
 	
 //Update Storage Overhaul Barrel Tier 1 Recipes
 craftingTable.removeByName("storage_overhaul:oak_barrel_tier_1");
 
 craftingTable.addShaped("oak_barrel_tier_1", <item:storage_overhaul:oak_barrel_tier_1>*1, [
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>]]);
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:spruce_barrel_tier_1");
 
 craftingTable.addShaped("spruce_barrel_tier_1", <item:storage_overhaul:spruce_barrel_tier_1>*1, [
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>]]);
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:birch_barrel_tier_1");
 
 craftingTable.addShaped("birch_barrel_tier_1", <item:storage_overhaul:birch_barrel_tier_1>*1, [
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>]]);
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:acacia_barrel_tier_1");
 
 craftingTable.addShaped("acacia_barrel_tier_1", <item:storage_overhaul:acacia_barrel_tier_1>*1, [
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>]]);
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:jungle_barrel_tier_1");
 
 craftingTable.addShaped("jungle_barrel_tier_1", <item:storage_overhaul:jungle_barrel_tier_1>*1, [
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>]]);
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:dark_oak_barrel_tier_1");
 
 craftingTable.addShaped("dark_oak_barrel_tier_1", <item:storage_overhaul:dark_oak_barrel_tier_1>*1, [
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>]]);
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:crimson_barrel_tier_1");
 
 craftingTable.addShaped("crimson_barrel_tier_1", <item:storage_overhaul:crimson_barrel_tier_1>*1, [
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>]]);
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:warped_barrel_tier_1");
 
 craftingTable.addShaped("warped_barrel_tier_1", <item:storage_overhaul:warped_barrel_tier_1>*1, [
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <tag:items:forge:ingots/iron>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>]]);
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <tag:items:forge:ingots/iron>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>]]);
 	
 //Update Storage Overhaul Barrel Tier 2 Recipes
 craftingTable.removeByName("storage_overhaul:oak_barrel_tier_2");
 
 craftingTable.addShaped("oak_barrel_tier_2", <item:storage_overhaul:oak_barrel_tier_2>*1, [
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>]]);
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:spruce_barrel_tier_2");
 
 craftingTable.addShaped("spruce_barrel_tier_2", <item:storage_overhaul:spruce_barrel_tier_2>*1, [
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>]]);
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:birch_barrel_tier_2");
 
 craftingTable.addShaped("birch_barrel_tier_2", <item:storage_overhaul:birch_barrel_tier_2>*1, [
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>]]);
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:acacia_barrel_tier_2");
 
 craftingTable.addShaped("acacia_barrel_tier_2", <item:storage_overhaul:acacia_barrel_tier_2>*1, [
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>]]);
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:jungle_barrel_tier_2");
 
 craftingTable.addShaped("jungle_barrel_tier_2", <item:storage_overhaul:jungle_barrel_tier_2>*1, [
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>]]);
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:dark_oak_barrel_tier_2");
 
 craftingTable.addShaped("dark_oak_barrel_tier_2", <item:storage_overhaul:dark_oak_barrel_tier_2>*1, [
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>]]);
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:crimson_barrel_tier_2");
 
 craftingTable.addShaped("crimson_barrel_tier_2", <item:storage_overhaul:crimson_barrel_tier_2>*1, [
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>]]);
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:warped_barrel_tier_2");
 
 craftingTable.addShaped("warped_barrel_tier_2", <item:storage_overhaul:warped_barrel_tier_2>*1, [
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <tag:items:forge:ingots/gold>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>]]);
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <tag:items:forge:ingots/gold>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>]]);
 	
 //Update Storage Overhaul Barrel Tier 3 Recipes
 craftingTable.removeByName("storage_overhaul:oak_barrel_tier_3");
 
 craftingTable.addShaped("oak_barrel_tier_3", <item:storage_overhaul:oak_barrel_tier_3>*1, [
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:oak_planks>],
-	[<item:minecraft:oak_planks>, <item:minecraft:oak_slab>, <item:minecraft:oak_planks>]]);
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:oak_vertical_slab>],
+	[<item:buildersaddition:oak_vertical_slab>, <item:minecraft:oak_slab>, <item:buildersaddition:oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:spruce_barrel_tier_3");
 
 craftingTable.addShaped("spruce_barrel_tier_3", <item:storage_overhaul:spruce_barrel_tier_3>*1, [
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:spruce_planks>],
-	[<item:minecraft:spruce_planks>, <item:minecraft:spruce_slab>, <item:minecraft:spruce_planks>]]);
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:spruce_vertical_slab>],
+	[<item:buildersaddition:spruce_vertical_slab>, <item:minecraft:spruce_slab>, <item:buildersaddition:spruce_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:birch_barrel_tier_3");
 
 craftingTable.addShaped("birch_barrel_tier_3", <item:storage_overhaul:birch_barrel_tier_3>*1, [
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:birch_planks>],
-	[<item:minecraft:birch_planks>, <item:minecraft:birch_slab>, <item:minecraft:birch_planks>]]);
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:birch_vertical_slab>],
+	[<item:buildersaddition:birch_vertical_slab>, <item:minecraft:birch_slab>, <item:buildersaddition:birch_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:acacia_barrel_tier_3");
 
 craftingTable.addShaped("acacia_barrel_tier_3", <item:storage_overhaul:acacia_barrel_tier_3>*1, [
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:acacia_planks>],
-	[<item:minecraft:acacia_planks>, <item:minecraft:acacia_slab>, <item:minecraft:acacia_planks>]]);
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:acacia_vertical_slab>],
+	[<item:buildersaddition:acacia_vertical_slab>, <item:minecraft:acacia_slab>, <item:buildersaddition:acacia_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:jungle_barrel_tier_3");
 
 craftingTable.addShaped("jungle_barrel_tier_3", <item:storage_overhaul:jungle_barrel_tier_3>*1, [
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:jungle_planks>],
-	[<item:minecraft:jungle_planks>, <item:minecraft:jungle_slab>, <item:minecraft:jungle_planks>]]);
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:jungle_vertical_slab>],
+	[<item:buildersaddition:jungle_vertical_slab>, <item:minecraft:jungle_slab>, <item:buildersaddition:jungle_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:dark_oak_barrel_tier_3");
 
 craftingTable.addShaped("dark_oak_barrel_tier_3", <item:storage_overhaul:dark_oak_barrel_tier_3>*1, [
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:dark_oak_planks>],
-	[<item:minecraft:dark_oak_planks>, <item:minecraft:dark_oak_slab>, <item:minecraft:dark_oak_planks>]]);
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:dark_oak_vertical_slab>],
+	[<item:buildersaddition:dark_oak_vertical_slab>, <item:minecraft:dark_oak_slab>, <item:buildersaddition:dark_oak_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:crimson_barrel_tier_3");
 
 craftingTable.addShaped("crimson_barrel_tier_3", <item:storage_overhaul:crimson_barrel_tier_3>*1, [
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:crimson_planks>],
-	[<item:minecraft:crimson_planks>, <item:minecraft:crimson_slab>, <item:minecraft:crimson_planks>]]);
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:crimson_vertical_slab>],
+	[<item:buildersaddition:crimson_vertical_slab>, <item:minecraft:crimson_slab>, <item:buildersaddition:crimson_vertical_slab>]]);
 	
 craftingTable.removeByName("storage_overhaul:warped_barrel_tier_3");
 
 craftingTable.addShaped("warped_barrel_tier_3", <item:storage_overhaul:warped_barrel_tier_3>*1, [
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <tag:items:forge:gems/diamond>, <item:minecraft:warped_planks>],
-	[<item:minecraft:warped_planks>, <item:minecraft:warped_slab>, <item:minecraft:warped_planks>]]);
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <tag:items:forge:gems/diamond>, <item:buildersaddition:warped_vertical_slab>],
+	[<item:buildersaddition:warped_vertical_slab>, <item:minecraft:warped_slab>, <item:buildersaddition:warped_vertical_slab>]]);
 	
 //Update Storage Overhaul Storage Barrel Recipes
 craftingTable.removeByName("storage_overhaul:oak_storage_barrel");
