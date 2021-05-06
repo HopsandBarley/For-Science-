@@ -78,22 +78,24 @@
 				"",
 				"Craft the three alloys listed in the quest book, then make a pickaxe out of each, and investigate the differences in each pickaxe. ",
 				"",
-				"You will be able to see the stats of specific alloys easier in the future, but the purpose of this quest was the expose you to the process, and the effects."
+				"You will be able to see the stats of specific alloys easier in the future, but the purpose of this quest was the expose you to the process, and the effects.",
+				"",
+				"*Hint:  26 Nuggets is the optimal amount of Tin to put into the Alloy Furnace for these recipes.  See if you can figure out the others."
 			],
 			dependencies: ["02B957B1E0B8196F"],
 			hide: true,
 			id: "3C42A6CD8B3A02BF",
 			tasks: [
 				{
-					id: "7E9DBE312CE810B0",
+					id: "5B8E1AC25DCFED76",
 					type: "item",
-					title: "89Sn-7Ag-4Sb",
+					title: "87Sn-10Cu-3Sb",
 					icon: {
 						id: "rankine:pewter_alloy",
-						Count: 1b,
+						Count: 3b,
 						tag: {
 							StoredComposition: [{
-								comp: "88Sn-10Ag-2Sb"
+								comp: "87Sn-10Cu-3Sb"
 							}]
 						}
 					},
@@ -103,7 +105,7 @@
 						tag: {
 							value: {
 								StoredComposition: [{
-									comp: "89Sn-7Ag-4Sb"
+									comp: "87Sn-10Cu-3Sb"
 								}]
 							}
 						}
@@ -111,15 +113,15 @@
 					count: 3L
 				},
 				{
-					id: "40D942A5B27B76F8",
+					id: "74EDE9383BC0F253",
 					type: "item",
-					title: "89Sn-7Cu-4Sb",
+					title: "87Sn-10Ag-3Sb",
 					icon: {
 						id: "rankine:pewter_alloy",
-						Count: 1b,
+						Count: 3b,
 						tag: {
 							StoredComposition: [{
-								comp: "88Sn-10Cu-2Sb"
+								comp: "87Sn-10Ag-3Sb"
 							}]
 						}
 					},
@@ -129,7 +131,7 @@
 						tag: {
 							value: {
 								StoredComposition: [{
-									comp: "89Sn-7Cu-4Sb"
+									comp: "87Sn-10Ag-3Sb"
 								}]
 							}
 						}
@@ -137,15 +139,15 @@
 					count: 3L
 				},
 				{
-					id: "0E964081D2E39C8D",
+					id: "138DE9AB6D5C9139",
 					type: "item",
-					title: "89Sn-7Bi-4Sb",
+					title: "87Sn-10Bi-3Sb",
 					icon: {
 						id: "rankine:pewter_alloy",
-						Count: 1b,
+						Count: 3b,
 						tag: {
 							StoredComposition: [{
-								comp: "88Sn-10Bi-2Sb"
+								comp: "87Sn-10Bi-3Sb"
 							}]
 						}
 					},
@@ -155,7 +157,7 @@
 						tag: {
 							value: {
 								StoredComposition: [{
-									comp: "89Sn-7Bi-4Sb"
+									comp: "87Sn-10Bi-3Sb"
 								}]
 							}
 						}
