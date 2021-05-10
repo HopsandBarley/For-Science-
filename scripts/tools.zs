@@ -298,3 +298,47 @@ craftingTable.addShaped("alloy_furnace_andesite_alloy", <item:rankine:alloy_furn
 	
 	smithing.removeByName("minecraft:netherite_hoe_smithing");
 	mods.jei.JEI.hideItem(<item:minecraft:netherite_hoe>);
+
+//Hide Unused Spare Parts (Sorry Zed)
+	mods.jei.JEI.hideItem(<item:spareparts:scrap>);
+	mods.jei.JEI.hideItem(<item:spareparts:tool_part>);
+	mods.jei.JEI.hideItem(<item:spareparts:paper_fragment>);
+	mods.jei.JEI.hideItem(<item:spareparts:valuable_shard>);
+	mods.jei.JEI.hideItem(<item:spareparts:small_motor>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_00>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_01>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_02>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_03>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_04>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_05>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_06>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_07>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_08>);
+	mods.jei.JEI.hideItem(<item:spareparts:item_09>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/raw_clay>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/fired_clay>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/baked_clay>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/nether>);
+	mods.jei.JEI.hideItem(<item:spareparts:corinthian/corinthian_block>);
+	mods.jei.JEI.hideItem(<item:spareparts:corinthian/corinthian_dust>);
+	mods.jei.JEI.hideItem(<item:spareparts:corinthian/corinthian_ingot>);
+	mods.jei.JEI.hideItem(<item:spareparts:corinthian/corinthian_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:corinthian/corinthian_nugget>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/advanced/t45_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/advanced/t51_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/advanced/x01_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/advanced/x02_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:plates/advanced/x03_plate>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/ancient>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/copper>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/iron>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/golden>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/diamond>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/monster>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/stone>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/wooden>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/advanced/t45>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/advanced/t51>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/advanced/x01>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/advanced/x02>);
+	mods.jei.JEI.hideItem(<item:spareparts:key/advanced/x03>);
