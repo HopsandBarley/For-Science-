@@ -2,7 +2,7 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "rankine:hornblende_andesite"
+      "item": "rankine:ironstone"
     }
   ],
   "results": [
