@@ -17,6 +17,11 @@
 				id: "7E3240938573B4FA",
 				type: "item",
 				item: "rankine:hydrogen_gas_block"
+			}],
+			rewards: [{
+				id: "0782B0FE489115A6",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -29,6 +34,11 @@
 				id: "4B11A20176DCD032",
 				type: "item",
 				item: "rankine:helium_gas_block"
+			}],
+			rewards: [{
+				id: "4788E60D1A3558E1",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -60,6 +70,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "56889E68CA2EFEB3",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -91,6 +106,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0E20BF386DAF2397",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -102,6 +122,11 @@
 				id: "757C6CC385A2814C",
 				type: "item",
 				item: "rankine:neon_gas_block"
+			}],
+			rewards: [{
+				id: "0DA9C3649767EDF6",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -113,6 +138,11 @@
 				id: "4E76242FFA7E74DD",
 				type: "item",
 				item: "rankine:fluorine_gas_block"
+			}],
+			rewards: [{
+				id: "48E8318795CAE9E1",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -124,6 +154,11 @@
 				id: "4F15AB73AA7B4971",
 				type: "item",
 				item: "rankine:oxygen_gas_block"
+			}],
+			rewards: [{
+				id: "4BDB467A47BFD9E3",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -135,6 +170,11 @@
 				id: "54C434A562A0DBFF",
 				type: "item",
 				item: "rankine:nitrogen_gas_block"
+			}],
+			rewards: [{
+				id: "3140011E31475074",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -166,6 +206,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "6E622C9A8E94EBFB",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -197,6 +242,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "10640A080DE01D73",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -228,6 +278,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "446A31E31DB2FF0B",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -259,6 +314,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "755E3E5E7CAEBAF2",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -290,6 +350,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0413674543EDDA22",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -320,6 +385,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "107D9CE9A10F707C",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -350,6 +420,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "524D5B6340413F41",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -380,6 +455,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "01EA9EC5D2FF7C2F",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -391,6 +471,11 @@
 				id: "2A2E446A46760A38",
 				type: "item",
 				item: "rankine:chlorine_gas_block"
+			}],
+			rewards: [{
+				id: "4CC03FE9BE22B547",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -402,6 +487,11 @@
 				id: "798224E5CF8937B8",
 				type: "item",
 				item: "rankine:argon_gas_block"
+			}],
+			rewards: [{
+				id: "2F09C39049C0C8E0",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -432,6 +522,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "3EF089EA7F2F5C1A",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -462,6 +557,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "27023822E65813CF",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -492,6 +592,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "5F84A173BD7890EA",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -522,6 +627,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0A3338A6816E1840",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -552,6 +662,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4AA18C4DF7A46DEC",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -560,7 +675,7 @@
 			y: -9.5d,
 			id: "6FF73E269C1D7B88",
 			tasks: [{
-				id: "15098C3DFDE77B65",
+				id: "11E42C277C38D242",
 				type: "item",
 				item: {
 					id: "itemfilters:or",
@@ -568,20 +683,25 @@
 					tag: {
 						items: [
 							{
-								id: "rankine:vanadium_nugget",
+								id: "rankine:chromium_nugget",
 								Count: 1b
 							},
 							{
-								id: "rankine:vanadium_ingot",
+								id: "rankine:chromium_ingot",
 								Count: 1b
 							},
 							{
-								id: "rankine:vanadium_block",
+								id: "rankine:chromium_block",
 								Count: 1b
 							}
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0BC62724E6C69B33",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -612,6 +732,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "13D5325FC3EA2256",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -642,6 +767,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2273A47E96824BA5",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -672,6 +802,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "368C030595C1B743",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -702,6 +837,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "695174C880595EA6",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -732,6 +872,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "125A8292DEEE56D4",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -762,6 +907,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "667C571F57C25459",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -792,6 +942,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0031B198C5D3CC64",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -822,6 +977,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "751CF62ECCEF1F98",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -852,6 +1012,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "3EE15BE61FCF1F80",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -882,6 +1047,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1185F96EE466647C",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -912,6 +1082,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "7031212B7322D8ED",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -923,6 +1098,11 @@
 				id: "4C431A2EEB540DF5",
 				type: "item",
 				item: "rankine:krypton_gas_block"
+			}],
+			rewards: [{
+				id: "369EAED9B47E350A",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -953,6 +1133,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "66036653EEA32B73",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -983,6 +1168,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "161791DE85896C55",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1013,6 +1203,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "3FB1FBD4821DB85F",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1043,6 +1238,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1C944407BA0BEE64",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -1073,6 +1273,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "67BBFA3EAF75EE5E",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1103,6 +1308,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1CDA59E6B2773F4B",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1133,6 +1343,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4DAAC9969C4822D1",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1163,6 +1378,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "6DFEAA4260BC2C0B",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1193,6 +1413,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0677003A2BA80460",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1223,6 +1448,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "101644C40D180333",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1253,6 +1483,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "143250733AE02425",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -1283,6 +1518,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "6C75BF2307844C1F",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1313,6 +1553,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "452E9390B9E0B099",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1343,6 +1588,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "3885F48B15A62618",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -1373,6 +1623,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "27964AE9E3E296D0",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -1403,6 +1658,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "727981FE219E07A4",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1433,6 +1693,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "219B671BD6BBF4E3",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1443,6 +1708,11 @@
 				id: "4534BB7C5E16CAEA",
 				type: "item",
 				item: "rankine:xenon_gas_block"
+			}],
+			rewards: [{
+				id: "007913712390EA74",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -1473,6 +1743,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "172558A7BAE4DCCE",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1503,6 +1778,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "03700FB751DCC53A",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1533,6 +1813,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0934A128F7DF45DC",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1593,6 +1878,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "32863C98E7F7B774",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1653,6 +1943,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "7F39171A3639D5CB",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1713,6 +2008,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "32E9643889E19925",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1773,6 +2073,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2A7BA44011BB1438",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -1833,6 +2138,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0F0D9B55B208C2F0",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1893,6 +2203,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4BDC8A92F39858BC",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -1953,6 +2268,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1C4AD14CF9268640",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -2013,6 +2333,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "0A2AB5C30615E67A",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -2073,6 +2398,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1831E71306B89EE1",
+				type: "item",
+				item: "spareparts:coins/stone_coin"
 			}]
 		},
 		{
@@ -2133,6 +2463,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "301D12763BEF39EE",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2163,6 +2498,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "7C857DFAFF726F31",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -2193,6 +2533,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "05B52F2AEF166C65",
+				type: "item",
+				item: "spareparts:coins/wooden_coin"
 			}]
 		},
 		{
@@ -2253,6 +2598,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "03C046BE5B07AA59",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2263,6 +2613,11 @@
 				id: "2189FBD4E64A4FCF",
 				type: "item",
 				item: "rankine:radon_gas_block"
+			}],
+			rewards: [{
+				id: "7CBB23C0D9DEB2BC",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
@@ -2353,6 +2708,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2D7E57E8A7777250",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2383,6 +2743,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "334A2A7EF3D3CC23",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2413,6 +2778,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "6C51A2923DD2E791",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2443,6 +2813,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "66E32813FC3BAECE",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -2473,6 +2848,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "39CB8AFC03967220",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2533,6 +2913,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "72A36A17AED74CB4",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2563,6 +2948,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4DF2B71A61986DBB",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -2593,6 +2983,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2675B2E7DFFC1680",
+				type: "item",
+				item: "spareparts:coins/copper_coin"
 			}]
 		},
 		{
@@ -2653,6 +3048,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "729E8029D4317C61",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2683,6 +3083,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "3992E21A8274DBCA",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2713,6 +3118,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "463DF4B5BEEED553",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2773,6 +3183,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4EC67548BA6C3C06",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2833,6 +3248,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4B185D544B9A38C7",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2893,6 +3313,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "7C0C130D1089D08A",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -2953,6 +3378,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "4A4258F006EDADB0",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -3013,6 +3443,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2726BDABD09A1831",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -3073,6 +3508,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "79BB0C5466CE2EF3",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -3133,6 +3573,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "655CEA49F9BC04A1",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -3193,6 +3638,11 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "60B63F9A1D22BD08",
+				type: "item",
+				item: "spareparts:coins/iron_coin"
 			}]
 		},
 		{
@@ -3233,6 +3683,11 @@
 				id: "4AE852B66A2D882C",
 				type: "item",
 				item: "rankine:oganesson_gas_block"
+			}],
+			rewards: [{
+				id: "351CE39E3DA3F0C9",
+				type: "item",
+				item: "spareparts:coins/golden_coin"
 			}]
 		},
 		{
