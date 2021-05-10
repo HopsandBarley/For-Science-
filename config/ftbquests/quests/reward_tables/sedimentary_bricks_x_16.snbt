@@ -1,0 +1,35 @@
+{
+	id: "7D3DC6919824697F",
+	order_index: 31,
+	title: "Sedimentary Bricks x 16",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "rankine:tufa_limestone_bricks"
+		},
+		{
+			item: "rankine:dolostone_bricks"
+		},
+		{
+			item: "rankine:chalk_bricks"
+		},
+		{
+			item: "rankine:carbonaceous_shale_bricks"
+		},
+		{
+			item: "rankine:siltstone_bricks"
+		},
+		{
+			item: "rankine:quartz_sandstone_bricks"
+		},
+		{
+			item: "rankine:arkose_sandstone_bricks"
+		},
+		{
+			item: "rankine:mudstone_bricks"
+		},
+		{
+			item: "rankine:breccia_bricks"
+		}
+	]
+}

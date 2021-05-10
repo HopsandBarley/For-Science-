@@ -1,0 +1,36 @@
+{
+	id: "1DB9E2E5F6F9239B",
+	order_index: 29,
+	title: "Stone Bricks x 64",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "rankine:granite_bricks",
+			count: 64
+		},
+		{
+			item: "rankine:diorite_bricks",
+			count: 64
+		},
+		{
+			item: "rankine:andesite_bricks",
+			count: 64
+		},
+		{
+			item: "rankine:gray_granite_bricks",
+			count: 64
+		},
+		{
+			item: "rankine:granodiorite_bricks",
+			count: 64
+		},
+		{
+			item: "rankine:hornblende_andesite_bricks",
+			count: 64
+		},
+		{
+			item: "minecraft:stone_bricks",
+			count: 64
+		}
+	]
+}

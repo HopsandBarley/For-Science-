@@ -1,0 +1,32 @@
+{
+	id: "27B24DCDFA45987A",
+	order_index: 30,
+	title: "Metamorphic Bricks x 16",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "rankine:white_marble_bricks"
+		},
+		{
+			item: "rankine:black_marble_bricks"
+		},
+		{
+			item: "rankine:mica_schist_bricks"
+		},
+		{
+			item: "rankine:gneiss_bricks"
+		},
+		{
+			item: "rankine:phyllite_bricks"
+		},
+		{
+			item: "rankine:slate_bricks"
+		},
+		{
+			item: "rankine:quartzite_bricks"
+		},
+		{
+			item: "rankine:mariposite_bricks"
+		}
+	]
+}
