@@ -9,6 +9,9 @@ import stdlib.List;
 var air = <item:minecraft:air>;
 var axes = <tag:items:forge:axes> as MCTag<MCItemDefinition>;
 
+<tag:items:minecraft:wooden_slabs>.add(<item:rankine:yellow_birch_slab>);
+<tag:items:minecraft:wooden_slabs>.add(<item:rankine:black_birch_slab>);
+
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:oak_vertical_slab>);
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:spruce_vertical_slab>);
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:birch_vertical_slab>);
@@ -17,11 +20,13 @@ var axes = <tag:items:forge:axes> as MCTag<MCItemDefinition>;
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:dark_oak_vertical_slab>);
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:warped_vertical_slab>);
 <tag:items:forge:wooden_vertical_slabs>.add(<item:buildersaddition:crimson_vertical_slab>);
+<tag:items:forge:wooden_vertical_slabs>.add(<item:rankine:yellow_birch_vertical_slab>);
+<tag:items:forge:wooden_vertical_slabs>.add(<item:rankine:black_birch_vertical_slab>);
 
 //Plank and Slab Recipes
 val woods as string[] = [ "oak", "birch", "spruce", "dark_oak", "acacia", "jungle" ];
 val stems as string[] = [ "crimson", "warped" ];
-val rankine_woods as string[] = ["cedar", "pinyon_pine", "juniper", "coconut_palm", "balsam_fir", "magnolia", "eastern_hemlock", "maple", "cinnamon"];
+val rankine_woods as string[] = ["cedar", "pinyon_pine", "juniper", "coconut_palm", "balsam_fir", "magnolia", "eastern_hemlock", "maple", "cinnamon", "black_walnut"];
 //val rankine_birch_woods as string[] = ["yellow_birch", "black_birch"];
 
 for wood in woods {
@@ -129,4 +134,48 @@ for stem in stems {
 	[axes.asIIngredient().anyDamage().transformDamage(), stem_vert_slab]]);
 
 }
+//Missing Yellow Birch Recipes (Temporary)
+	craftingTable.addShaped("axe_yellow_birch_planks", <item:rankine:yellow_birch_planks>*2, [ 
+  	[ axes.asIIngredient().anyDamage().transformDamage()], 
+  	[ <item:rankine:yellow_birch_log> ]]);
 
+	craftingTable.addShaped("axe_yellow_birch_slabs", <item:rankine:yellow_birch_slab>*2, [
+	[axes.asIIngredient().anyDamage().transformDamage(), <item:rankine:yellow_birch_planks>]]);
+	craftingTable.removeByName("rankine:yellow_birch_slab");
+		
+	craftingTable.addShaped("axe_yellow_birch_vertical_slabs", <item:rankine:yellow_birch_vertical_slab>*2, [
+	[axes.asIIngredient().anyDamage().transformDamage()],
+	[<item:rankine:yellow_birch_planks>]]);
+	craftingTable.removeByName("rankine:yellow_birch_vertical_slab");
+		
+	craftingTable.addShaped("axe_button_yellow_birch_slab", <item:rankine:yellow_birch_button>*4, [
+	[axes.asIIngredient().anyDamage().transformDamage()],
+	[<item:rankine:yellow_birch_slab>]]);
+	
+	craftingTable.addShaped("axe_button_yellow_birch_vertical_slab", <item:rankine:yellow_birch_button>*4, [
+	[axes.asIIngredient().anyDamage().transformDamage(), <item:rankine:yellow_birch_vertical_slab>]]);
+
+	craftingTable.addShaped("axe_yellow_birch_planks", <item:rankine:yellow_birch_planks>*2, [ 
+  	[ axes.asIIngredient().anyDamage().transformDamage()], 
+  	[ <item:rankine:yellow_birch_log> ]]);
+
+//Missing black Birch Recipes (Temporary)
+	craftingTable.addShaped("axe_black_birch_planks", <item:rankine:black_birch_planks>*2, [ 
+  	[ axes.asIIngredient().anyDamage().transformDamage()], 
+  	[ <item:rankine:black_birch_log> ]]);
+
+	craftingTable.addShaped("axe_black_birch_slabs", <item:rankine:black_birch_slab>*2, [
+	[axes.asIIngredient().anyDamage().transformDamage(), <item:rankine:black_birch_planks>]]);
+	craftingTable.removeByName("rankine:black_birch_slab");
+		
+	craftingTable.addShaped("axe_black_birch_vertical_slabs", <item:rankine:black_birch_vertical_slab>*2, [
+	[axes.asIIngredient().anyDamage().transformDamage()],
+	[<item:rankine:black_birch_planks>]]);
+	craftingTable.removeByName("rankine:black_birch_vertical_slab");
+		
+	craftingTable.addShaped("axe_button_black_birch_slab", <item:rankine:black_birch_button>*4, [
+	[axes.asIIngredient().anyDamage().transformDamage()],
+	[<item:rankine:black_birch_slab>]]);
+	
+	craftingTable.addShaped("axe_button_black_birch_vertical_slab", <item:rankine:black_birch_button>*4, [
+	[axes.asIIngredient().anyDamage().transformDamage(), <item:rankine:black_birch_vertical_slab>]]);
